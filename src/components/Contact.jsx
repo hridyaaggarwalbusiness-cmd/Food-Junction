@@ -8,13 +8,13 @@ export default function Contact() {
     <section id="contact" className="section contact">
       <div className="section__header">
         <p className="section__eyebrow">Visit Us</p>
-        <h2>Find & Contact Us</h2>
+        <h2>Find & Reach Us</h2>
       </div>
 
       <div className="contact__grid">
         <div className="contact__info">
           <div className="contact__item">
-            <span className="contact__icon">📍</span>
+            <span className="contact__icon">✦</span>
             <div>
               <h3>Address</h3>
               <p>{fullAddress}</p>
@@ -22,27 +22,7 @@ export default function Contact() {
           </div>
 
           <div className="contact__item">
-            <span className="contact__icon">📞</span>
-            <div>
-              <h3>Phone</h3>
-              <p>
-                <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`}>{restaurant.phone}</a>
-              </p>
-            </div>
-          </div>
-
-          <div className="contact__item">
-            <span className="contact__icon">✉️</span>
-            <div>
-              <h3>Email</h3>
-              <p>
-                <a href={`mailto:${restaurant.email}`}>{restaurant.email}</a>
-              </p>
-            </div>
-          </div>
-
-          <div className="contact__item">
-            <span className="contact__icon">🕒</span>
+            <span className="contact__icon">✦</span>
             <div>
               <h3>Hours</h3>
               {restaurant.hours.map((h) => (
@@ -53,15 +33,23 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="contact__socials">
-            <a href={restaurant.social.facebook} target="_blank" rel="noreferrer" aria-label="Facebook">
-              📘
+          <div className="contact__item">
+            <span className="contact__icon">✦</span>
+            <div>
+              <h3>Rating</h3>
+              <p>{restaurant.rating} out of 5</p>
+            </div>
+          </div>
+
+          <div className="contact__links">
+            <a href={restaurant.links.zomato} target="_blank" rel="noreferrer" className="btn btn--outline">
+              Order on Zomato
             </a>
-            <a href={restaurant.social.instagram} target="_blank" rel="noreferrer" aria-label="Instagram">
-              📸
+            <a href={restaurant.links.swiggy} target="_blank" rel="noreferrer" className="btn btn--outline">
+              Order on Swiggy
             </a>
-            <a href={restaurant.social.whatsapp} target="_blank" rel="noreferrer" aria-label="WhatsApp">
-              💬
+            <a href={restaurant.links.justdial} target="_blank" rel="noreferrer" className="btn btn--outline">
+              View on Justdial
             </a>
           </div>
         </div>

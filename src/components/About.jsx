@@ -5,17 +5,31 @@ export default function About() {
     <section id="about" className="section about">
       <div className="section__header">
         <p className="section__eyebrow">Our Story</p>
-        <h2>Good Food, Good Vibes</h2>
+        <h2>An Address Worth Savouring</h2>
       </div>
 
       <div className="about__grid">
         <div className="about__card">
           <p>{restaurant.description}</p>
-          <ul className="about__cuisines">
-            {restaurant.cuisines.map((c) => (
-              <li key={c}>{c}</li>
-            ))}
-          </ul>
+
+          <div className="about__row">
+            <div className="about__block">
+              <h3>Cuisines</h3>
+              <ul className="about__tags">
+                {restaurant.cuisines.map((c) => (
+                  <li key={c}>{c}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="about__block">
+              <h3>Signature Dishes</h3>
+              <ul className="about__tags about__tags--gold">
+                {restaurant.signatureDishes.map((d) => (
+                  <li key={d}>{d}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
 
         <div className="about__hours">
@@ -28,6 +42,10 @@ export default function About() {
               </li>
             ))}
           </ul>
+          <div className="about__rating">
+            <strong>{restaurant.rating}</strong>
+            <span>Average Rating</span>
+          </div>
           <p className="about__note">Open all week — walk-in, dine-in, or order for delivery.</p>
         </div>
       </div>

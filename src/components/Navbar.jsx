@@ -3,7 +3,6 @@ import { restaurant } from '../data/restaurant'
 
 const links = [
   { href: '#about', label: 'About' },
-  { href: '#menu', label: 'Menu' },
   { href: '#gallery', label: 'Gallery' },
   { href: '#contact', label: 'Contact' },
 ]
@@ -22,7 +21,7 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner">
         <a href="#top" className="navbar__brand">
-          <span className="navbar__logo">🍽️</span>
+          <span className="navbar__logo">✦</span>
           {restaurant.name}
         </a>
 
@@ -32,8 +31,8 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="navbar__cta">
-            Call Now
+          <a href={restaurant.links.zomato} target="_blank" rel="noreferrer" className="navbar__cta">
+            Order Now
           </a>
         </nav>
 

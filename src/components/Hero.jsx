@@ -3,14 +3,7 @@ import { restaurant } from '../data/restaurant'
 export default function Hero() {
   return (
     <section id="top" className="hero">
-      <div className="hero__decor" aria-hidden="true">
-        <span>🍕</span>
-        <span>🍛</span>
-        <span>🥙</span>
-        <span>🍢</span>
-        <span>🥟</span>
-        <span>🌯</span>
-      </div>
+      <div className="hero__frame" aria-hidden="true" />
 
       <div className="hero__content">
         <p className="hero__eyebrow">Hanumangarh Town Bazar</p>
@@ -19,17 +12,17 @@ export default function Hero() {
         <p className="hero__desc">{restaurant.description}</p>
 
         <div className="hero__actions">
-          <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="btn btn--primary">
-            📞 Call to Order
+          <a href={restaurant.links.zomato} target="_blank" rel="noreferrer" className="btn btn--primary">
+            Order Now
           </a>
           <a href={restaurant.mapsLink} target="_blank" rel="noreferrer" className="btn btn--ghost">
-            📍 Get Directions
+            Get Directions
           </a>
         </div>
 
         <div className="hero__stats">
           <div>
-            <strong>{restaurant.rating}★</strong>
+            <strong>{restaurant.rating}</strong>
             <span>Rating</span>
           </div>
           <div>
@@ -37,7 +30,7 @@ export default function Hero() {
             <span>Open Daily</span>
           </div>
           <div>
-            <strong>{restaurant.cuisines.length}+</strong>
+            <strong>{restaurant.cuisines.length}</strong>
             <span>Cuisines</span>
           </div>
         </div>

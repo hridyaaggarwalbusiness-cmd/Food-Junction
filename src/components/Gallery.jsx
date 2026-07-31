@@ -1,5 +1,5 @@
 const tiles = [
-  { icon: '🍛', label: 'Biryani Bowl', size: 'wide' },
+  { icon: '🍛', label: 'Dum Biryani', size: 'wide' },
   { icon: '🫓', label: 'Chole Bhature', size: 'tall' },
   { icon: '🥙', label: 'Chaat Corner', size: 'normal' },
   { icon: '🌯', label: 'Rolls & Wraps', size: 'normal' },
@@ -14,7 +14,7 @@ export default function Gallery() {
         <p className="section__eyebrow">A Peek Inside</p>
         <h2>Gallery</h2>
         <p className="section__hint">
-          Placeholder tiles shown below — swap these for real photos of the restaurant and dishes.
+          Placeholder tiles shown below — swap these for real photography of the restaurant and dishes.
         </p>
       </div>
 
