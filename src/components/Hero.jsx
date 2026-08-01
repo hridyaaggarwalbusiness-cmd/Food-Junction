@@ -7,25 +7,25 @@ import kebabPlatter from '../assets/dishes/kebab-platter.jpg'
 
 const collage = [
   {
-    photo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hyderabadi_Chicken_Biryani.jpg?width=440',
+    photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Hyderabadi_Chicken_Biryani.jpg/440px-Hyderabadi_Chicken_Biryani.jpg',
     fallback: dumBiryani,
     label: 'Dum Biryani',
     tone: 'a',
   },
   {
-    photo: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_Plate_of_Chole_Bhature.JPG?width=440',
+    photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/A_Plate_of_Chole_Bhature.JPG/440px-A_Plate_of_Chole_Bhature.JPG',
     fallback: choleBhature,
     label: 'Chole Bhature',
     tone: 'b',
   },
   {
-    photo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Veg_Roll.JPG?width=440',
+    photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Veg_Roll.JPG/440px-Veg_Roll.JPG',
     fallback: rollsWraps,
     label: 'Rolls & Wraps',
     tone: 'c',
   },
   {
-    photo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mutton_Seekh_Kabab.JPG?width=440',
+    photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mutton_Seekh_Kabab.JPG/440px-Mutton_Seekh_Kabab.JPG',
     fallback: kebabPlatter,
     label: 'Kebab Platter',
     tone: 'd',
