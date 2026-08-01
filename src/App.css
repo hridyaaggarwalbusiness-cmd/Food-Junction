@@ -280,7 +280,10 @@
 .hero {
   position: relative;
   padding: 90px 24px 80px;
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image: var(--food-pattern);
+  background-repeat: repeat;
+  background-size: 320px 320px;
   color: var(--text-h);
   overflow: hidden;
 }
@@ -638,7 +641,10 @@
 
 /* ---------- gallery ---------- */
 .gallery {
-  background: var(--bg-alt);
+  background-color: var(--bg-alt);
+  background-image: var(--food-pattern);
+  background-repeat: repeat;
+  background-size: 320px 320px;
   max-width: 100%;
 }
 
@@ -874,5 +880,8 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image: var(--food-pattern);
+  background-repeat: repeat;
+  background-size: 320px 320px;
 }

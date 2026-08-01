@@ -19,6 +19,8 @@
   --sans: 'Manrope', -apple-system, system-ui, Roboto, sans-serif;
   --heading: 'Fraunces Variable', 'Fraunces', Georgia, serif;
 
+  --food-pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cg fill='none' stroke='%23B8461F' stroke-opacity='0.05' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg transform='translate(24,30) rotate(-12)'%3E%3Cline x1='0' y1='0' x2='0' y2='12'/%3E%3Cline x1='5' y1='0' x2='5' y2='12'/%3E%3Cline x1='10' y1='0' x2='10' y2='12'/%3E%3Cpath d='M0,12 Q5,18 10,12'/%3E%3Cline x1='5' y1='18' x2='5' y2='38'/%3E%3C/g%3E%3Cg transform='translate(220,52) rotate(18)'%3E%3Cpath d='M0,0 C14,-4 26,6 26,20 C10,20 0,12 0,0 Z'/%3E%3Cline x1='2' y1='2' x2='23' y2='18'/%3E%3C/g%3E%3Cg transform='translate(52,206) rotate(-18)'%3E%3Cpath d='M0,4 C1,-4 8,-9 11,-4 C24,2 28,20 15,28 C4,34 -5,20 0,8 Z'/%3E%3Cpath d='M0,4 C-3,0 -8,-2 -12,-1'/%3E%3C/g%3E%3Cg transform='translate(230,220)'%3E%3Cpath d='M0,0 h22 v14 a11,11 0 0 1 -22,0 Z'/%3E%3Cpath d='M22,4 h6 a5,5 0 0 1 0,10 h-6'/%3E%3Cline x1='4' y1='-7' x2='4' y2='-3'/%3E%3Cline x1='11' y1='-9' x2='11' y2='-4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
   font: 17px/1.65 var(--sans);
   color-scheme: light;
   color: var(--text);
