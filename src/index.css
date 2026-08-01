@@ -1,19 +1,23 @@
 :root {
-  --text: #766b5e;
-  --text-h: #211b14;
-  --bg: #faf6f0;
-  --bg-alt: #f2ebe0;
-  --border: #e7dfd1;
-  --border-strong: #d9cdb8;
-  --accent: #bb4a26;
-  --accent-soft: #d97a4f;
-  --accent-tint: #f6e2d6;
+  --text: #6f6558;
+  --text-h: #201a12;
+  --bg: #fbf8f3;
+  --bg-alt: #f3ece1;
+  --border: #e8e0d2;
+  --border-strong: #d7c9b2;
+  --accent: #b8461f;
+  --accent-soft: #e0784a;
+  --accent-tint: #f7e1d1;
+  --ink: #1c2a22;
   --card-bg: #ffffff;
-  --shadow: 0 20px 50px -28px rgba(33, 27, 20, 0.22);
-  --shadow-sm: 0 8px 20px -12px rgba(33, 27, 20, 0.18);
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+  --shadow: 0 30px 60px -30px rgba(32, 26, 18, 0.25);
+  --shadow-sm: 0 10px 24px -14px rgba(32, 26, 18, 0.2);
 
-  --sans: 'Segoe UI', -apple-system, system-ui, Roboto, sans-serif;
-  --heading: var(--sans);
+  --sans: 'Manrope', -apple-system, system-ui, Roboto, sans-serif;
+  --heading: 'Fraunces Variable', 'Fraunces', Georgia, serif;
 
   font: 17px/1.65 var(--sans);
   color-scheme: light;
@@ -40,8 +44,10 @@ body {
 
 h1, h2, h3 {
   font-family: var(--heading);
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-optical-sizing: auto;
+  font-variation-settings: 'SOFT' 30, 'opsz' 40;
+  font-weight: 560;
+  letter-spacing: -0.01em;
   color: var(--text-h);
   margin: 0;
 }
@@ -68,8 +74,8 @@ img {
 /* scroll-reveal */
 .reveal {
   opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transform: translateY(18px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: opacity, transform;
 }
 

@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
+import CtaBand from './components/CtaBand'
 import Footer from './components/Footer'
 import './App.css'
 
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Gallery />
         <Contact />
+        <CtaBand />
       </main>
       <Footer />
     </>
