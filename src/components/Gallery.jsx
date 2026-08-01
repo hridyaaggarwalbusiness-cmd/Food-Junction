@@ -1,12 +1,18 @@
 import Reveal from './Reveal'
+import dumBiryani from '../assets/dishes/dum-biryani.jpg'
+import choleBhature from '../assets/dishes/chole-bhature.jpg'
+import chaatCorner from '../assets/dishes/chaat-corner.jpg'
+import rollsWraps from '../assets/dishes/rolls-wraps.jpg'
+import kebabPlatter from '../assets/dishes/kebab-platter.jpg'
+import golGappe from '../assets/dishes/gol-gappe.jpg'
 
 const tiles = [
-  { icon: '🍛', label: 'Dum Biryani', size: 'wide' },
-  { icon: '🫓', label: 'Chole Bhature', size: 'tall' },
-  { icon: '🥙', label: 'Chaat Corner', size: 'normal' },
-  { icon: '🌯', label: 'Rolls & Wraps', size: 'normal' },
-  { icon: '🍢', label: 'Kebab Platter', size: 'tall' },
-  { icon: '🥟', label: 'Gol Gappe', size: 'wide' },
+  { photo: dumBiryani, label: 'Dum Biryani', size: 'wide' },
+  { photo: choleBhature, label: 'Chole Bhature', size: 'tall' },
+  { photo: chaatCorner, label: 'Chaat Corner', size: 'normal' },
+  { photo: rollsWraps, label: 'Rolls & Wraps', size: 'normal' },
+  { photo: kebabPlatter, label: 'Kebab Platter', size: 'tall' },
+  { photo: golGappe, label: 'Gol Gappe', size: 'wide' },
 ]
 
 export default function Gallery() {
@@ -16,7 +22,7 @@ export default function Gallery() {
         <p className="section__eyebrow">A Peek Inside</p>
         <h2>Gallery</h2>
         <p className="section__hint">
-          Placeholder tiles shown below — swap these for real photography of the restaurant and dishes.
+          Illustrated placeholders shown below — swap these for real photography of the restaurant and dishes.
         </p>
       </Reveal>
 
@@ -28,7 +34,7 @@ export default function Gallery() {
             className={`gallery__tile gallery__tile--${tile.size}`}
             key={i}
           >
-            <span className="gallery__icon">{tile.icon}</span>
+            <img src={tile.photo} alt={tile.label} loading="lazy" />
             <span className="gallery__label">{tile.label}</span>
           </Reveal>
         ))}
