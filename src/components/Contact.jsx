@@ -1,4 +1,5 @@
 import { restaurant } from '../data/restaurant'
+import Reveal from './Reveal'
 
 export default function Contact() {
   const { address } = restaurant
@@ -6,15 +7,15 @@ export default function Contact() {
 
   return (
     <section id="contact" className="section contact">
-      <div className="section__header">
+      <Reveal className="section__header">
         <p className="section__eyebrow">Visit Us</p>
         <h2>Find & Reach Us</h2>
-      </div>
+      </Reveal>
 
       <div className="contact__grid">
-        <div className="contact__info">
+        <Reveal className="contact__info glass">
           <div className="contact__item">
-            <span className="contact__icon">✦</span>
+            <span className="contact__icon">📍</span>
             <div>
               <h3>Address</h3>
               <p>{fullAddress}</p>
@@ -22,7 +23,7 @@ export default function Contact() {
           </div>
 
           <div className="contact__item">
-            <span className="contact__icon">✦</span>
+            <span className="contact__icon">🕒</span>
             <div>
               <h3>Hours</h3>
               {restaurant.hours.map((h) => (
@@ -34,7 +35,7 @@ export default function Contact() {
           </div>
 
           <div className="contact__item">
-            <span className="contact__icon">✦</span>
+            <span className="contact__icon">⭐</span>
             <div>
               <h3>Rating</h3>
               <p>{restaurant.rating} out of 5</p>
@@ -52,9 +53,9 @@ export default function Contact() {
               View on Justdial
             </a>
           </div>
-        </div>
+        </Reveal>
 
-        <div className="contact__map">
+        <Reveal delay={120} className="contact__map glass">
           <iframe
             title="Food Junction location on Google Maps"
             src={`https://www.google.com/maps?q=${encodeURIComponent(restaurant.mapsQuery)}&output=embed`}
@@ -65,7 +66,7 @@ export default function Contact() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
-        </div>
+        </Reveal>
       </div>
     </section>
   )

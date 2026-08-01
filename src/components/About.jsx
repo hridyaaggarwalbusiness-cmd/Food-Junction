@@ -1,15 +1,16 @@
 import { restaurant } from '../data/restaurant'
+import Reveal from './Reveal'
 
 export default function About() {
   return (
     <section id="about" className="section about">
-      <div className="section__header">
+      <Reveal className="section__header">
         <p className="section__eyebrow">Our Story</p>
         <h2>An Address Worth Savouring</h2>
-      </div>
+      </Reveal>
 
       <div className="about__grid">
-        <div className="about__card">
+        <Reveal className="about__card glass">
           <p>{restaurant.description}</p>
 
           <div className="about__row">
@@ -30,9 +31,9 @@ export default function About() {
               </ul>
             </div>
           </div>
-        </div>
+        </Reveal>
 
-        <div className="about__hours">
+        <Reveal delay={120} className="about__hours glass">
           <h3>Opening Hours</h3>
           <ul>
             {restaurant.hours.map((h) => (
@@ -47,7 +48,7 @@ export default function About() {
             <span>Average Rating</span>
           </div>
           <p className="about__note">Open all week — walk-in, dine-in, or order for delivery.</p>
-        </div>
+        </Reveal>
       </div>
     </section>
   )

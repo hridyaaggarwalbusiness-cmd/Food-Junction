@@ -21,7 +21,7 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner">
         <a href="#top" className="navbar__brand">
-          <span className="navbar__logo">✦</span>
+          <span className="navbar__logo">FJ</span>
           {restaurant.name}
         </a>
 
@@ -37,11 +37,10 @@ export default function Navbar() {
         </nav>
 
         <button
-          className="navbar__toggle"
+          className={`navbar__toggle ${open ? 'navbar__toggle--open' : ''}`}
           aria-label="Toggle menu"
           onClick={() => setOpen((v) => !v)}
         >
-          <span />
           <span />
           <span />
         </button>
