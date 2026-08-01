@@ -403,18 +403,17 @@
 
 .collage__card {
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow);
-  font-size: 64px;
+  animation: bob 7s ease-in-out infinite;
 }
 
-.collage__card span {
-  display: inline-block;
-  filter: drop-shadow(0 8px 14px rgba(32, 26, 18, 0.18));
-  animation: bob 7s ease-in-out infinite;
+.collage__card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .collage__card--a {
@@ -433,10 +432,6 @@
   right: 260px;
   background: linear-gradient(155deg, #f6ded0, #ecc7ab);
   transform: rotate(-8deg);
-  font-size: 48px;
-}
-
-.collage__card--b span {
   animation-delay: -2s;
 }
 
@@ -447,24 +442,16 @@
   right: 0;
   background: linear-gradient(155deg, #fff1e4, #ffdfc2);
   transform: rotate(10deg);
-  font-size: 42px;
-}
-
-.collage__card--c span {
   animation-delay: -4s;
 }
 
-.hero__collage .collage__card:nth-child(4) {
+.collage__card--d {
   width: 130px;
   height: 130px;
   top: 130px;
   right: 300px;
   background: linear-gradient(155deg, #ffece0, #ffd7b8);
   transform: rotate(-6deg);
-  font-size: 38px;
-}
-
-.hero__collage .collage__card:nth-child(4) span {
   animation-delay: -5s;
 }
 
@@ -719,6 +706,13 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #fff;
+}
+
+.gallery__credit {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.55;
 }
 
 @media (max-width: 780px) {

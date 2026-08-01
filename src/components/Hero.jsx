@@ -1,11 +1,45 @@
+import { useState } from 'react'
 import { restaurant } from '../data/restaurant'
+import dumBiryani from '../assets/dishes/dum-biryani.jpg'
+import choleBhature from '../assets/dishes/chole-bhature.jpg'
+import rollsWraps from '../assets/dishes/rolls-wraps.jpg'
+import kebabPlatter from '../assets/dishes/kebab-platter.jpg'
 
 const collage = [
-  { icon: '🍛', tone: 'a' },
-  { icon: '🫓', tone: 'b' },
-  { icon: '🥙', tone: 'c' },
-  { icon: '🍢', tone: 'a' },
+  {
+    photo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hyderabadi_Chicken_Biryani.jpg?width=440',
+    fallback: dumBiryani,
+    label: 'Dum Biryani',
+    tone: 'a',
+  },
+  {
+    photo: 'https://commons.wikimedia.org/wiki/Special:FilePath/A_Plate_of_Chole_Bhature.JPG?width=440',
+    fallback: choleBhature,
+    label: 'Chole Bhature',
+    tone: 'b',
+  },
+  {
+    photo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Veg_Roll.JPG?width=440',
+    fallback: rollsWraps,
+    label: 'Rolls & Wraps',
+    tone: 'c',
+  },
+  {
+    photo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mutton_Seekh_Kabab.JPG?width=440',
+    fallback: kebabPlatter,
+    label: 'Kebab Platter',
+    tone: 'd',
+  },
 ]
+
+function CollageCard({ photo, fallback, label, tone }) {
+  const [src, setSrc] = useState(photo)
+  return (
+    <div className={`collage__card collage__card--${tone}`}>
+      <img src={src} alt={label} loading="lazy" onError={() => setSrc(fallback)} />
+    </div>
+  )
+}
 
 export default function Hero() {
   return (
@@ -49,9 +83,7 @@ export default function Hero() {
         <div className="hero__visual" aria-hidden="true">
           <div className="hero__collage">
             {collage.map((item, i) => (
-              <div className={`collage__card collage__card--${item.tone}`} key={i}>
-                <span>{item.icon}</span>
-              </div>
+              <CollageCard key={i} {...item} />
             ))}
           </div>
         </div>
