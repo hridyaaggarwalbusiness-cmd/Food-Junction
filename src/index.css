@@ -1,31 +1,35 @@
 :root {
-  --text: #6f6558;
-  --text-h: #201a12;
-  --bg: #fbf8f3;
-  --bg-alt: #f3ece1;
-  --border: #e8e0d2;
-  --border-strong: #d7c9b2;
-  --accent: #b8461f;
-  --accent-soft: #e0784a;
-  --accent-tint: #f7e1d1;
-  --ink: #201a12;
-  --ink-2: #2c2318;
-  --cream: #fbf8f3;
-  --card-bg: #ffffff;
+  --text: rgba(240, 233, 222, 0.66);
+  --text-h: #f7f2ea;
+  --bg: #1c140d;
+  --bg-alt: #150f09;
+  --border: rgba(247, 242, 234, 0.1);
+  --border-strong: rgba(247, 242, 234, 0.22);
+  --accent: #e0632a;
+  --accent-soft: #f6a15c;
+  --accent-tint: rgba(224, 99, 42, 0.16);
+  --gold: #e3b04b;
+  --gold-tint: rgba(227, 176, 75, 0.16);
+  --ink: #0d0906;
+  --ink-2: #150f0a;
+  --cream: #f7f2ea;
+  --card-bg: rgba(247, 242, 234, 0.045);
   --radius-lg: 22px;
   --radius-md: 16px;
   --radius-sm: 10px;
   --radius-btn: 12px;
-  --shadow: 0 30px 60px -30px rgba(32, 26, 18, 0.25);
-  --shadow-sm: 0 10px 24px -14px rgba(32, 26, 18, 0.2);
+  --shadow: 0 30px 70px -24px rgba(0, 0, 0, 0.7);
+  --shadow-sm: 0 12px 30px -16px rgba(0, 0, 0, 0.55);
 
   --sans: 'Manrope', -apple-system, system-ui, Roboto, sans-serif;
   --heading: 'Fraunces Variable', 'Fraunces', Georgia, serif;
 
-  --food-pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cg fill='none' stroke='%23B8461F' stroke-opacity='0.05' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg transform='translate(24,30) rotate(-12)'%3E%3Cline x1='0' y1='0' x2='0' y2='12'/%3E%3Cline x1='5' y1='0' x2='5' y2='12'/%3E%3Cline x1='10' y1='0' x2='10' y2='12'/%3E%3Cpath d='M0,12 Q5,18 10,12'/%3E%3Cline x1='5' y1='18' x2='5' y2='38'/%3E%3C/g%3E%3Cg transform='translate(220,52) rotate(18)'%3E%3Cpath d='M0,0 C14,-4 26,6 26,20 C10,20 0,12 0,0 Z'/%3E%3Cline x1='2' y1='2' x2='23' y2='18'/%3E%3C/g%3E%3Cg transform='translate(52,206) rotate(-18)'%3E%3Cpath d='M0,4 C1,-4 8,-9 11,-4 C24,2 28,20 15,28 C4,34 -5,20 0,8 Z'/%3E%3Cpath d='M0,4 C-3,0 -8,-2 -12,-1'/%3E%3C/g%3E%3Cg transform='translate(230,220)'%3E%3Cpath d='M0,0 h22 v14 a11,11 0 0 1 -22,0 Z'/%3E%3Cpath d='M22,4 h6 a5,5 0 0 1 0,10 h-6'/%3E%3Cline x1='4' y1='-7' x2='4' y2='-3'/%3E%3Cline x1='11' y1='-9' x2='11' y2='-4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --food-pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cg fill='none' stroke='%23E0632A' stroke-opacity='0.09' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg transform='translate(24,30) rotate(-12)'%3E%3Cline x1='0' y1='0' x2='0' y2='12'/%3E%3Cline x1='5' y1='0' x2='5' y2='12'/%3E%3Cline x1='10' y1='0' x2='10' y2='12'/%3E%3Cpath d='M0,12 Q5,18 10,12'/%3E%3Cline x1='5' y1='18' x2='5' y2='38'/%3E%3C/g%3E%3Cg transform='translate(220,52) rotate(18)'%3E%3Cpath d='M0,0 C14,-4 26,6 26,20 C10,20 0,12 0,0 Z'/%3E%3Cline x1='2' y1='2' x2='23' y2='18'/%3E%3C/g%3E%3Cg transform='translate(52,206) rotate(-18)'%3E%3Cpath d='M0,4 C1,-4 8,-9 11,-4 C24,2 28,20 15,28 C4,34 -5,20 0,8 Z'/%3E%3Cpath d='M0,4 C-3,0 -8,-2 -12,-1'/%3E%3C/g%3E%3Cg transform='translate(230,220)'%3E%3Cpath d='M0,0 h22 v14 a11,11 0 0 1 -22,0 Z'/%3E%3Cpath d='M22,4 h6 a5,5 0 0 1 0,10 h-6'/%3E%3Cline x1='4' y1='-7' x2='4' y2='-3'/%3E%3Cline x1='11' y1='-9' x2='11' y2='-4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 
   font: 17px/1.65 var(--sans);
-  color-scheme: light;
+  color-scheme: dark;
   color: var(--text);
   background: var(--bg);
   font-synthesis: none;
@@ -45,6 +49,18 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  pointer-events: none;
+  background-image: var(--grain);
+  opacity: 0.5;
+  mix-blend-mode: overlay;
 }
 
 h1, h2, h3 {
@@ -52,7 +68,7 @@ h1, h2, h3 {
   font-optical-sizing: auto;
   font-variation-settings: 'SOFT' 30, 'opsz' 40;
   font-weight: 560;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   color: var(--text-h);
   margin: 0;
 }
