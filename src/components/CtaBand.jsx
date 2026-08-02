@@ -6,10 +6,13 @@ export default function CtaBand() {
     <section className="cta-band">
       <Reveal className="cta-band__card">
         <h2>Hungry already?</h2>
-        <p>Order online in a couple of taps, or walk in — Town Bazar's favourite table is waiting.</p>
+        <p>Call in your order, or walk in — Town Bazar's favourite table is waiting. Prefer delivery? Order on Zomato or Swiggy.</p>
         <div className="cta-band__actions">
-          <a href={restaurant.links.zomato} target="_blank" rel="noreferrer" className="btn btn--primary">
-            Order Now
+          <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="btn btn--primary">
+            Call Now
+          </a>
+          <a href={restaurant.links.zomato} target="_blank" rel="noreferrer" className="btn btn--ghost">
+            Order on Zomato
           </a>
           <a href={restaurant.links.swiggy} target="_blank" rel="noreferrer" className="btn btn--ghost">
             Order on Swiggy

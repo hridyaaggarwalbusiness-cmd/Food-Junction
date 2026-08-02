@@ -16,8 +16,8 @@ export default function Hero() {
           <p className="hero__desc">{restaurant.description}</p>
 
           <div className="hero__actions">
-            <a href={restaurant.links.zomato} target="_blank" rel="noreferrer" className="btn btn--primary">
-              Order Now
+            <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="btn btn--primary">
+              Call Now
             </a>
             <a href={restaurant.mapsLink} target="_blank" rel="noreferrer" className="btn btn--outline">
               Get Directions

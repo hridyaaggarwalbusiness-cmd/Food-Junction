@@ -31,8 +31,8 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href={restaurant.links.zomato} target="_blank" rel="noreferrer" className="navbar__cta">
-            Order Now
+          <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="navbar__cta">
+            Call Now
           </a>
         </nav>
 
