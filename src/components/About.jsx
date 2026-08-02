@@ -23,10 +23,10 @@ export default function About() {
               </ul>
             </div>
             <div className="about__block">
-              <h3>Signature Dishes</h3>
+              <h3>Known For</h3>
               <ul className="about__tags about__tags--gold">
-                {restaurant.signatureDishes.map((d) => (
-                  <li key={d}>{d}</li>
+                {restaurant.highlights.map((h) => (
+                  <li key={h}>{h}</li>
                 ))}
               </ul>
             </div>
@@ -45,9 +45,9 @@ export default function About() {
           </ul>
           <div className="about__rating">
             <strong>{restaurant.rating}</strong>
-            <span>Average Rating</span>
+            <span>{restaurant.reviewCount} Google Reviews</span>
           </div>
-          <p className="about__note">Open all week — walk-in, dine-in, or order for delivery.</p>
+          <p className="about__note">Open all week — walk-in, dine-in, or order for delivery. {restaurant.costForTwo}</p>
         </Reveal>
       </div>
     </section>

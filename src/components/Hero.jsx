@@ -1,11 +1,5 @@
 import { restaurant } from '../data/restaurant'
-
-const collage = [
-  { icon: '🍛', tone: 'a' },
-  { icon: '🫓', tone: 'b' },
-  { icon: '🥙', tone: 'c' },
-  { icon: '🍢', tone: 'a' },
-]
+import interiorMuralWall from '../assets/restaurant/interior-mural-wall.jpg'
 
 export default function Hero() {
   return (
@@ -14,7 +8,7 @@ export default function Hero() {
         <div className="hero__copy">
           <span className="badge">
             <span className="badge__dot" />
-            Open Now &middot; Hanumangarh Town Bazar
+            Open Now &middot; Dhillon Colony, Hanumangarh
           </span>
 
           <h1>{restaurant.name}</h1>
@@ -33,10 +27,10 @@ export default function Hero() {
           <div className="hero__stats">
             <div className="stat-chip">
               <strong>{restaurant.rating}★</strong>
-              <span>Rating</span>
+              <span>{restaurant.reviewCount} Reviews</span>
             </div>
             <div className="stat-chip">
-              <strong>10AM–10PM</strong>
+              <strong>10AM–9:30PM</strong>
               <span>Open Daily</span>
             </div>
             <div className="stat-chip">
@@ -46,13 +40,13 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="hero__visual" aria-hidden="true">
-          <div className="hero__collage">
-            {collage.map((item, i) => (
-              <div className={`collage__card collage__card--${item.tone}`} key={i}>
-                <span>{item.icon}</span>
-              </div>
-            ))}
+        <div className="hero__visual">
+          <div className="hero__photo-frame">
+            <img src={interiorMuralWall} alt="Food Junction dining room" className="hero__photo" />
+            <div className="hero__photo-badge">
+              <strong>{restaurant.rating}★</strong>
+              <span>Google Rating</span>
+            </div>
           </div>
         </div>
       </div>

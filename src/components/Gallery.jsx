@@ -1,18 +1,12 @@
 import Reveal from './Reveal'
-import dumBiryani from '../assets/dishes/dum-biryani.jpg'
-import choleBhature from '../assets/dishes/chole-bhature.jpg'
-import chaatCorner from '../assets/dishes/chaat-corner.jpg'
-import rollsWraps from '../assets/dishes/rolls-wraps.jpg'
-import kebabPlatter from '../assets/dishes/kebab-platter.jpg'
-import golGappe from '../assets/dishes/gol-gappe.jpg'
+import interiorMuralWall from '../assets/restaurant/interior-mural-wall.jpg'
+import pizzaCloseup from '../assets/restaurant/pizza-closeup.jpg'
+import seatingGraffitiArt from '../assets/restaurant/seating-graffiti-art.jpg'
 
 const tiles = [
-  { photo: dumBiryani, label: 'Dum Biryani', size: 'wide' },
-  { photo: choleBhature, label: 'Chole Bhature', size: 'tall' },
-  { photo: chaatCorner, label: 'Chaat Corner', size: 'normal' },
-  { photo: rollsWraps, label: 'Rolls & Wraps', size: 'normal' },
-  { photo: kebabPlatter, label: 'Kebab Platter', size: 'tall' },
-  { photo: golGappe, label: 'Gol Gappe', size: 'wide' },
+  { photo: interiorMuralWall, label: 'The Dining Room', size: 'wide' },
+  { photo: seatingGraffitiArt, label: 'Graffiti Wall & Seating', size: 'tall' },
+  { photo: pizzaCloseup, label: 'Fresh Off the Oven', size: 'normal' },
 ]
 
 export default function Gallery() {
@@ -21,9 +15,7 @@ export default function Gallery() {
       <Reveal className="section__header">
         <p className="section__eyebrow">A Peek Inside</p>
         <h2>Gallery</h2>
-        <p className="section__hint">
-          Illustrated placeholders shown below — swap these for real photography of the restaurant and dishes.
-        </p>
+        <p className="section__hint">Real photos from the restaurant's Google listing.</p>
       </Reveal>
 
       <div className="gallery__grid">

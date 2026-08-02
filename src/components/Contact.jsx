@@ -23,6 +23,16 @@ export default function Contact() {
           </div>
 
           <div className="contact__item">
+            <span className="contact__icon">📞</span>
+            <div>
+              <h3>Phone</h3>
+              <p>
+                <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`}>{restaurant.phone}</a>
+              </p>
+            </div>
+          </div>
+
+          <div className="contact__item">
             <span className="contact__icon">🕒</span>
             <div>
               <h3>Hours</h3>
@@ -38,7 +48,9 @@ export default function Contact() {
             <span className="contact__icon">⭐</span>
             <div>
               <h3>Rating</h3>
-              <p>{restaurant.rating} out of 5</p>
+              <p>
+                {restaurant.rating} out of 5 ({restaurant.reviewCount} reviews)
+              </p>
             </div>
           </div>
 
