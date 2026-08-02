@@ -4,6 +4,22 @@
   margin: 0 auto;
   padding: 120px 24px;
   position: relative;
+  scroll-margin-top: 90px;
+}
+
+@media (max-width: 780px) {
+  .section {
+    padding: 72px 20px;
+  }
+  .section__header {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 56px 16px;
+  }
 }
 
 .section__header {
@@ -459,10 +475,17 @@
 
 @media (max-width: 640px) {
   .hero {
-    padding: 50px 20px 60px;
+    padding: 36px 20px 48px;
   }
   .hero__visual {
-    display: none;
+    height: 220px;
+    max-width: 100%;
+    margin-top: 8px;
+  }
+  .hero__photo-badge {
+    left: 14px;
+    bottom: 14px;
+    padding: 10px 14px;
   }
 }
 
@@ -599,6 +622,10 @@
 @media (max-width: 780px) {
   .about__grid {
     grid-template-columns: 1fr;
+  }
+  .about__card,
+  .about__hours {
+    padding: 28px 24px;
   }
 }
 
@@ -788,6 +815,9 @@
   .contact__map {
     min-height: 300px;
   }
+  .contact__info {
+    padding: 28px 24px;
+  }
 }
 
 /* ---------- cta band ---------- */
@@ -836,6 +866,12 @@
 .cta-band .btn--ghost:hover {
   background: rgba(255, 255, 255, 0.16);
   border-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 780px) {
+  .cta-band {
+    padding: 0 20px 64px;
+  }
 }
 
 @media (max-width: 640px) {
