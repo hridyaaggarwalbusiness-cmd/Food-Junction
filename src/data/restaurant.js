@@ -30,5 +30,5 @@ export const restaurant = {
   },
   mapsQuery: 'Food Junction Town, Shanti Nursing Home, Opposite Central Park, Hanumangarh Town Bazar, Hanumangarh, Rajasthan 335513',
   mapsLink:
-    'https://www.google.com/maps/search/?api=1&query=Food+Junction+Town+Opposite+Central+Park+Hanumangarh+Town+Bazar+Hanumangarh+Rajasthan',
+    'https://www.google.com/maps/dir/?api=1&destination=Food+Junction+Town+Opposite+Central+Park+Hanumangarh+Town+Bazar+Hanumangarh+Rajasthan&travelmode=driving',
 }
