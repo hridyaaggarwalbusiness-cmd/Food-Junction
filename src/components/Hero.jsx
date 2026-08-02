@@ -1,9 +1,13 @@
 import { restaurant } from '../data/restaurant'
-import burgerCover from '../assets/restaurant/burger-cover.jpg'
+import interiorDiningRoom from '../assets/restaurant/interior-dining-room.jpg'
 
 export default function Hero() {
   return (
     <section id="top" className="hero">
+      <div className="hero__bg">
+        <img src={interiorDiningRoom} alt="Food Junction Town dining room" />
+      </div>
+
       <div className="hero__inner">
         <div className="hero__copy">
           <span className="badge">
@@ -22,31 +26,6 @@ export default function Hero() {
             <a href={restaurant.mapsLink} target="_blank" rel="noreferrer" className="btn btn--outline">
               Get Directions
             </a>
-          </div>
-
-          <div className="hero__stats">
-            <div className="stat-chip">
-              <strong>{restaurant.rating}★</strong>
-              <span>{restaurant.reviewCount} Reviews</span>
-            </div>
-            <div className="stat-chip">
-              <strong>10AM–10PM</strong>
-              <span>Open Daily</span>
-            </div>
-            <div className="stat-chip">
-              <strong>{restaurant.cuisines.length}</strong>
-              <span>Cuisines</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="hero__visual">
-          <div className="hero__photo-frame">
-            <img src={burgerCover} alt="Food Junction Town signature burger" className="hero__photo" />
-            <div className="hero__photo-badge">
-              <strong>{restaurant.rating}★</strong>
-              <span>Average Rating</span>
-            </div>
           </div>
         </div>
       </div>

@@ -8,11 +8,14 @@
   --accent: #b8461f;
   --accent-soft: #e0784a;
   --accent-tint: #f7e1d1;
-  --ink: #1c2a22;
+  --ink: #201a12;
+  --ink-2: #2c2318;
+  --cream: #fbf8f3;
   --card-bg: #ffffff;
-  --radius-lg: 28px;
-  --radius-md: 18px;
-  --radius-sm: 12px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 10px;
+  --radius-btn: 12px;
   --shadow: 0 30px 60px -30px rgba(32, 26, 18, 0.25);
   --shadow-sm: 0 10px 24px -14px rgba(32, 26, 18, 0.2);
 
