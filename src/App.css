@@ -558,6 +558,7 @@
 .about__hours {
   display: flex;
   flex-direction: column;
+  align-self: start;
 }
 
 .about__hours h3 {
@@ -613,8 +614,9 @@
 }
 
 .about__note {
-  margin-top: auto;
+  margin-top: 24px;
   padding-top: 20px;
+  border-top: 1px solid var(--border);
   font-size: 13px;
   opacity: 0.65;
 }
