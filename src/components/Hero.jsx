@@ -1,5 +1,5 @@
 import { restaurant } from '../data/restaurant'
-import interiorMuralWall from '../assets/restaurant/interior-mural-wall.jpg'
+import burgerCover from '../assets/restaurant/burger-cover.jpg'
 
 export default function Hero() {
   return (
@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="hero__copy">
           <span className="badge">
             <span className="badge__dot" />
-            Open Now &middot; Dhillon Colony, Hanumangarh
+            Open Now &middot; Town Bazar, Hanumangarh
           </span>
 
           <h1>{restaurant.name}</h1>
@@ -30,7 +30,7 @@ export default function Hero() {
               <span>{restaurant.reviewCount} Reviews</span>
             </div>
             <div className="stat-chip">
-              <strong>10AM–9:30PM</strong>
+              <strong>10AM–10PM</strong>
               <span>Open Daily</span>
             </div>
             <div className="stat-chip">
@@ -42,10 +42,10 @@ export default function Hero() {
 
         <div className="hero__visual">
           <div className="hero__photo-frame">
-            <img src={interiorMuralWall} alt="Food Junction dining room" className="hero__photo" />
+            <img src={burgerCover} alt="Food Junction Town signature burger" className="hero__photo" />
             <div className="hero__photo-badge">
               <strong>{restaurant.rating}★</strong>
-              <span>Google Rating</span>
+              <span>Average Rating</span>
             </div>
           </div>
         </div>

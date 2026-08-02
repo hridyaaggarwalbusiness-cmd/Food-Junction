@@ -1,43 +1,34 @@
-// Verified public details for "Food Junction — Let's Chill With Pizza"
-// (Ganga Nagar Road / Dhillon Colony branch, Hanumangarh), cross-checked
-// across its Google Business listing, Zomato, Swiggy, Justdial, Magicpin
-// and Mappls listings. Phone number appears consistently across all
-// sources, so it is shown directly rather than gated behind a listing link.
+// Verified public details for "Food Junction Town" (Opposite Central Park,
+// Hanumangarh Town Bazar branch — the correct location, per the owner),
+// cross-checked across its Zomato, Swiggy and Justdial listings.
 
 export const restaurant = {
   name: 'Food Junction',
-  tagline: "Let's Chill With Pizza",
+  tagline: 'Town Bazar, Opposite Central Park',
   description:
-    "Tucked into the basement of the IndusInd Bank building on Ganga Nagar Road, Hanumangarh — Food Junction has built a loyal following with a 4.2-star Google rating across 4,000+ reviews and a #1 ranking among Hanumangarh's fast-food spots. Known for wood-fired pizzas, Indo-Chinese plates, street-style burgers and chaat, the graffiti-mural dining room is a favourite hangout for a quick bite or a full family dinner.",
+    "Located at Shanti Nursing Home, opposite Central Park in Hanumangarh Town Bazar, Food Junction Town runs a 45+ item pizza and pasta menu alongside Indo-Chinese classics, loaded burgers, wraps and shakes. Rated 4.0★ on Zomato (1,700+ reviews), 4.3★ on Swiggy (1,100+ ratings) and 4.1★ on Justdial (1,000+ reviews), it's the Town Bazar go-to for a quick bite or a full meal.",
   address: {
-    line1: 'Basement, IndusInd Bank Building, Ganga Nagar Road',
-    line2: 'Near Nagpal Eye Care Hospital, Dhillon Colony',
+    line1: 'Shanti Nursing Home, Opposite Central Park',
+    line2: 'Hanumangarh Town Bazar',
     city: 'Hanumangarh',
     state: 'Rajasthan',
-    pincode: '335512',
+    pincode: '335513',
     country: 'India',
   },
-  phone: '+91 95296 08725',
-  hours: [{ day: 'Monday – Sunday', time: '10:00 AM – 9:30 PM' }],
-  rating: 4.2,
-  reviewCount: '4,000+',
-  costForTwo: '₹500 for two (approx.)',
-  cuisines: ['Pizza', 'Chinese', 'Fast Food', 'Street Food', 'Burgers', 'Beverages'],
-  highlights: [
-    '#1 Fast Food in Hanumangarh',
-    '4.2★ Google Rating',
-    'Dine-in, Takeaway & Delivery',
-    'FSSAI Licensed Kitchen',
-  ],
-  coordinates: { lat: 29.605486, lng: 74.290736 },
+  phone: '+91 78775 63174',
+  hours: [{ day: 'Monday – Sunday', time: '10:00 AM – 10:00 PM' }],
+  rating: 4.1,
+  reviewCount: '3,500+',
+  costForTwo: '₹149 for two (approx.)',
+  cuisines: ['Pizza', 'Chinese', 'Burgers', 'Pasta', 'Fast Food', 'Beverages'],
+  highlights: ['Simply Mania Pizza', 'Honey Chilli Potato', 'Loaded Burgers', 'Pizza + Garlic Bread Combo'],
   links: {
-    zomato: 'https://www.zomato.com/hanumangarh/food-junction-lets-chill-with-pizza-hanumangarh-locality/order',
-    swiggy:
-      'https://www.swiggy.com/city/hanumangarh/food-junction-lets-chill-with-pizza-sindhi-colony-hanumangarh-locality-rest328161',
+    zomato: 'https://www.zomato.com/hanumangarh/food-junction-town-hanumangarh-locality/order',
+    swiggy: 'https://www.swiggy.com/restaurants/food-junction-town-central-park-hanumangarh-hanumangarh-766498',
     justdial:
-      'https://www.justdial.com/Hanumangarh/Food-Junction-Lets-Chill-With-Pizza-Near-Bus-Stand-Near-Nagpal-Eye-Care-Hospital-Hanumangarh-Junction/9999P1552-1552-210812202921-E8W9_BZDET',
+      'https://www.justdial.com/Hanumangarh/Food-Junction-Town-Opposite-Central-Park-Hanumangarh-town-bazar/9999P1552-1552-240313182821-W2R1_BZDET',
   },
-  mapsQuery: "Food Junction Let's Chill With Pizza, Ganga Nagar Road, Dhillon Colony, Hanumangarh, Rajasthan 335512",
+  mapsQuery: 'Food Junction Town, Shanti Nursing Home, Opposite Central Park, Hanumangarh Town Bazar, Hanumangarh, Rajasthan 335513',
   mapsLink:
-    "https://www.google.com/maps/search/?api=1&query=Food+Junction+Let's+Chill+With+Pizza+Ganga+Nagar+Road+Dhillon+Colony+Hanumangarh+Rajasthan",
+    'https://www.google.com/maps/search/?api=1&query=Food+Junction+Town+Opposite+Central+Park+Hanumangarh+Town+Bazar+Hanumangarh+Rajasthan',
 }

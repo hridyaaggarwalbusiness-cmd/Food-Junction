@@ -1,12 +1,14 @@
 import Reveal from './Reveal'
-import interiorMuralWall from '../assets/restaurant/interior-mural-wall.jpg'
-import pizzaCloseup from '../assets/restaurant/pizza-closeup.jpg'
-import seatingGraffitiArt from '../assets/restaurant/seating-graffiti-art.jpg'
+import burgerCover from '../assets/restaurant/burger-cover.jpg'
+import honeyChilliPotato from '../assets/restaurant/honey-chilli-potato.jpg'
+import pizzaBanner from '../assets/restaurant/pizza-banner.jpg'
+import chilliPotato from '../assets/restaurant/chilli-potato.jpg'
 
 const tiles = [
-  { photo: interiorMuralWall, label: 'The Dining Room', size: 'wide' },
-  { photo: seatingGraffitiArt, label: 'Graffiti Wall & Seating', size: 'tall' },
-  { photo: pizzaCloseup, label: 'Fresh Off the Oven', size: 'normal' },
+  { photo: pizzaBanner, label: 'Fresh From the Oven', size: 'wide' },
+  { photo: burgerCover, label: 'Loaded Burger', size: 'tall' },
+  { photo: honeyChilliPotato, label: 'Honey Chilli Potato', size: 'normal' },
+  { photo: chilliPotato, label: 'Chilli Potato', size: 'normal' },
 ]
 
 export default function Gallery() {
@@ -15,7 +17,7 @@ export default function Gallery() {
       <Reveal className="section__header">
         <p className="section__eyebrow">A Peek Inside</p>
         <h2>Gallery</h2>
-        <p className="section__hint">Real photos from the restaurant's Google listing.</p>
+        <p className="section__hint">Real photos from Food Junction Town's Zomato and Swiggy listings.</p>
       </Reveal>
 
       <div className="gallery__grid">

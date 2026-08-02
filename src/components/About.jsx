@@ -45,7 +45,7 @@ export default function About() {
           </ul>
           <div className="about__rating">
             <strong>{restaurant.rating}</strong>
-            <span>{restaurant.reviewCount} Google Reviews</span>
+            <span>{restaurant.reviewCount} Reviews</span>
           </div>
           <p className="about__note">Open all week — walk-in, dine-in, or order for delivery. {restaurant.costForTwo}</p>
         </Reveal>
