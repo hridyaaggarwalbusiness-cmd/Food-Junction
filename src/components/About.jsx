@@ -1,54 +1,70 @@
 import { restaurant } from '../data/restaurant'
 import Reveal from './Reveal'
+import interiorWallArt from '../assets/restaurant/interior-wall-art.jpg'
 
 export default function About() {
   return (
     <section id="about" className="section about">
-      <Reveal className="section__header">
-        <p className="section__eyebrow">Our Story</p>
-        <h2>An Address Worth Savouring</h2>
-      </Reveal>
-
-      <div className="about__grid">
-        <Reveal className="about__card glass">
-          <p>{restaurant.description}</p>
-
-          <div className="about__row">
-            <div className="about__block">
-              <h3>Cuisines</h3>
-              <ul className="about__tags">
-                {restaurant.cuisines.map((c) => (
-                  <li key={c}>{c}</li>
-                ))}
-              </ul>
-            </div>
-            <div className="about__block">
-              <h3>Known For</h3>
-              <ul className="about__tags about__tags--gold">
-                {restaurant.highlights.map((h) => (
-                  <li key={h}>{h}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </Reveal>
-
-        <Reveal delay={120} className="about__hours glass">
-          <h3>Opening Hours</h3>
-          <ul>
-            {restaurant.hours.map((h) => (
-              <li key={h.day}>
-                <span>{h.day}</span>
-                <strong>{h.time}</strong>
-              </li>
-            ))}
-          </ul>
-          <div className="about__rating">
-            <strong>{restaurant.rating}</strong>
+      <div className="about__layout">
+        <Reveal className="about__media">
+          <img src={interiorWallArt} alt="Food Junction Town interior wall art and seating" loading="lazy" />
+          <div className="about__media-badge">
+            <strong>{restaurant.rating}★</strong>
             <span>{restaurant.reviewCount} Reviews</span>
           </div>
-          <p className="about__note">Open all week — walk-in, dine-in, or order for delivery. {restaurant.costForTwo}</p>
         </Reveal>
+
+        <div className="about__content">
+          <Reveal className="section__header section__header--left">
+            <p className="section__eyebrow">Our Story</p>
+            <h2>An Address Worth Savouring</h2>
+          </Reveal>
+
+          <Reveal delay={80}>
+            <p className="about__desc">{restaurant.description}</p>
+
+            <div className="about__feature">
+              <span className="about__feature-icon">🍽️</span>
+              <div>
+                <h3>Cuisines</h3>
+                <ul className="about__tags">
+                  {restaurant.cuisines.map((c) => (
+                    <li key={c}>{c}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <div className="about__feature">
+              <span className="about__feature-icon">⭐</span>
+              <div>
+                <h3>Known For</h3>
+                <ul className="about__tags about__tags--gold">
+                  {restaurant.highlights.map((h) => (
+                    <li key={h}>{h}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <div className="about__strip">
+              <div className="about__strip-item">
+                <span className="about__feature-icon">🕒</span>
+                <div>
+                  <h3>Hours</h3>
+                  <p>{restaurant.hours[0].time}, every day</p>
+                </div>
+              </div>
+              <div className="about__strip-item">
+                <span className="about__feature-icon">💳</span>
+                <div>
+                  <h3>Cost for Two</h3>
+                  <p>{restaurant.costForTwo}</p>
+                </div>
+              </div>
+            </div>
+          </Reveal>
+        </div>
       </div>
     </section>
   )

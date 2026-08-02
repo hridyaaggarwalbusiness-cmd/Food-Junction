@@ -1,10 +1,15 @@
 import { restaurant } from '../data/restaurant'
 import Reveal from './Reveal'
+import honeyChilliPotato from '../assets/restaurant/honey-chilli-potato.jpg'
 
 export default function CtaBand() {
   return (
     <section className="cta-band">
-      <Reveal className="cta-band__card">
+      <div className="cta-band__bg">
+        <img src={honeyChilliPotato} alt="" />
+      </div>
+
+      <Reveal className="cta-band__inner">
         <h2>Hungry already?</h2>
         <p>Call in your order, or walk in — Town Bazar's favourite table is waiting. Prefer delivery? Order on Zomato or Swiggy.</p>
         <div className="cta-band__actions">

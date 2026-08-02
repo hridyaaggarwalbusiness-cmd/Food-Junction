@@ -12,8 +12,20 @@ export default function Contact() {
         <h2>Find & Reach Us</h2>
       </Reveal>
 
-      <div className="contact__grid">
-        <Reveal className="contact__info glass">
+      <div className="contact__map-wrap">
+        <iframe
+          title="Food Junction location on Google Maps"
+          className="contact__map-frame"
+          src={`https://www.google.com/maps?q=${encodeURIComponent(restaurant.mapsQuery)}&output=embed`}
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+
+        <Reveal className="contact__card glass">
           <div className="contact__item">
             <span className="contact__icon">📍</span>
             <div>
@@ -65,19 +77,6 @@ export default function Contact() {
               View on Justdial
             </a>
           </div>
-        </Reveal>
-
-        <Reveal delay={120} className="contact__map glass">
-          <iframe
-            title="Food Junction location on Google Maps"
-            src={`https://www.google.com/maps?q=${encodeURIComponent(restaurant.mapsQuery)}&output=embed`}
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
         </Reveal>
       </div>
     </section>

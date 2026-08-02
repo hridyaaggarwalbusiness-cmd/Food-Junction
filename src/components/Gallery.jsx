@@ -8,9 +8,9 @@ import chilliPotato from '../assets/restaurant/chilli-potato.jpg'
 
 const tiles = [
   { photo: interiorDiningRoom, label: 'The Dining Room' },
-  { photo: interiorWallArt, label: 'Wall Art & Seating' },
+  { photo: interiorWallArt, label: 'Wall Art & Seating', tall: true },
   { photo: burgerCover, label: 'Loaded Burger' },
-  { photo: honeyChilliPotato, label: 'Honey Chilli Potato' },
+  { photo: honeyChilliPotato, label: 'Honey Chilli Potato', tall: true },
   { photo: chilliPotato, label: 'Chilli Potato' },
 ]
 
@@ -30,7 +30,12 @@ export default function Gallery() {
 
       <div className="gallery__grid">
         {tiles.map((tile, i) => (
-          <Reveal as="div" delay={i * 60} className="gallery__tile" key={tile.label}>
+          <Reveal
+            as="div"
+            delay={i * 60}
+            className={`gallery__tile ${tile.tall ? 'gallery__tile--tall' : ''}`}
+            key={tile.label}
+          >
             <img src={tile.photo} alt={tile.label} loading="lazy" />
             <span className="gallery__label">{tile.label}</span>
           </Reveal>
