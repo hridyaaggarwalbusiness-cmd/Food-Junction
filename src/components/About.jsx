@@ -24,7 +24,7 @@ export default function About() {
             <p className="about__desc">{restaurant.description}</p>
 
             <div className="about__feature">
-              <span className="about__feature-icon">🍽️</span>
+              <span className="about__num">01</span>
               <div>
                 <h3>Cuisines</h3>
                 <ul className="about__tags">
@@ -36,7 +36,7 @@ export default function About() {
             </div>
 
             <div className="about__feature">
-              <span className="about__feature-icon">⭐</span>
+              <span className="about__num">02</span>
               <div>
                 <h3>Known For</h3>
                 <ul className="about__tags about__tags--gold">
@@ -49,14 +49,14 @@ export default function About() {
 
             <div className="about__strip">
               <div className="about__strip-item">
-                <span className="about__feature-icon">🕒</span>
+                <span className="about__num about__num--sm">03</span>
                 <div>
                   <h3>Hours</h3>
                   <p>{restaurant.hours[0].time}, every day</p>
                 </div>
               </div>
               <div className="about__strip-item">
-                <span className="about__feature-icon">💳</span>
+                <span className="about__num about__num--sm">04</span>
                 <div>
                   <h3>Cost for Two</h3>
                   <p>{restaurant.costForTwo}</p>
