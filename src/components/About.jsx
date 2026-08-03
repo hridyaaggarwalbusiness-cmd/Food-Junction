@@ -1,13 +1,13 @@
 import { restaurant } from '../data/restaurant'
 import Reveal from './Reveal'
-import honeyChilliPotato from '../assets/restaurant/honey-chilli-potato.jpg'
+import interiorWallArt from '../assets/restaurant/interior-wall-art.jpg'
 
 export default function About() {
   return (
     <section id="about" className="section about">
       <div className="about__layout">
         <Reveal className="about__media">
-          <img src={honeyChilliPotato} alt="Honey chilli potato at Food Junction Town" loading="lazy" />
+          <img src={interiorWallArt} alt="Food Junction interior wall art and seating" loading="lazy" />
           <div className="about__media-badge">
             <strong>{restaurant.rating}★</strong>
             <span>{restaurant.reviewCount} Reviews</span>

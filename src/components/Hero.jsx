@@ -1,11 +1,11 @@
 import { restaurant } from '../data/restaurant'
-import pizzaBanner from '../assets/restaurant/pizza-banner.jpg'
+import interiorDiningRoom from '../assets/restaurant/interior-dining-room.jpg'
 
 export default function Hero() {
   return (
     <section id="top" className="hero">
       <div className="hero__bg">
-        <img src={pizzaBanner} alt="Fresh pizza from Food Junction Town" />
+        <img src={interiorDiningRoom} alt="Food Junction dining room" />
       </div>
 
       <div className="hero__inner">

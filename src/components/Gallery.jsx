@@ -1,11 +1,15 @@
 import Reveal from './Reveal'
+import interiorDiningRoom from '../assets/restaurant/interior-dining-room.jpg'
+import interiorWallArt from '../assets/restaurant/interior-wall-art.jpg'
 import burgerCover from '../assets/restaurant/burger-cover.jpg'
 import pizzaBanner from '../assets/restaurant/pizza-banner.jpg'
 import honeyChilliPotato from '../assets/restaurant/honey-chilli-potato.jpg'
 import chilliPotato from '../assets/restaurant/chilli-potato.jpg'
 
 const cards = [
-  { photo: burgerCover, label: 'Loaded Burger', wide: true },
+  { photo: interiorDiningRoom, label: 'The Dining Room', wide: true },
+  { photo: interiorWallArt, label: 'Wall Art & Seating' },
+  { photo: burgerCover, label: 'Loaded Burger' },
   { photo: pizzaBanner, label: 'Fresh From The Oven' },
   { photo: honeyChilliPotato, label: 'Honey Chilli Potato' },
   { photo: chilliPotato, label: 'Chilli Potato' },
@@ -18,7 +22,7 @@ export default function Gallery() {
         <div>
           <p className="section__eyebrow">A Peek Inside</p>
           <h2>Gallery</h2>
-          <p className="section__hint">Real photos from Food Junction Town's Zomato and Swiggy listings.</p>
+          <p className="section__hint">Real photos of the restaurant and food.</p>
         </div>
         <span className="gallery__swipe-hint">Drag to explore &rarr;</span>
       </Reveal>
