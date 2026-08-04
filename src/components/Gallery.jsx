@@ -1,5 +1,6 @@
 import Reveal from './Reveal'
 import interiorWallArt from '../assets/restaurant/interior-wall-art.jpg'
+import storefrontDay from '../assets/restaurant/storefront-day.jpg'
 import muralCorner from '../assets/restaurant/mural-corner.jpg'
 import burgerCover from '../assets/restaurant/burger-cover.jpg'
 import pizzaBanner from '../assets/restaurant/pizza-banner.jpg'
@@ -8,6 +9,7 @@ import chilliPotato from '../assets/restaurant/chilli-potato.jpg'
 
 const cards = [
   { photo: interiorWallArt, label: 'Wall Art & Seating', wide: true },
+  { photo: storefrontDay, label: 'Find Us Here', wide: true },
   { photo: muralCorner, label: 'The Coffee Corner' },
   { photo: burgerCover, label: 'Loaded Burger' },
   { photo: pizzaBanner, label: 'Fresh From The Oven' },

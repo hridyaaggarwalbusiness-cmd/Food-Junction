@@ -1,13 +1,13 @@
 import { restaurant } from '../data/restaurant'
 import Reveal from './Reveal'
-import storefrontSignage from '../assets/restaurant/storefront-signage.jpg'
+import interiorDiningRoom from '../assets/restaurant/interior-dining-room.jpg'
 
 export default function About() {
   return (
     <section id="about" className="section about">
       <div className="about__layout">
         <Reveal className="about__media">
-          <img src={storefrontSignage} alt="Food Junction storefront, opposite Central Park, Hanumangarh Town Bazar" loading="lazy" />
+          <img src={interiorDiningRoom} alt="Food Junction dining room, teal booths beneath a gallery wall of framed art" loading="lazy" />
           <div className="about__media-badge">
             <strong>{restaurant.rating}★</strong>
             <span>{restaurant.reviewCount} Reviews</span>
