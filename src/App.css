@@ -570,6 +570,14 @@
   margin-bottom: 12px;
 }
 
+.about__feature-hint {
+  font-size: 14px;
+  color: var(--text);
+  opacity: 0.65;
+  line-height: 1.5;
+  margin: -4px 0 12px;
+}
+
 .about__tags {
   list-style: none;
   padding: 0;

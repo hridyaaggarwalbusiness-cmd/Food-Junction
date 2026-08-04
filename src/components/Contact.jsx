@@ -9,7 +9,7 @@ export default function Contact() {
     <section id="contact" className="section contact">
       <Reveal className="section__header">
         <p className="section__eyebrow">Visit Us</p>
-        <h2>Find & Reach Us</h2>
+        <h2>Come Say Hi</h2>
       </Reveal>
 
       <Reveal className="contact__panel">
