@@ -21,7 +21,7 @@ export default function About() {
           </Reveal>
 
           <Reveal delay={80}>
-            <p className="about__desc">{restaurant.description}</p>
+            <p className="about__desc">{restaurant.story}</p>
 
             <div className="about__feature">
               <span className="about__num">01</span>

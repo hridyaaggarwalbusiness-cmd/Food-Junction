@@ -7,7 +7,9 @@ export const restaurant = {
   name: 'Food Junction',
   tagline: "Let's Chill With Pizza",
   description:
-    "Located at Shanti Nursing Home, opposite Central Park in Hanumangarh Town Bazar, Food Junction runs a 45+ item pizza and pasta menu alongside Indo-Chinese classics, loaded burgers, wraps and shakes. Rated 4.8★ on Google, 4.0★ on Zomato (1,700+ reviews), 4.3★ on Swiggy (1,100+ ratings) and 4.1★ on Justdial (1,000+ reviews), it's the Town Bazar go-to for a quick bite or a full meal.",
+    'Hand-tossed pizzas, sizzling Indo-Chinese and loaded burgers, served fresh in our teal-and-art dining room opposite Central Park — Town Bazar\'s favourite table to chill.',
+  story:
+    "What began as a neighbourhood pizza counter opposite Central Park has grown into Town Bazar's favourite hangout. Inside, teal booths sit beneath a gallery wall of framed art, and the kitchen turns out a 45-item menu of wood-fired pizzas, Indo-Chinese classics, loaded burgers, wraps and hand-shaken milkshakes. Diners rate us 4.8★ on Google, with strong reviews on Zomato, Swiggy and Justdial too — and for celebrations, our fully air-conditioned party hall is ready to host.",
   address: {
     line1: 'Shanti Nursing Home, Opposite Central Park',
     line2: 'Hanumangarh Town Bazar',
