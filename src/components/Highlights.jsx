@@ -2,7 +2,7 @@ import { restaurant } from '../data/restaurant'
 
 const stats = [
   { value: `${restaurant.rating}★`, label: `${restaurant.reviewCount} Reviews` },
-  { value: '10AM–10PM', label: 'Open Daily' },
+  { value: '10AM–9PM', label: 'Open Daily' },
   { value: restaurant.cuisines.length, label: 'Cuisines' },
   { value: '45+', label: 'Menu Items' },
 ]
