@@ -1,11 +1,15 @@
 import { restaurant } from '../data/restaurant'
 import storefrontNight from '../assets/restaurant/storefront-night.jpg'
+import storefrontNightMobile from '../assets/restaurant/storefront-night-mobile.jpg'
 
 export default function Hero() {
   return (
     <section id="top" className="hero">
       <div className="hero__bg">
-        <img src={storefrontNight} alt="Food Junction storefront at night, Town Bazar, Hanumangarh" />
+        <picture>
+          <source media="(max-width: 640px)" srcSet={storefrontNightMobile} />
+          <img src={storefrontNight} alt="Food Junction storefront at night, Town Bazar, Hanumangarh" />
+        </picture>
       </div>
 
       <div className="hero__inner">
