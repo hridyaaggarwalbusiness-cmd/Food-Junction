@@ -7,9 +7,9 @@ export const restaurant = {
   name: 'Food Junction',
   tagline: "Let's Chill With Pizza",
   description:
-    'Hand-tossed pizzas, sizzling Indo-Chinese and loaded burgers, served fresh in our teal-and-art dining room opposite Central Park — Town Bazar\'s favourite table to chill.',
+    "Pizza, Indo-Chinese, loaded burgers and shakes — served fresh in our teal-booth dining room opposite Central Park.",
   story:
-    "What began as a neighbourhood pizza counter opposite Central Park has grown into Town Bazar's favourite hangout. Inside, teal booths sit beneath a gallery wall of framed art, and the kitchen turns out a 45-item menu of wood-fired pizzas, Indo-Chinese classics, loaded burgers, wraps and hand-shaken milkshakes. Diners rate us 4.8★ on Google, with strong reviews on Zomato, Swiggy and Justdial too — and for celebrations, our fully air-conditioned party hall is ready to host.",
+    "What began as a neighbourhood pizza counter opposite Central Park has grown into Town Bazar's favourite hangout. Inside, teal booths sit beneath a gallery wall of framed art, and the kitchen serves a 45-item menu spanning pizza, Indo-Chinese, burgers, wraps and milkshakes. Diners rate us 4.8★ on Google, with strong reviews on Zomato, Swiggy and Justdial too — and for celebrations, we also run a fully air-conditioned party hall.",
   address: {
     line1: 'Shanti Nursing Home, Opposite Central Park',
     line2: 'Hanumangarh Town Bazar',
@@ -23,7 +23,8 @@ export const restaurant = {
   rating: 4.8,
   reviewCount: '91+',
   costForTwo: '₹149 for two (approx.)',
-  cuisines: ['Pizza', 'Chinese', 'Burgers', 'Pasta', 'Fast Food', 'Beverages'],
+  cuisines: ['Italian', 'Indo-Chinese', 'American', 'Continental'],
+  menu: ['Pizza', 'Pasta', 'Burgers', 'Wraps', 'Sandwiches', 'Shakes & Mocktails'],
   highlights: ['Simply Mania Pizza', 'Honey Chilli Potato', 'Loaded Burgers', 'Pizza + Garlic Bread Combo'],
   links: {
     zomato: 'https://www.zomato.com/hanumangarh/food-junction-town-hanumangarh-locality/order',

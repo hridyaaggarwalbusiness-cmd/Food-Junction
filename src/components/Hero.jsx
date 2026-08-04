@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="hero__copy">
           <span className="badge">
             <span className="badge__dot" />
-            Open Now &middot; Town Bazar, Hanumangarh
+            Open Daily &middot; Town Bazar, Hanumangarh
           </span>
 
           <h1>{restaurant.name}</h1>

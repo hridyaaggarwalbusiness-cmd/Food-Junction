@@ -27,7 +27,7 @@ export default function About() {
               <span className="about__num">01</span>
               <div>
                 <h3>Cuisines</h3>
-                <p className="about__feature-hint">Six kitchens under one roof — pizza to Indo-Chinese, burgers to shakes.</p>
+                <p className="about__feature-hint">The styles behind our 45-item menu of pizza, pasta, burgers and more.</p>
                 <ul className="about__tags">
                   {restaurant.cuisines.map((c) => (
                     <li key={c}>{c}</li>
@@ -40,7 +40,7 @@ export default function About() {
               <span className="about__num">02</span>
               <div>
                 <h3>Known For</h3>
-                <p className="about__feature-hint">The four dishes regulars order on repeat.</p>
+                <p className="about__feature-hint">Our most-ordered dishes.</p>
                 <ul className="about__tags about__tags--gold">
                   {restaurant.highlights.map((h) => (
                     <li key={h}>{h}</li>
