@@ -1,6 +1,5 @@
 import Reveal from './Reveal'
 import storefrontSignage from '../assets/restaurant/storefront-signage.jpg'
-import muralCorner from '../assets/restaurant/mural-corner.jpg'
 import burgerCover from '../assets/restaurant/burger-cover.jpg'
 import pizzaBanner from '../assets/restaurant/pizza-banner.jpg'
 import honeyChilliPotato from '../assets/restaurant/honey-chilli-potato.jpg'
@@ -8,7 +7,6 @@ import chilliPotato from '../assets/restaurant/chilli-potato.jpg'
 
 const cards = [
   { photo: storefrontSignage, label: 'Find Us Here', wide: true },
-  { photo: muralCorner, label: 'The Coffee Corner' },
   { photo: burgerCover, label: 'Loaded Burger' },
   { photo: pizzaBanner, label: 'Fresh From The Oven' },
   { photo: honeyChilliPotato, label: 'Honey Chilli Potato' },
