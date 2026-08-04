@@ -427,6 +427,10 @@
     object-fit: contain;
     object-position: center top;
   }
+
+  .hero .badge {
+    display: none;
+  }
 }
 
 /* ---------- highlights band ---------- */
