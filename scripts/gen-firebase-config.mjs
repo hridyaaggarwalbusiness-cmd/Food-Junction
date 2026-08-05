@@ -1,8 +1,13 @@
 #!/usr/bin/env node
-// Regenerates firebase.json as a multi-site hosting config: the original
-// Food Junction entry, plus one entry per bulk-generated restaurant site,
-// each pointing at its own dist-sites/<slug> build and its own Firebase
-// Hosting site ID. Run this after sites/index.json changes.
+// Regenerates firebase.json + .firebaserc as a multi-site hosting config:
+// the original Food Junction entry, plus one entry per bulk-generated
+// restaurant site, each pointing at its own dist-sites/<slug> build.
+// Run this after sites/index.json changes.
+//
+// Uses Firebase "targets" (.firebaserc) rather than raw "site" keys in
+// firebase.json, so `firebase deploy --only hosting:<target>` reliably
+// selects a single site — the documented way to deploy one site at a time
+// out of many in the same project.
 //
 // Site IDs are prefixed "hnm-" (Hanumangarh) to lower collision odds in
 // Firebase's *global* web.app namespace — plain names like "cafe" or
@@ -14,6 +19,8 @@ import path from 'node:path'
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)))
 const SITE_PREFIX = 'hnm-'
+const PROJECT_ID = 'food-junction-hgh'
+const FOOD_JUNCTION_TARGET = 'food-junction'
 
 const HEADERS = [
   { source: '/assets/**', headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }] },
@@ -29,7 +36,7 @@ const HEADERS = [
 ]
 
 const foodJunctionEntry = {
-  site: 'food-junction',
+  target: FOOD_JUNCTION_TARGET,
   public: 'dist',
   ignore: ['firebase.json', '**/.*', '**/node_modules/**'],
   rewrites: [{ source: '**', destination: '/index.html' }],
@@ -65,7 +72,7 @@ function firebaseSiteId(slug) {
 const siteIdBySlug = Object.fromEntries(slugs.map((slug) => [slug, firebaseSiteId(slug)]))
 
 const bulkEntries = slugs.map((slug) => ({
-  site: siteIdBySlug[slug],
+  target: slug,
   public: `dist-sites/${slug}`,
   ignore: ['firebase.json', '**/.*', '**/node_modules/**'],
   rewrites: [{ source: '**', destination: '/index.html' }],
@@ -73,13 +80,25 @@ const bulkEntries = slugs.map((slug) => ({
 }))
 
 const firebaseJson = { hosting: [foodJunctionEntry, ...bulkEntries] }
-
 writeFileSync(path.join(ROOT, 'firebase.json'), JSON.stringify(firebaseJson, null, 2) + '\n')
 
-// Also emit slug -> Firebase Hosting site ID, which the deploy script needs
-// to `hosting:sites:create` before the first deploy, and which the build
-// script should feed back in as each site's public URL (VITE_SITE_URL).
+const firebaserc = {
+  projects: { default: PROJECT_ID },
+  targets: {
+    [PROJECT_ID]: {
+      hosting: {
+        [FOOD_JUNCTION_TARGET]: ['food-junction'],
+        ...Object.fromEntries(slugs.map((slug) => [slug, [siteIdBySlug[slug]]])),
+      },
+    },
+  },
+}
+writeFileSync(path.join(ROOT, '.firebaserc'), JSON.stringify(firebaserc, null, 2) + '\n')
+
+// slug -> Firebase Hosting site ID, which the deploy step needs to
+// `hosting:sites:create` before the first deploy, and which the build
+// script feeds back in as each site's public URL (VITE_SITE_URL).
 writeFileSync(path.join(ROOT, 'sites', 'firebase-site-ids.json'), JSON.stringify(siteIdBySlug, null, 2) + '\n')
 
-console.log(`Wrote firebase.json with ${firebaseJson.hosting.length} hosting targets (1 existing + ${bulkEntries.length} new).`)
+console.log(`Wrote firebase.json + .firebaserc with ${firebaseJson.hosting.length} hosting targets (1 existing + ${bulkEntries.length} new).`)
 console.log(`Wrote sites/firebase-site-ids.json with ${Object.keys(siteIdBySlug).length} site IDs.`)

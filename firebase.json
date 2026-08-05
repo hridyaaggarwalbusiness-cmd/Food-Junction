@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "site": "food-junction",
+      "target": "food-junction",
       "public": "dist",
       "ignore": [
         "firebase.json",
@@ -117,4501 +117,7 @@
       ]
     },
     {
-      "site": "hnm-britto-s-cafe-food-court",
-      "public": "dist-sites/britto-s-cafe-food-court",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-shree-janta-sweet-home",
-      "public": "dist-sites/shree-janta-sweet-home",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-janta-dhaba",
-      "public": "dist-sites/janta-dhaba",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-singla-hotel",
-      "public": "dist-sites/singla-hotel",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-emly-cafe-hanumangarh",
-      "public": "dist-sites/emly-cafe-hanumangarh",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-emly-cafe-restaurant",
-      "public": "dist-sites/emly-cafe-restaurant",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-pizzeria-hut",
-      "public": "dist-sites/pizzeria-hut",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-hotel-shri-ram-pure-1adg0",
-      "public": "dist-sites/hotel-shri-ram-pure-vegetarian",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-aditya-hotel-and-res-4if9f",
-      "public": "dist-sites/aditya-hotel-and-restaurant",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-zayka-cafe-restaurant",
-      "public": "dist-sites/zayka-cafe-restaurant",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-keshav-dhaaba",
-      "public": "dist-sites/keshav-dhaaba",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-roti-junction",
-      "public": "dist-sites/roti-junction",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-kalpana-s-murphy-res-1iwj4",
-      "public": "dist-sites/kalpana-s-murphy-restaurant-best-restaurants",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-jaggu-dhabha",
-      "public": "dist-sites/jaggu-dhabha",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-delhi-darbar",
-      "public": "dist-sites/delhi-darbar",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-prerna-namkin-bhanda-14u5o",
-      "public": "dist-sites/prerna-namkin-bhandar-hanumangarh",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-the-old-town-cafe",
-      "public": "dist-sites/the-old-town-cafe",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-cb-diner",
-      "public": "dist-sites/cb-diner",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-al-madina-chicken-point",
-      "public": "dist-sites/al-madina-chicken-point",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-sip-n-bites",
-      "public": "dist-sites/sip-n-bites",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-central-park-canteen",
-      "public": "dist-sites/central-park-canteen",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-nagpal-chole-bhature",
-      "public": "dist-sites/nagpal-chole-bhature",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-the-family-cafe-tfc",
-      "public": "dist-sites/the-family-cafe-tfc",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-sagar-ratna-hanumangarh",
-      "public": "dist-sites/sagar-ratna-hanumangarh",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-mosaic-hotel-bar-res-1rjub",
-      "public": "dist-sites/mosaic-hotel-bar-restaurant",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-taste-of-punjab-kalr-riykk",
-      "public": "dist-sites/taste-of-punjab-kalra-premium-foods",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-chawla-foods",
-      "public": "dist-sites/chawla-foods",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-choudhary-sweet-house",
-      "public": "dist-sites/choudhary-sweet-house",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-lucky-fast-food",
-      "public": "dist-sites/lucky-fast-food",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-arban-degh",
-      "public": "dist-sites/arban-degh",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-delhi-sweets",
-      "public": "dist-sites/delhi-sweets",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-agra-chat-bhandar",
-      "public": "dist-sites/agra-chat-bhandar",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-pizza-heart",
-      "public": "dist-sites/pizza-heart",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-shri-shyam-dhaba",
-      "public": "dist-sites/shri-shyam-dhaba",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-non-veg-centre",
-      "public": "dist-sites/non-veg-centre",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-annappurna-tiffin-centre",
-      "public": "dist-sites/annappurna-tiffin-centre",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-rose-cafe",
-      "public": "dist-sites/rose-cafe",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-love-breakfast-point",
-      "public": "dist-sites/love-breakfast-point",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-saroj-fast-food",
-      "public": "dist-sites/saroj-fast-food",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-khadi-india-at-hanum-14wht",
-      "public": "dist-sites/khadi-india-at-hanumangarh-twon",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-singla-hotel-and-res-af321",
-      "public": "dist-sites/singla-hotel-and-restaurant",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-anna-dosa",
-      "public": "dist-sites/anna-dosa",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-a-rock-s-cafe",
+      "target": "a-rock-s-cafe",
       "public": "dist-sites/a-rock-s-cafe",
       "ignore": [
         "firebase.json",
@@ -4718,8 +224,8 @@
       ]
     },
     {
-      "site": "hnm-blue-moon-cafe-residency",
-      "public": "dist-sites/blue-moon-cafe-residency",
+      "target": "aditya-hotel-and-restaurant",
+      "public": "dist-sites/aditya-hotel-and-restaurant",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -4825,8 +331,8 @@
       ]
     },
     {
-      "site": "hnm-new-anand-sweets-and-17vnq",
-      "public": "dist-sites/new-anand-sweets-and-namkeen",
+      "target": "agra-chat-bhandar",
+      "public": "dist-sites/agra-chat-bhandar",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -4932,8 +438,8 @@
       ]
     },
     {
-      "site": "hnm-patiala-and-hanumangarh",
-      "public": "dist-sites/patiala-and-hanumangarh",
+      "target": "al-madina-chicken-point",
+      "public": "dist-sites/al-madina-chicken-point",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -5039,8 +545,8 @@
       ]
     },
     {
-      "site": "hnm-dabwali",
-      "public": "dist-sites/dabwali",
+      "target": "anna-dosa",
+      "public": "dist-sites/anna-dosa",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -5146,8 +652,8 @@
       ]
     },
     {
-      "site": "hnm-maharaja-hotel",
-      "public": "dist-sites/maharaja-hotel",
+      "target": "annappurna-tiffin-centre",
+      "public": "dist-sites/annappurna-tiffin-centre",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -5253,8 +759,8 @@
       ]
     },
     {
-      "site": "hnm-kharadi-pune-bikaner",
-      "public": "dist-sites/kharadi-pune-bikaner",
+      "target": "arban-degh",
+      "public": "dist-sites/arban-degh",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -5360,114 +866,7 @@
       ]
     },
     {
-      "site": "hnm-angrej-fastfood",
-      "public": "dist-sites/angrej-fastfood",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "headers": [
-        {
-          "source": "/assets/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "public, max-age=31536000, immutable"
-            }
-          ]
-        },
-        {
-          "source": "/index.html",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/favicon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/apple-touch-icon.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-192x192.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/pwa-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/maskable-icon-512x512.png",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/manifest.webmanifest",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source": "/sw.js",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, must-revalidate"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "hnm-bikaner-namkeen-bandar",
+      "target": "bikaner-namkeen-bandar",
       "public": "dist-sites/bikaner-namkeen-bandar",
       "ignore": [
         "firebase.json",
@@ -5574,8 +973,8 @@
       ]
     },
     {
-      "site": "hnm-sonu-fast-food",
-      "public": "dist-sites/sonu-fast-food",
+      "target": "blue-moon-cafe-residency",
+      "public": "dist-sites/blue-moon-cafe-residency",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -5681,8 +1080,8 @@
       ]
     },
     {
-      "site": "hnm-rj-31-tadka",
-      "public": "dist-sites/rj-31-tadka",
+      "target": "britto-s-cafe-food-court",
+      "public": "dist-sites/britto-s-cafe-food-court",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -5788,8 +1187,8 @@
       ]
     },
     {
-      "site": "hnm-radheshyam-ji-mittal-130ha",
-      "public": "dist-sites/radheshyam-ji-mittal-namkeen-bhandar",
+      "target": "cb-diner",
+      "public": "dist-sites/cb-diner",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -5895,8 +1294,8 @@
       ]
     },
     {
-      "site": "hnm-mangatrai-bharat-kumar",
-      "public": "dist-sites/mangatrai-bharat-kumar",
+      "target": "central-park-canteen",
+      "public": "dist-sites/central-park-canteen",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -6002,8 +1401,8 @@
       ]
     },
     {
-      "site": "hnm-m-b-a-canteen",
-      "public": "dist-sites/m-b-a-canteen",
+      "target": "chawla-foods",
+      "public": "dist-sites/chawla-foods",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -6109,8 +1508,8 @@
       ]
     },
     {
-      "site": "hnm-gwalior-chaat-bhandar",
-      "public": "dist-sites/gwalior-chaat-bhandar",
+      "target": "choudhary-sweet-house",
+      "public": "dist-sites/choudhary-sweet-house",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -6216,7 +1615,1291 @@
       ]
     },
     {
-      "site": "hnm-manish-fastfood-corner",
+      "target": "delhi-darbar",
+      "public": "dist-sites/delhi-darbar",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "delhi-sweets",
+      "public": "dist-sites/delhi-sweets",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "emly-cafe-hanumangarh",
+      "public": "dist-sites/emly-cafe-hanumangarh",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "emly-cafe-restaurant",
+      "public": "dist-sites/emly-cafe-restaurant",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "hotel-shri-ram-pure-vegetarian",
+      "public": "dist-sites/hotel-shri-ram-pure-vegetarian",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "jaggu-dhabha",
+      "public": "dist-sites/jaggu-dhabha",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "janta-dhaba",
+      "public": "dist-sites/janta-dhaba",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "kalpana-s-murphy-restaurant-best-restaurants",
+      "public": "dist-sites/kalpana-s-murphy-restaurant-best-restaurants",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "keshav-dhaaba",
+      "public": "dist-sites/keshav-dhaaba",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "khadi-india-at-hanumangarh-twon",
+      "public": "dist-sites/khadi-india-at-hanumangarh-twon",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "love-breakfast-point",
+      "public": "dist-sites/love-breakfast-point",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "lucky-fast-food",
+      "public": "dist-sites/lucky-fast-food",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "manish-fastfood-corner",
       "public": "dist-sites/manish-fastfood-corner",
       "ignore": [
         "firebase.json",
@@ -6323,8 +3006,8 @@
       ]
     },
     {
-      "site": "hnm-raja-hotel",
-      "public": "dist-sites/raja-hotel",
+      "target": "mosaic-hotel-bar-restaurant",
+      "public": "dist-sites/mosaic-hotel-bar-restaurant",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -6430,8 +3113,2041 @@
       ]
     },
     {
-      "site": "hnm-raja-samosa",
+      "target": "nagpal-chole-bhature",
+      "public": "dist-sites/nagpal-chole-bhature",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "new-anand-sweets-and-namkeen",
+      "public": "dist-sites/new-anand-sweets-and-namkeen",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "non-veg-centre",
+      "public": "dist-sites/non-veg-centre",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "pizza-heart",
+      "public": "dist-sites/pizza-heart",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "pizzeria-hut",
+      "public": "dist-sites/pizzeria-hut",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "prerna-namkin-bhandar-hanumangarh",
+      "public": "dist-sites/prerna-namkin-bhandar-hanumangarh",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "raja-samosa",
       "public": "dist-sites/raja-samosa",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "rj-31-tadka",
+      "public": "dist-sites/rj-31-tadka",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "rose-cafe",
+      "public": "dist-sites/rose-cafe",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "roti-junction",
+      "public": "dist-sites/roti-junction",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "sagar-ratna-hanumangarh",
+      "public": "dist-sites/sagar-ratna-hanumangarh",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "saroj-fast-food",
+      "public": "dist-sites/saroj-fast-food",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "shree-janta-sweet-home",
+      "public": "dist-sites/shree-janta-sweet-home",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "shri-shyam-dhaba",
+      "public": "dist-sites/shri-shyam-dhaba",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "singla-hotel",
+      "public": "dist-sites/singla-hotel",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "sip-n-bites",
+      "public": "dist-sites/sip-n-bites",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "taste-of-punjab-kalra-premium-foods",
+      "public": "dist-sites/taste-of-punjab-kalra-premium-foods",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "the-family-cafe-tfc",
+      "public": "dist-sites/the-family-cafe-tfc",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "the-old-town-cafe",
+      "public": "dist-sites/the-old-town-cafe",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "source": "/index.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/favicon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/apple-touch-icon.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-192x192.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/pwa-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/maskable-icon-512x512.png",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/manifest.webmanifest",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "/sw.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, must-revalidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "zayka-cafe-restaurant",
+      "public": "dist-sites/zayka-cafe-restaurant",
       "ignore": [
         "firebase.json",
         "**/.*",

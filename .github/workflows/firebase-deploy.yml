@@ -2,7 +2,7 @@ name: Deploy to Firebase Hosting
 
 on:
   push:
-    branches: [claude/food-junction-landing-xp0n6g]
+    branches: [claude/food-junction-landing-xp0n6g, claude/hanumangarh-restaurants-list-b415hz]
   workflow_dispatch:
 
 jobs:
@@ -16,8 +16,86 @@ jobs:
           node-version: 20
 
       - run: npm ci
-      - run: npm run build
 
-      - run: npx firebase-tools deploy --only hosting --token "$FIREBASE_TOKEN" --non-interactive
+      - name: Build Food Junction (default site)
+        run: npm run build
+
+      - name: Deploy Food Junction (default site)
+        run: npx firebase-tools deploy --only hosting:food-junction --token "$FIREBASE_TOKEN" --non-interactive
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
+      - name: Build all bulk restaurant sites
+        run: |
+          node scripts/gen-firebase-config.mjs
+          node scripts/build-all-sites.mjs
+
+      - name: Create Firebase Hosting sites (idempotent, tolerates quota errors)
+        run: |
+          set +e
+          mkdir -p /tmp/deploy-report
+          : > /tmp/deploy-report/create-failed.txt
+          while IFS= read -r site_id; do
+            echo "creating $site_id"
+            out=$(npx firebase-tools hosting:sites:create "$site_id" --token "$FIREBASE_TOKEN" --non-interactive 2>&1)
+            code=$?
+            if [ $code -ne 0 ] && ! echo "$out" | grep -qi "already exists"; then
+              echo "  FAILED: $site_id"
+              echo "$out" | tail -5
+              echo "$site_id" >> /tmp/deploy-report/create-failed.txt
+            fi
+          done < <(jq -r '.[]' sites/firebase-site-ids.json)
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
+      - name: Deploy each bulk restaurant site
+        run: |
+          set +e
+          : > /tmp/deploy-report/deploy-succeeded.txt
+          : > /tmp/deploy-report/deploy-failed.txt
+          while IFS=$'\t' read -r slug site_id; do
+            if grep -qx "$site_id" /tmp/deploy-report/create-failed.txt 2>/dev/null; then
+              echo "skipping $slug ($site_id) — site was never created"
+              echo "$site_id" >> /tmp/deploy-report/deploy-failed.txt
+              continue
+            fi
+            echo "deploying $slug -> $site_id (target: $slug)"
+            npx firebase-tools deploy --only "hosting:$slug" --token "$FIREBASE_TOKEN" --non-interactive
+            if [ $? -eq 0 ]; then
+              echo "$site_id" >> /tmp/deploy-report/deploy-succeeded.txt
+            else
+              echo "$site_id" >> /tmp/deploy-report/deploy-failed.txt
+            fi
+          done < <(jq -r 'to_entries[] | "\(.key)\t\(.value)"' sites/firebase-site-ids.json)
+          echo "=== Succeeded: $(wc -l < /tmp/deploy-report/deploy-succeeded.txt) ==="
+          echo "=== Failed: $(wc -l < /tmp/deploy-report/deploy-failed.txt) ==="
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
+      - name: Build slug -> URL report
+        if: always()
+        run: |
+          node -e '
+            const fs = require("fs");
+            const ids = JSON.parse(fs.readFileSync("sites/firebase-site-ids.json", "utf-8"));
+            const succeeded = fs.existsSync("/tmp/deploy-report/deploy-succeeded.txt")
+              ? fs.readFileSync("/tmp/deploy-report/deploy-succeeded.txt", "utf-8").trim().split("\n").filter(Boolean)
+              : [];
+            const failed = fs.existsSync("/tmp/deploy-report/deploy-failed.txt")
+              ? fs.readFileSync("/tmp/deploy-report/deploy-failed.txt", "utf-8").trim().split("\n").filter(Boolean)
+              : [];
+            const bySite = Object.fromEntries(Object.entries(ids).map(([slug, id]) => [id, slug]));
+            const report = {
+              succeeded: succeeded.map((id) => ({ slug: bySite[id] || id, siteId: id, url: `https://${id}.web.app/` })),
+              failed: failed.map((id) => ({ slug: bySite[id] || id, siteId: id })),
+            };
+            fs.writeFileSync("/tmp/deploy-report/report.json", JSON.stringify(report, null, 2));
+            console.log(JSON.stringify(report, null, 2));
+          '
+
+      - name: Upload deploy report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: deploy-report
+          path: /tmp/deploy-report/report.json

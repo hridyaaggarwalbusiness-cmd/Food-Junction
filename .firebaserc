@@ -1,5 +1,158 @@
 {
   "projects": {
     "default": "food-junction-hgh"
+  },
+  "targets": {
+    "food-junction-hgh": {
+      "hosting": {
+        "food-junction": [
+          "food-junction"
+        ],
+        "a-rock-s-cafe": [
+          "hnm-a-rock-s-cafe"
+        ],
+        "aditya-hotel-and-restaurant": [
+          "hnm-aditya-hotel-and-res-4if9f"
+        ],
+        "agra-chat-bhandar": [
+          "hnm-agra-chat-bhandar"
+        ],
+        "al-madina-chicken-point": [
+          "hnm-al-madina-chicken-point"
+        ],
+        "anna-dosa": [
+          "hnm-anna-dosa"
+        ],
+        "annappurna-tiffin-centre": [
+          "hnm-annappurna-tiffin-centre"
+        ],
+        "arban-degh": [
+          "hnm-arban-degh"
+        ],
+        "bikaner-namkeen-bandar": [
+          "hnm-bikaner-namkeen-bandar"
+        ],
+        "blue-moon-cafe-residency": [
+          "hnm-blue-moon-cafe-residency"
+        ],
+        "britto-s-cafe-food-court": [
+          "hnm-britto-s-cafe-food-court"
+        ],
+        "cb-diner": [
+          "hnm-cb-diner"
+        ],
+        "central-park-canteen": [
+          "hnm-central-park-canteen"
+        ],
+        "chawla-foods": [
+          "hnm-chawla-foods"
+        ],
+        "choudhary-sweet-house": [
+          "hnm-choudhary-sweet-house"
+        ],
+        "delhi-darbar": [
+          "hnm-delhi-darbar"
+        ],
+        "delhi-sweets": [
+          "hnm-delhi-sweets"
+        ],
+        "emly-cafe-hanumangarh": [
+          "hnm-emly-cafe-hanumangarh"
+        ],
+        "emly-cafe-restaurant": [
+          "hnm-emly-cafe-restaurant"
+        ],
+        "hotel-shri-ram-pure-vegetarian": [
+          "hnm-hotel-shri-ram-pure-1adg0"
+        ],
+        "jaggu-dhabha": [
+          "hnm-jaggu-dhabha"
+        ],
+        "janta-dhaba": [
+          "hnm-janta-dhaba"
+        ],
+        "kalpana-s-murphy-restaurant-best-restaurants": [
+          "hnm-kalpana-s-murphy-res-1iwj4"
+        ],
+        "keshav-dhaaba": [
+          "hnm-keshav-dhaaba"
+        ],
+        "khadi-india-at-hanumangarh-twon": [
+          "hnm-khadi-india-at-hanum-14wht"
+        ],
+        "love-breakfast-point": [
+          "hnm-love-breakfast-point"
+        ],
+        "lucky-fast-food": [
+          "hnm-lucky-fast-food"
+        ],
+        "manish-fastfood-corner": [
+          "hnm-manish-fastfood-corner"
+        ],
+        "mosaic-hotel-bar-restaurant": [
+          "hnm-mosaic-hotel-bar-res-1rjub"
+        ],
+        "nagpal-chole-bhature": [
+          "hnm-nagpal-chole-bhature"
+        ],
+        "new-anand-sweets-and-namkeen": [
+          "hnm-new-anand-sweets-and-17vnq"
+        ],
+        "non-veg-centre": [
+          "hnm-non-veg-centre"
+        ],
+        "pizza-heart": [
+          "hnm-pizza-heart"
+        ],
+        "pizzeria-hut": [
+          "hnm-pizzeria-hut"
+        ],
+        "prerna-namkin-bhandar-hanumangarh": [
+          "hnm-prerna-namkin-bhanda-14u5o"
+        ],
+        "raja-samosa": [
+          "hnm-raja-samosa"
+        ],
+        "rj-31-tadka": [
+          "hnm-rj-31-tadka"
+        ],
+        "rose-cafe": [
+          "hnm-rose-cafe"
+        ],
+        "roti-junction": [
+          "hnm-roti-junction"
+        ],
+        "sagar-ratna-hanumangarh": [
+          "hnm-sagar-ratna-hanumangarh"
+        ],
+        "saroj-fast-food": [
+          "hnm-saroj-fast-food"
+        ],
+        "shree-janta-sweet-home": [
+          "hnm-shree-janta-sweet-home"
+        ],
+        "shri-shyam-dhaba": [
+          "hnm-shri-shyam-dhaba"
+        ],
+        "singla-hotel": [
+          "hnm-singla-hotel"
+        ],
+        "sip-n-bites": [
+          "hnm-sip-n-bites"
+        ],
+        "taste-of-punjab-kalra-premium-foods": [
+          "hnm-taste-of-punjab-kalr-riykk"
+        ],
+        "the-family-cafe-tfc": [
+          "hnm-the-family-cafe-tfc"
+        ],
+        "the-old-town-cafe": [
+          "hnm-the-old-town-cafe"
+        ],
+        "zayka-cafe-restaurant": [
+          "hnm-zayka-cafe-restaurant"
+        ]
+      }
+    }
   }
 }
