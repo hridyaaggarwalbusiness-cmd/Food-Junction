@@ -1,25 +1,23 @@
 import Reveal from './Reveal'
 import interiorDiningRoom from '../assets/restaurant/interior-dining-room.jpg'
-import interiorWallArt from '../assets/restaurant/interior-wall-art.jpg'
 import storefrontDay from '../assets/restaurant/storefront-day.jpg'
 import storefrontNight from '../assets/restaurant/storefront-night.jpg'
 import muralCorner from '../assets/restaurant/mural-corner.jpg'
-import burgerCover from '../assets/restaurant/burger-cover.jpg'
-import pizzaBanner from '../assets/restaurant/pizza-banner.jpg'
+import pizzaFresh from '../assets/restaurant/pizza-fresh.jpg'
+import burgerPasta from '../assets/restaurant/burger-pasta.jpg'
 import honeyChilliPotato from '../assets/restaurant/honey-chilli-potato.jpg'
 import chilliPotato from '../assets/restaurant/chilli-potato.jpg'
 
 const restaurantCards = [
   { photo: interiorDiningRoom, label: 'The Dining Room', wide: true },
   { photo: storefrontDay, label: 'Find Us Here' },
-  { photo: interiorWallArt, label: 'Wall Art & Seating' },
   { photo: muralCorner, label: 'The Coffee Corner' },
   { photo: storefrontNight, label: 'Open Till 9PM' },
 ]
 
 const foodCards = [
-  { photo: pizzaBanner, label: 'Fresh From The Oven', wide: true },
-  { photo: burgerCover, label: 'Loaded Burger' },
+  { photo: pizzaFresh, label: 'Fresh From The Oven', wide: true },
+  { photo: burgerPasta, label: 'Burger & Pasta' },
   { photo: honeyChilliPotato, label: 'Honey Chilli Potato' },
   { photo: chilliPotato, label: 'Chilli Potato' },
 ]
