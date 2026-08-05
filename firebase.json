@@ -19,6 +19,10 @@
         "headers": [{ "key": "Cache-Control", "value": "no-cache, must-revalidate" }]
       },
       {
+        "source": "/",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache, must-revalidate" }]
+      },
+      {
         "source": "/og-image.jpg",
         "headers": [{ "key": "Cache-Control", "value": "no-cache, must-revalidate" }]
       },
