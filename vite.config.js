@@ -14,8 +14,8 @@ export default defineConfig({
         short_name: 'Food Junction',
         description:
           "Food Junction Town, opposite Central Park in Hanumangarh Town Bazar. Pizza, Indo-Chinese, burgers, pasta and more. Call, get directions or order on Zomato/Swiggy.",
-        theme_color: '#b8461f',
-        background_color: '#fbf8f3',
+        theme_color: '#e0632a',
+        background_color: '#1c140d',
         display: 'standalone',
         orientation: 'portrait',
         start_url: '/',
