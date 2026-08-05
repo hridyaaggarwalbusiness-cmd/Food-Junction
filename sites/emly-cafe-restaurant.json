@@ -1,0 +1,33 @@
+{
+  "slug": "emly-cafe-restaurant",
+  "name": "EMLY CAFE & RESTAURANT",
+  "address": "Factory Outlet, NH 54, Sangaria Rd, Hanumangarh, 2 Std, Rajasthan 335512, India",
+  "phone": "077377 84084",
+  "rating": 4.5,
+  "reviewCount": 234,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 10:30 AM – 11:00 PM",
+    "Tuesday: 10:30 AM – 11:00 PM",
+    "Wednesday: 10:30 AM – 11:00 PM",
+    "Thursday: 10:30 AM – 11:00 PM",
+    "Friday: 10:30 AM – 11:00 PM",
+    "Saturday: 10:30 AM – 11:00 PM",
+    "Sunday: 10:30 AM – 11:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=3426579789669951635",
+  "photo": {
+    "path": "/site-photos/emly-cafe-restaurant.jpg",
+    "attribution": {
+      "text": "EMLY CAFE &amp; RESTAURANT",
+      "url": "https://maps.google.com/maps/contrib/105006961690352386868"
+    }
+  },
+  "placeId": "ChIJ49JRiPXzFjkRk2jP9SmojS8"
+}

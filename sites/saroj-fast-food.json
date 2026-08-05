@@ -1,0 +1,24 @@
+{
+  "slug": "saroj-fast-food",
+  "name": "Saroj fast food",
+  "address": "H8FH+R5R, near NM pg College, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": 5,
+  "reviewCount": 3,
+  "businessStatus": "CLOSED_TEMPORARILY",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=14197411866072322118",
+  "photo": {
+    "path": "/site-photos/saroj-fast-food.jpg",
+    "attribution": {
+      "text": "Pawan Kumar",
+      "url": "https://maps.google.com/maps/contrib/100848477888983007206"
+    }
+  },
+  "placeId": "ChIJ7ahobkyNFjkRRhAo_95WB8U"
+}

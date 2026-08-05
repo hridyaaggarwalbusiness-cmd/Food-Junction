@@ -1,0 +1,24 @@
+{
+  "slug": "blue-moon-cafe-residency",
+  "name": "Blue moon cafe & residency",
+  "address": "H8PC+7WP, Town - Jct Rd, Puran Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": 3,
+  "reviewCount": 1,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=10096445537225178532",
+  "photo": {
+    "path": "/site-photos/blue-moon-cafe-residency.jpg",
+    "attribution": {
+      "text": "Devendér Singh",
+      "url": "https://maps.google.com/maps/contrib/106441857145672254484"
+    }
+  },
+  "placeId": "ChIJzXG9agD1FjkRpH1iDLnHHYw"
+}

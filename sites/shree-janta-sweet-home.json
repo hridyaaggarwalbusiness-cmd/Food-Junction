@@ -1,0 +1,32 @@
+{
+  "slug": "shree-janta-sweet-home",
+  "name": "Shree Janta Sweet Home",
+  "address": "Near, Valmiki Chowk, Hanumangarh, Rajasthan 335513, India",
+  "phone": "077920 67777",
+  "rating": 4.3,
+  "reviewCount": 661,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: 8:00 AM – 9:30 PM",
+    "Tuesday: 8:00 AM – 9:30 PM",
+    "Wednesday: 8:00 AM – 9:30 PM",
+    "Thursday: 8:00 AM – 9:30 PM",
+    "Friday: 8:00 AM – 9:30 PM",
+    "Saturday: 8:00 AM – 9:30 PM",
+    "Sunday: 8:00 AM – 9:30 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=14606492762816374674",
+  "photo": {
+    "path": "/site-photos/shree-janta-sweet-home.jpg",
+    "attribution": {
+      "text": "Vishnu Vyas",
+      "url": "https://maps.google.com/maps/contrib/100348527579001967062"
+    }
+  },
+  "placeId": "ChIJ8fLM0LOMFjkRkuf7fcevtMo"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "delhi-sweets",
+  "name": "Delhi sweets",
+  "address": "New, dhan mnadi road, near sleepwell showroom, Ward Number 33, Mukherjee Colony, Hanumangarh, Rajasthan 335513, India",
+  "phone": "076888 77761",
+  "rating": 4.4,
+  "reviewCount": 14,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: 7:00 AM – 11:30 PM",
+    "Tuesday: 7:00 AM – 11:30 PM",
+    "Wednesday: 7:00 AM – 11:30 PM",
+    "Thursday: 7:00 AM – 11:30 PM",
+    "Friday: 7:00 AM – 11:30 PM",
+    "Saturday: 7:00 AM – 11:30 PM",
+    "Sunday: 7:00 AM – 11:30 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=2738787720331542964",
+  "photo": {
+    "path": "/site-photos/delhi-sweets.jpg",
+    "attribution": {
+      "text": "New delhi misthan bhandar",
+      "url": "https://maps.google.com/maps/contrib/108220429322746732598"
+    }
+  },
+  "placeId": "ChIJS31ziVKNFjkRtEGQwesgAiY"
+}

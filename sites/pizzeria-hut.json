@@ -1,0 +1,32 @@
+{
+  "slug": "pizzeria-hut",
+  "name": "Pizzeria Hut",
+  "address": "Bus Stand Road, near Bathinda Hospital, Jawahar Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "098123 11698",
+  "rating": 4.1,
+  "reviewCount": 233,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 10:30 AM – 9:45 PM",
+    "Tuesday: 10:30 AM – 9:45 PM",
+    "Wednesday: 10:30 AM – 9:45 PM",
+    "Thursday: 10:30 AM – 9:45 PM",
+    "Friday: 10:30 AM – 9:45 PM",
+    "Saturday: 10:30 AM – 9:45 PM",
+    "Sunday: 10:30 AM – 9:45 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=11166737077371854005",
+  "photo": {
+    "path": "/site-photos/pizzeria-hut.jpg",
+    "attribution": {
+      "text": "Govind jha",
+      "url": "https://maps.google.com/maps/contrib/103080159690517064080"
+    }
+  },
+  "placeId": "ChIJ2xZAmrmNFjkRtdzuPDU4-Jo"
+}

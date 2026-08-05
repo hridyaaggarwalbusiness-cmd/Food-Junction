@@ -1,0 +1,32 @@
+{
+  "slug": "love-breakfast-point",
+  "name": "Love Breakfast Point",
+  "address": "H8MC+XXH, RJ SH 36, Puran Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": 4,
+  "reviewCount": 3,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: 6:30 AM – 3:00 PM",
+    "Tuesday: 6:30 AM – 3:00 PM",
+    "Wednesday: 6:30 AM – 3:00 PM",
+    "Thursday: 6:30 AM – 3:00 PM",
+    "Friday: 6:30 AM – 3:00 PM",
+    "Saturday: 6:30 AM – 3:00 PM",
+    "Sunday: 6:30 AM – 3:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=5878160926402210872",
+  "photo": {
+    "path": "/site-photos/love-breakfast-point.jpg",
+    "attribution": {
+      "text": "Sachin Chouhan",
+      "url": "https://maps.google.com/maps/contrib/106232996185746815398"
+    }
+  },
+  "placeId": "ChIJ18GCTPKNFjkROOzI_jdsk1E"
+}

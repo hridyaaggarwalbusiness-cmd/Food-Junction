@@ -1,0 +1,32 @@
+{
+  "slug": "al-madina-chicken-point",
+  "name": "AL Madina Chicken Point",
+  "address": "Zakir Hussain Park Rd, near Dr, Hanumangarh, Rajasthan 335513, India",
+  "phone": "075975 90909",
+  "rating": 4.6,
+  "reviewCount": 60,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 11:00 AM – 10:30 PM",
+    "Tuesday: 11:00 AM – 10:30 PM",
+    "Wednesday: 11:00 AM – 10:30 PM",
+    "Thursday: 11:00 AM – 10:30 PM",
+    "Friday: 11:00 AM – 10:30 PM",
+    "Saturday: 11:00 AM – 10:30 PM",
+    "Sunday: 11:00 AM – 10:30 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=17686168732872615550",
+  "photo": {
+    "path": "/site-photos/al-madina-chicken-point.jpg",
+    "attribution": {
+      "text": "AL Madina Chicken Point",
+      "url": "https://maps.google.com/maps/contrib/103220148702820682176"
+    }
+  },
+  "placeId": "ChIJP3RpDCaNFjkRfiZ-2MHkcfU"
+}

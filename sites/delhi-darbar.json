@@ -1,0 +1,32 @@
+{
+  "slug": "delhi-darbar",
+  "name": "delhi darbar",
+  "address": "Hisariya Market Rd, Hanumangarh, Rajasthan 335513, India",
+  "phone": "094143 18539",
+  "rating": 3.9,
+  "reviewCount": 85,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Budget-friendly",
+  "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 10:00 PM",
+    "Saturday: 10:00 AM – 10:00 PM",
+    "Sunday: 10:00 AM – 10:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=15790065388484722147",
+  "photo": {
+    "path": "/site-photos/delhi-darbar.jpg",
+    "attribution": {
+      "text": "Naresh Kumar",
+      "url": "https://maps.google.com/maps/contrib/107949911527094040996"
+    }
+  },
+  "placeId": "ChIJE5RQhLGMFjkR433SvM-UIds"
+}

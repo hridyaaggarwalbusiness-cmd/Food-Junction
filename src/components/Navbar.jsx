@@ -1,15 +1,17 @@
 import { useEffect, useState } from 'react'
 import { restaurant } from '../data/restaurant'
-
-const links = [
-  { href: '#about', label: 'About' },
-  { href: '#gallery', label: 'Gallery' },
-  { href: '#contact', label: 'Contact' },
-]
+import Logo from './Logo'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
+  const phone = restaurant.phone?.replace(/\s/g, '')
+
+  const links = [
+    { href: '#about', label: 'About' },
+    restaurant.gallery && { href: '#gallery', label: 'Gallery' },
+    { href: '#contact', label: 'Contact' },
+  ].filter(Boolean)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20)
@@ -21,7 +23,7 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner">
         <a href="#top" className="navbar__brand">
-          <img className="navbar__logo" src="/favicon.png" alt="" width="34" height="34" />
+          <Logo size={34} />
           {restaurant.name}
         </a>
 
@@ -31,9 +33,11 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="navbar__cta">
-            Call Now
-          </a>
+          {phone && (
+            <a href={`tel:${phone}`} className="navbar__cta">
+              Call Now
+            </a>
+          )}
         </nav>
 
         <button

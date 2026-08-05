@@ -1,0 +1,24 @@
+{
+  "slug": "lucky-fast-food",
+  "name": "Lucky Fast Food",
+  "address": "H8HP+3GH, Hanumangarh, Rajasthan 335513, India",
+  "phone": "097828 40411",
+  "rating": 4.1,
+  "reviewCount": 26,
+  "businessStatus": "CLOSED_TEMPORARILY",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=10287036380371530675",
+  "photo": {
+    "path": "/site-photos/lucky-fast-food.jpg",
+    "attribution": {
+      "text": "Amir Shakh",
+      "url": "https://maps.google.com/maps/contrib/106816817980357178008"
+    }
+  },
+  "placeId": "ChIJUwVDEciMFjkRs7OQuxXlwo4"
+}

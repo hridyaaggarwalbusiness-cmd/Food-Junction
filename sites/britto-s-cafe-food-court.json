@@ -1,0 +1,35 @@
+{
+  "slug": "britto-s-cafe-food-court",
+  "name": "Britto's Cafe & Food Court",
+  "address": "Dinar Cinema Rd, near OBC bank, Hanumangarh, Rajasthan 335513, India",
+  "phone": "099719 15109",
+  "rating": 4.3,
+  "reviewCount": 775,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Cafe",
+    "Delivery",
+    "Takeaway",
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 10:00 PM",
+    "Saturday: 10:00 AM – 10:00 PM",
+    "Sunday: 10:00 AM – 10:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=3655377648115133301",
+  "photo": {
+    "path": "/site-photos/britto-s-cafe-food-court.jpg",
+    "attribution": {
+      "text": "Britto&#39;s Cafe &amp; Food Court",
+      "url": "https://maps.google.com/maps/contrib/104980045972093197021"
+    }
+  },
+  "placeId": "ChIJP2k8hHKNFjkRdSvOm5qCujI"
+}

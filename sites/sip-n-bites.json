@@ -1,0 +1,32 @@
+{
+  "slug": "sip-n-bites",
+  "name": "Sip n Bites",
+  "address": "infront of AYU FINANCE, near kadwasra complex, near MR KRISPER, Sindhi Colony, Hanumangarh, Rajasthan 335512, India",
+  "phone": "096603 10007",
+  "rating": 4.6,
+  "reviewCount": 56,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 1:00 – 11:00 PM",
+    "Tuesday: 1:00 – 11:00 PM",
+    "Wednesday: 1:00 – 11:00 PM",
+    "Thursday: 1:00 – 11:00 PM",
+    "Friday: 1:00 – 11:00 PM",
+    "Saturday: 1:00 – 11:00 PM",
+    "Sunday: 1:00 – 11:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=4731451665900982600",
+  "photo": {
+    "path": "/site-photos/sip-n-bites.jpg",
+    "attribution": {
+      "text": "Deepak Bhargav",
+      "url": "https://maps.google.com/maps/contrib/109380283332609839598"
+    }
+  },
+  "placeId": "ChIJT42Al2T1FjkRSFH1yTh-qUE"
+}

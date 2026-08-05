@@ -1,0 +1,24 @@
+{
+  "slug": "agra-chat-bhandar",
+  "name": "Agra Chat Bhandar",
+  "address": "Bhatner Fort Rd, Jawahar Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "063769 61759",
+  "rating": 4.8,
+  "reviewCount": 10,
+  "businessStatus": "CLOSED_TEMPORARILY",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=248673477058820477",
+  "photo": {
+    "path": "/site-photos/agra-chat-bhandar.jpg",
+    "attribution": {
+      "text": "Agra Chat Bhandar",
+      "url": "https://maps.google.com/maps/contrib/111099307730219433071"
+    }
+  },
+  "placeId": "ChIJF0DdSSuNFjkRffkmuTV3cwM"
+}

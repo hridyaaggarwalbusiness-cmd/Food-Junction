@@ -1,0 +1,24 @@
+{
+  "slug": "aditya-hotel-and-restaurant",
+  "name": "Aditya Hotel And Restaurant",
+  "address": "RJ SH 36, Puran Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "096672 71717",
+  "rating": 4,
+  "reviewCount": 208,
+  "businessStatus": "CLOSED_TEMPORARILY",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=3076722508199352796",
+  "photo": {
+    "path": "/site-photos/aditya-hotel-and-restaurant.jpg",
+    "attribution": {
+      "text": "sanjay jain",
+      "url": "https://maps.google.com/maps/contrib/105046498904346171090"
+    }
+  },
+  "placeId": "ChIJYUGmRLKMFjkR3Nmr7dG2sio"
+}

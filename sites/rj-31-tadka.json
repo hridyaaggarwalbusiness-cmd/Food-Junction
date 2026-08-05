@@ -1,0 +1,24 @@
+{
+  "slug": "rj-31-tadka",
+  "name": "Rj 31 Tadka",
+  "address": "H8MP+5C7, Bypass Rd, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": null,
+  "reviewCount": null,
+  "businessStatus": "CLOSED_TEMPORARILY",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=7981859846385378685",
+  "photo": {
+    "path": "/site-photos/rj-31-tadka.jpg",
+    "attribution": {
+      "text": "Narender Yadav",
+      "url": "https://maps.google.com/maps/contrib/100977678724369342656"
+    }
+  },
+  "placeId": "ChIJWwXIGsqMFjkRfSXBlj1DxW4"
+}

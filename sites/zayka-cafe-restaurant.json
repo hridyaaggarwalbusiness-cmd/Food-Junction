@@ -1,0 +1,32 @@
+{
+  "slug": "zayka-cafe-restaurant",
+  "name": "Zayka Cafe & Restaurant",
+  "address": "Old Post Office Road, Hanumangarh, Rajasthan 335513, India",
+  "phone": "086960 09990",
+  "rating": 4.1,
+  "reviewCount": 154,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 10:30 AM – 10:30 PM",
+    "Tuesday: 10:30 AM – 10:30 PM",
+    "Wednesday: 10:30 AM – 10:30 PM",
+    "Thursday: 10:30 AM – 10:30 PM",
+    "Friday: 10:30 AM – 10:30 PM",
+    "Saturday: 10:30 AM – 10:30 PM",
+    "Sunday: 10:30 AM – 10:30 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=8379470655192067573",
+  "photo": {
+    "path": "/site-photos/zayka-cafe-restaurant.jpg",
+    "attribution": {
+      "text": "Zayka Cafe &amp; Restaurant",
+      "url": "https://maps.google.com/maps/contrib/110489292141542413621"
+    }
+  },
+  "placeId": "ChIJJef3TNeNFjkR9W2IICrcSXQ"
+}

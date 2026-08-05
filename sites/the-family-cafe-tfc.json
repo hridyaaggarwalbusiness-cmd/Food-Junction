@@ -1,0 +1,32 @@
+{
+  "slug": "the-family-cafe-tfc",
+  "name": "The Family Cafe(TFC)",
+  "address": "Shop no. 503/04, General Market, near MGM GOVT. HOSPITAL, Hanumangarh, Rajasthan 335513, India",
+  "phone": "078220 17109",
+  "rating": 4.8,
+  "reviewCount": 38,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: 10:00 AM – 9:00 PM",
+    "Tuesday: 10:00 AM – 9:00 PM",
+    "Wednesday: 10:00 AM – 9:00 PM",
+    "Thursday: 10:00 AM – 9:00 PM",
+    "Friday: 10:00 AM – 9:00 PM",
+    "Saturday: 10:00 AM – 9:00 PM",
+    "Sunday: 10:00 AM – 9:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=2547278693849660489",
+  "photo": {
+    "path": "/site-photos/the-family-cafe-tfc.jpg",
+    "attribution": {
+      "text": "Kesari Lal",
+      "url": "https://maps.google.com/maps/contrib/116117867298036624774"
+    }
+  },
+  "placeId": "ChIJwZeR7UyNFjkRSXzU2nnAWSM"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "nagpal-chole-bhature",
+  "name": "Nagpal Chole Bhature",
+  "address": "Shop no. 3,4, Taneja Building, Tibbi Rd, Prem Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "01552 796 449",
+  "rating": 4.1,
+  "reviewCount": 38,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Budget-friendly",
+  "hours": [
+    "Monday: 8:00 AM – 10:00 PM",
+    "Tuesday: 8:00 AM – 10:00 PM",
+    "Wednesday: 8:00 AM – 10:00 PM",
+    "Thursday: 8:00 AM – 10:00 PM",
+    "Friday: 8:00 AM – 10:00 PM",
+    "Saturday: 8:00 AM – 10:00 PM",
+    "Sunday: 8:00 AM – 10:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=8894315951777105671",
+  "photo": {
+    "path": "/site-photos/nagpal-chole-bhature.jpg",
+    "attribution": {
+      "text": "Nagpal Chole Bhature",
+      "url": "https://maps.google.com/maps/contrib/109862701997310991053"
+    }
+  },
+  "placeId": "ChIJg3NaL16NFjkRB8fD6Tv1bns"
+}

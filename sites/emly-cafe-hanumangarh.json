@@ -1,0 +1,32 @@
+{
+  "slug": "emly-cafe-hanumangarh",
+  "name": "EMLY CAFE HANUMANGARH",
+  "address": "Near Ramleela Rangmunch, H8JH+VP8, Hisariya Market Rd, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": 4.1,
+  "reviewCount": 515,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 10:45 AM – 11:00 PM",
+    "Tuesday: 10:45 AM – 11:00 PM",
+    "Wednesday: 10:45 AM – 11:00 PM",
+    "Thursday: 10:45 AM – 11:00 PM",
+    "Friday: 10:45 AM – 11:00 PM",
+    "Saturday: 10:45 AM – 11:00 PM",
+    "Sunday: 10:45 AM – 11:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=13541289520732725722",
+  "photo": {
+    "path": "/site-photos/emly-cafe-hanumangarh.jpg",
+    "attribution": {
+      "text": "EMLY CAFE HANUMANGARH",
+      "url": "https://maps.google.com/maps/contrib/110471038009018934397"
+    }
+  },
+  "placeId": "ChIJ5c-i0T6NFjkR2mH-AxNT7Ls"
+}

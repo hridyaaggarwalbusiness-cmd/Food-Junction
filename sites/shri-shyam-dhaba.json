@@ -1,0 +1,32 @@
+{
+  "slug": "shri-shyam-dhaba",
+  "name": "SHRI SHYAM DHABA",
+  "address": "Bus Stand Road, Puran Nagar, Jawahar Nagar, Rawatsar, Hanumangarh, Rajasthan 335524, India",
+  "phone": "099501 57184",
+  "rating": 3.3,
+  "reviewCount": 9,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: 8:00 AM – 11:00 PM",
+    "Tuesday: 8:00 AM – 11:00 PM",
+    "Wednesday: 8:00 AM – 11:00 PM",
+    "Thursday: 8:00 AM – 11:00 PM",
+    "Friday: 8:00 AM – 11:00 PM",
+    "Saturday: 8:00 AM – 11:00 PM",
+    "Sunday: 8:00 AM – 11:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=13093026849405206309",
+  "photo": {
+    "path": "/site-photos/shri-shyam-dhaba.jpg",
+    "attribution": {
+      "text": "Vishnu Vyas",
+      "url": "https://maps.google.com/maps/contrib/100348527579001967062"
+    }
+  },
+  "placeId": "ChIJRaCjNOWNFjkRJf9yuYzGs7U"
+}

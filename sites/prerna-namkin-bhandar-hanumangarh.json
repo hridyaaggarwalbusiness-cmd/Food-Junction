@@ -1,0 +1,32 @@
+{
+  "slug": "prerna-namkin-bhandar-hanumangarh",
+  "name": "Prerna Namkin Bhandar Hanumangarh",
+  "address": "H8HG+J9V, Hanumangarh, Rajasthan 335513, India",
+  "phone": "094602 06654",
+  "rating": 4.2,
+  "reviewCount": 83,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Budget-friendly",
+  "hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=11524547777272228679",
+  "photo": {
+    "path": "/site-photos/prerna-namkin-bhandar-hanumangarh.jpg",
+    "attribution": {
+      "text": "Mahesh Khalsa",
+      "url": "https://maps.google.com/maps/contrib/108507434041336516032"
+    }
+  },
+  "placeId": "ChIJxWYGpbGMFjkRRytUzSRr758"
+}

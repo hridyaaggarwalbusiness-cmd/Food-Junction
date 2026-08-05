@@ -1,0 +1,24 @@
+{
+  "slug": "rose-cafe",
+  "name": "Rose Cafe",
+  "address": "H8JG+59J, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": 5,
+  "reviewCount": 3,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=5767767976914536883",
+  "photo": {
+    "path": "/site-photos/rose-cafe.jpg",
+    "attribution": {
+      "text": "Gagan",
+      "url": "https://maps.google.com/maps/contrib/114809327451211197975"
+    }
+  },
+  "placeId": "ChIJKdpSOQCNFjkRs0ndgmo6C1A"
+}

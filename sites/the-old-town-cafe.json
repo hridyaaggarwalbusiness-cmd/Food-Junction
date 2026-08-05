@@ -1,0 +1,32 @@
+{
+  "slug": "the-old-town-cafe",
+  "name": "The Old Town Cafe",
+  "address": "Shop No. 00, College Road, Hanumangarh, Rajasthan 335513, India",
+  "phone": "079769 99378",
+  "rating": 4.8,
+  "reviewCount": 65,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Budget-friendly",
+  "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 10:00 PM",
+    "Saturday: 10:00 AM – 10:00 PM",
+    "Sunday: 10:00 AM – 10:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=5726066445510894964",
+  "photo": {
+    "path": "/site-photos/the-old-town-cafe.jpg",
+    "attribution": {
+      "text": "Rohit takkar",
+      "url": "https://maps.google.com/maps/contrib/102044974119587401284"
+    }
+  },
+  "placeId": "ChIJO0KSVwCNFjkRdOX1HBgTd08"
+}

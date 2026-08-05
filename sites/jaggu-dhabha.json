@@ -1,0 +1,32 @@
+{
+  "slug": "jaggu-dhabha",
+  "name": "Jaggu dhabha",
+  "address": "jain bhartan bhandar, ke pass, near indra chowk, Prem Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "098299 34338",
+  "rating": 4.2,
+  "reviewCount": 124,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 10:00 AM – 11:00 PM",
+    "Tuesday: 10:00 AM – 11:00 PM",
+    "Wednesday: 10:00 AM – 11:00 PM",
+    "Thursday: 10:00 AM – 11:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 10:00 AM – 11:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=9444960477998760821",
+  "photo": {
+    "path": "/site-photos/jaggu-dhabha.jpg",
+    "attribution": {
+      "text": "navneet manda",
+      "url": "https://maps.google.com/maps/contrib/115934388892795177034"
+    }
+  },
+  "placeId": "ChIJvaf7BfCNFjkRdUO4YIM9E4M"
+}

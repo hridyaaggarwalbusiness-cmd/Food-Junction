@@ -1,0 +1,32 @@
+{
+  "slug": "janta-dhaba",
+  "name": "JANTA DHABA",
+  "address": "Hanumangarh - Sardarshahar Rd, Outside bus stand, Puran Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "095099 13781",
+  "rating": 4.1,
+  "reviewCount": 593,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Budget-friendly",
+  "hours": [
+    "Monday: 9:00 AM – 11:00 PM",
+    "Tuesday: 9:00 AM – 11:00 PM",
+    "Wednesday: 9:00 AM – 11:00 PM",
+    "Thursday: 9:00 AM – 11:00 PM",
+    "Friday: 9:00 AM – 11:00 PM",
+    "Saturday: 9:00 AM – 11:00 PM",
+    "Sunday: 9:00 AM – 11:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=8744305910482302424",
+  "photo": {
+    "path": "/site-photos/janta-dhaba.jpg",
+    "attribution": {
+      "text": "JANTA DHABA",
+      "url": "https://maps.google.com/maps/contrib/116642654782691895802"
+    }
+  },
+  "placeId": "ChIJP5fybK2MFjkR2HWlceUDWnk"
+}

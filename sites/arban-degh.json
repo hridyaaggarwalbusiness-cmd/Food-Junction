@@ -1,0 +1,32 @@
+{
+  "slug": "arban-degh",
+  "name": "Arban Degh",
+  "address": "Royal Paradise Palace, near Town - Junction Road, Puran Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "096101 31880",
+  "rating": 4.9,
+  "reviewCount": 24,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 12:00 PM – 12:00 AM",
+    "Tuesday: 12:00 PM – 12:00 AM",
+    "Wednesday: 12:00 PM – 12:00 AM",
+    "Thursday: 12:00 PM – 12:00 AM",
+    "Friday: 12:00 PM – 12:00 AM",
+    "Saturday: 12:00 PM – 12:00 AM",
+    "Sunday: 12:00 PM – 12:00 AM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=9887072524637195427",
+  "photo": {
+    "path": "/site-photos/arban-degh.jpg",
+    "attribution": {
+      "text": "Arban Degh",
+      "url": "https://maps.google.com/maps/contrib/102628544484904681604"
+    }
+  },
+  "placeId": "ChIJp9kT3kzzFjkRo0yGwxPwNYk"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "new-anand-sweets-and-namkeen",
+  "name": "New Anand sweets and namkeen",
+  "address": "H8GP+R3F, Mukherjee Colony, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": 5,
+  "reviewCount": 1,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=15121250230130211400",
+  "photo": {
+    "path": "/site-photos/new-anand-sweets-and-namkeen.jpg",
+    "attribution": {
+      "text": "Anand Arora",
+      "url": "https://maps.google.com/maps/contrib/101306785071462584746"
+    }
+  },
+  "placeId": "ChIJ_dqgOgCNFjkRSHq07vd42dE"
+}

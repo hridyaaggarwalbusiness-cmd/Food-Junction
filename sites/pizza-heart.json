@@ -1,0 +1,24 @@
+{
+  "slug": "pizza-heart",
+  "name": "Pizza Heart",
+  "address": "Mukherjee Colony, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": 4,
+  "reviewCount": 10,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=6604794156048351885",
+  "photo": {
+    "path": "/site-photos/pizza-heart.jpg",
+    "attribution": {
+      "text": "Pizza Heart Hanumangarh Town",
+      "url": "https://maps.google.com/maps/contrib/106352545778366939473"
+    }
+  },
+  "placeId": "ChIJOxUp3JONFjkRjYLWjUrxqFs"
+}

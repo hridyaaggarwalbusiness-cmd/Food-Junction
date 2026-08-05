@@ -1,0 +1,32 @@
+{
+  "slug": "cb-diner",
+  "name": "CB DINER",
+  "address": "Shop No.131, SLG Alpha Market, Bypass Rd, Hanumangarh, Rajasthan 335513, India",
+  "phone": "094621 05350",
+  "rating": 4.2,
+  "reviewCount": 62,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Budget-friendly",
+  "hours": [
+    "Monday: 11:00 AM – 11:30 PM",
+    "Tuesday: 11:00 AM – 11:30 PM",
+    "Wednesday: 11:00 AM – 11:30 PM",
+    "Thursday: 11:00 AM – 11:30 PM",
+    "Friday: 11:00 AM – 11:30 PM",
+    "Saturday: 11:00 AM – 11:30 PM",
+    "Sunday: 11:00 AM – 11:30 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=6784224004283535589",
+  "photo": {
+    "path": "/site-photos/cb-diner.jpg",
+    "attribution": {
+      "text": "Rahul",
+      "url": "https://maps.google.com/maps/contrib/114887884024878316524"
+    }
+  },
+  "placeId": "ChIJWTQuhn7zFjkR5ZD_m8lnJl4"
+}

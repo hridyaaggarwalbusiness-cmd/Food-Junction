@@ -1,0 +1,32 @@
+{
+  "slug": "keshav-dhaaba",
+  "name": "Keshav Dhaaba",
+  "address": "H8GP+W49, Mukherjee Colony, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": 4.2,
+  "reviewCount": 144,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=7350289205480526342",
+  "photo": {
+    "path": "/site-photos/keshav-dhaaba.jpg",
+    "attribution": {
+      "text": "Manga Singh",
+      "url": "https://maps.google.com/maps/contrib/110522086474437014988"
+    }
+  },
+  "placeId": "ChIJKY9RHciMFjkRBhIOwRZ5AWY"
+}

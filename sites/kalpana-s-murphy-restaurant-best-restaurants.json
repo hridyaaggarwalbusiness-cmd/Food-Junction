@@ -1,0 +1,32 @@
+{
+  "slug": "kalpana-s-murphy-restaurant-best-restaurants",
+  "name": "Kalpana's Murphy Restaurant - Best Restaurants",
+  "address": "Bhairon Singh panwar colony, rawatsar road, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": 4.3,
+  "reviewCount": 125,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 10:00 AM – 11:00 PM",
+    "Tuesday: 10:00 AM – 11:00 PM",
+    "Wednesday: 10:00 AM – 11:00 PM",
+    "Thursday: 10:00 AM – 10:30 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 10:00 AM – 11:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=8564845312119496531",
+  "photo": {
+    "path": "/site-photos/kalpana-s-murphy-restaurant-best-restaurants.jpg",
+    "attribution": {
+      "text": "Murphy Restaurant - Best Restaurants, Banquet Hall, Hotel",
+      "url": "https://maps.google.com/maps/contrib/109144880632858680550"
+    }
+  },
+  "placeId": "ChIJE-ZSvaWNFjkRU18N0W5x3HY"
+}

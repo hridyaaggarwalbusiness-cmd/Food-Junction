@@ -10,11 +10,12 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.png', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Food Junction | Hanumangarh Town Bazar',
-        short_name: 'Food Junction',
+        name: process.env.VITE_SITE_TITLE || 'Food Junction | Hanumangarh Town Bazar',
+        short_name: process.env.VITE_SITE_SHORT_NAME || 'Food Junction',
         description:
+          process.env.VITE_SITE_DESCRIPTION ||
           "Food Junction Town, opposite Central Park in Hanumangarh Town Bazar. Pizza, Indo-Chinese, burgers, pasta and more. Call, get directions or order on Zomato/Swiggy.",
-        theme_color: '#e0632a',
+        theme_color: process.env.VITE_THEME_COLOR || '#e0632a',
         background_color: '#1c140d',
         display: 'standalone',
         orientation: 'portrait',

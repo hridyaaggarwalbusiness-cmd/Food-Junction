@@ -1,0 +1,32 @@
+{
+  "slug": "choudhary-sweet-house",
+  "name": "Choudhary Sweet house",
+  "address": "Nai Mandi Rd, Hanumangarh, Rajasthan 335513, India",
+  "phone": "099831 81067",
+  "rating": 4.1,
+  "reviewCount": 27,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: 6:30 AM – 10:00 PM",
+    "Tuesday: 6:30 AM – 10:00 PM",
+    "Wednesday: 6:30 AM – 10:00 PM",
+    "Thursday: 6:30 AM – 10:00 PM",
+    "Friday: 6:30 AM – 10:00 PM",
+    "Saturday: 6:30 AM – 10:00 PM",
+    "Sunday: 7:30 AM – 9:30 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=13831678426513284834",
+  "photo": {
+    "path": "/site-photos/choudhary-sweet-house.jpg",
+    "attribution": {
+      "text": "Choudhary Sweet house",
+      "url": "https://maps.google.com/maps/contrib/105150913307404963224"
+    }
+  },
+  "placeId": "ChIJj8x1zbCMFjkR4h7C2z7-878"
+}

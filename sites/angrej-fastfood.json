@@ -1,0 +1,18 @@
+{
+  "slug": "angrej-fastfood",
+  "name": "Angrej Fastfood",
+  "address": "Angrej Fastfood, Kila Rd, Jawahar Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "098886 51029",
+  "rating": null,
+  "reviewCount": null,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=1343385517448363700",
+  "photo": null,
+  "placeId": "ChIJCbChXbyNFjkRtP7pswKqpBI"
+}

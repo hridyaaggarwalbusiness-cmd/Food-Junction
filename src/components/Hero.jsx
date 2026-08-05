@@ -1,22 +1,32 @@
 import { restaurant } from '../data/restaurant'
+import SitePhoto from './SitePhoto'
 import storefrontNight from '../assets/restaurant/storefront-night.jpg'
 import storefrontNightMobile from '../assets/restaurant/storefront-night-mobile.jpg'
 
 export default function Hero() {
+  const heroPhoto = restaurant.photo?.path
+  const phone = restaurant.phone?.replace(/\s/g, '')
+
   return (
     <section id="top" className="hero">
       <div className="hero__bg">
-        <picture>
-          <source media="(max-width: 640px)" srcSet={storefrontNightMobile} />
-          <img src={storefrontNight} alt="Food Junction storefront at night, Town Bazar, Hanumangarh" />
-        </picture>
+        {heroPhoto ? (
+          <img src={heroPhoto} alt={`${restaurant.name} on Google Maps`} />
+        ) : restaurant.unofficial ? (
+          <SitePhoto name={restaurant.name} className="hero__bg-placeholder" />
+        ) : (
+          <picture>
+            <source media="(max-width: 640px)" srcSet={storefrontNightMobile} />
+            <img src={storefrontNight} alt="Food Junction storefront at night, Town Bazar, Hanumangarh" />
+          </picture>
+        )}
       </div>
 
       <div className="hero__inner">
         <div className="hero__copy">
           <span className="badge">
             <span className="badge__dot" />
-            Open Daily &middot; Town Bazar, Hanumangarh
+            {restaurant.badge}
           </span>
 
           <h1>{restaurant.name}</h1>
@@ -24,15 +34,28 @@ export default function Hero() {
           <p className="hero__desc">{restaurant.description}</p>
 
           <div className="hero__actions">
-            <a href={`tel:${restaurant.phone.replace(/\s/g, '')}`} className="btn btn--primary">
-              Call Now
-            </a>
+            {phone && (
+              <a href={`tel:${phone}`} className="btn btn--primary">
+                Call Now
+              </a>
+            )}
             <a href={restaurant.mapsLink} target="_blank" rel="noreferrer" className="btn btn--outline">
               Get Directions
             </a>
           </div>
         </div>
       </div>
+
+      {restaurant.photo?.attribution && (
+        <a
+          className="hero__photo-credit"
+          href={restaurant.photo.attribution.url}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Photo: {restaurant.photo.attribution.text} / Google Maps
+        </a>
+      )}
     </section>
   )
 }

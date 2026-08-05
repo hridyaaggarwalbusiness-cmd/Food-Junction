@@ -1,3 +1,4 @@
+import { restaurant } from '../data/restaurant'
 import Reveal from './Reveal'
 import interiorDiningRoom from '../assets/restaurant/interior-dining-room.jpg'
 import storefrontDay from '../assets/restaurant/storefront-day.jpg'
@@ -41,6 +42,8 @@ function Filmstrip({ cards }) {
 }
 
 export default function Gallery() {
+  if (!restaurant.gallery) return null
+
   return (
     <section id="gallery" className="section gallery">
       <Reveal className="section__header section__header--left gallery__header">

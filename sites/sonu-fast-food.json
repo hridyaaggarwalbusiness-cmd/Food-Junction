@@ -1,0 +1,18 @@
+{
+  "slug": "sonu-fast-food",
+  "name": "Sonu Fast Food",
+  "address": "Patti Rd, near Bus Stand, Prem Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "098779 20611",
+  "rating": null,
+  "reviewCount": null,
+  "businessStatus": "CLOSED_TEMPORARILY",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=17473171754252983003",
+  "photo": null,
+  "placeId": "ChIJsVB716aNFjkR21qjNyItffI"
+}

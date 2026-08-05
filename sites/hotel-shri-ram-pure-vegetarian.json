@@ -1,0 +1,32 @@
+{
+  "slug": "hotel-shri-ram-pure-vegetarian",
+  "name": "Hotel shri ram pure vegetarian",
+  "address": "Out side, bus stand, RJ SH 7, Puran Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "01552 223 173",
+  "rating": 4.1,
+  "reviewCount": 219,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Budget-friendly",
+  "hours": [
+    "Monday: 8:00 AM – 11:00 PM",
+    "Tuesday: 8:00 AM – 11:00 PM",
+    "Wednesday: 8:00 AM – 11:00 PM",
+    "Thursday: 8:00 AM – 11:00 PM",
+    "Friday: 8:00 AM – 11:00 PM",
+    "Saturday: 8:00 AM – 11:00 PM",
+    "Sunday: 8:00 AM – 11:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=5637725616130360073",
+  "photo": {
+    "path": "/site-photos/hotel-shri-ram-pure-vegetarian.jpg",
+    "attribution": {
+      "text": "Hotel shri ram pour vegetarian",
+      "url": "https://maps.google.com/maps/contrib/114859362457231502980"
+    }
+  },
+  "placeId": "ChIJb7n0bK2MFjkRCQOS8pM5PU4"
+}

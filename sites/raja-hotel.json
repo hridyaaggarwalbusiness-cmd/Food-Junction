@@ -1,0 +1,18 @@
+{
+  "slug": "raja-hotel",
+  "name": "राजा होटल",
+  "address": "Mukherjee Colony, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": null,
+  "reviewCount": null,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=582127924679801128",
+  "photo": null,
+  "placeId": "ChIJt-6myLmMFjkRKPlfZEMiFAg"
+}

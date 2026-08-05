@@ -1,0 +1,24 @@
+{
+  "slug": "bikaner-namkeen-bandar",
+  "name": "Bikaner namkeen bandar",
+  "address": "H8MF+32P, Old Market Rd, Jawahar Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "078914 78772",
+  "rating": null,
+  "reviewCount": null,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=2695518416229114672",
+  "photo": {
+    "path": "/site-photos/bikaner-namkeen-bandar.jpg",
+    "attribution": {
+      "text": "Bikaneri Namkeen bhandar",
+      "url": "https://maps.google.com/maps/contrib/113056550197925680674"
+    }
+  },
+  "placeId": "ChIJw1G4EgCNFjkRMCPc1LdnaCU"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "annappurna-tiffin-centre",
+  "name": "Annappurna tiffin centre",
+  "address": "Ward no.15, sattia colony, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": 5,
+  "reviewCount": 3,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: 9:00 AM – 10:00 PM",
+    "Friday: 9:00 AM – 9:30 PM",
+    "Saturday: 9:00 AM – 9:30 PM",
+    "Sunday: Open 24 hours"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=16631231308675152655",
+  "photo": {
+    "path": "/site-photos/annappurna-tiffin-centre.jpg",
+    "attribution": {
+      "text": "Annappurna tiffin centre",
+      "url": "https://maps.google.com/maps/contrib/111275416343398917148"
+    }
+  },
+  "placeId": "ChIJyyHR7vSNFjkRD_vvWsIAzuY"
+}

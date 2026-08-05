@@ -1,0 +1,32 @@
+{
+  "slug": "mosaic-hotel-bar-restaurant",
+  "name": "Mosaic Hotel, Bar & Restaurant",
+  "address": "Sangaria Rd, near karni petrol pump, Medical Colony, Hanumangarh, Rajasthan 335512, India",
+  "phone": "083061 11004",
+  "rating": 4.3,
+  "reviewCount": 35,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: 10:00 AM – 11:30 PM",
+    "Tuesday: 10:00 AM – 11:30 PM",
+    "Wednesday: 10:00 AM – 11:30 PM",
+    "Thursday: 10:00 AM – 11:30 PM",
+    "Friday: 10:00 AM – 11:30 PM",
+    "Saturday: 10:00 AM – 11:30 PM",
+    "Sunday: 10:00 AM – 11:30 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=6841815860830647676",
+  "photo": {
+    "path": "/site-photos/mosaic-hotel-bar-restaurant.jpg",
+    "attribution": {
+      "text": "Mosaic Hotel, Bar &amp; Restaurant",
+      "url": "https://maps.google.com/maps/contrib/118196374788517422854"
+    }
+  },
+  "placeId": "ChIJ--vgXi_1FjkRfLVxo0YD814"
+}

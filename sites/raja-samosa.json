@@ -1,0 +1,24 @@
+{
+  "slug": "raja-samosa",
+  "name": "Raja Samosa",
+  "address": "Shop No.10, Ke Pass, Bus Stand Road, Puran Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "070737 73165",
+  "rating": null,
+  "reviewCount": null,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=10708436599580887971",
+  "photo": {
+    "path": "/site-photos/raja-samosa.jpg",
+    "attribution": {
+      "text": "Raja Samosa",
+      "url": "https://maps.google.com/maps/contrib/112043314783988372652"
+    }
+  },
+  "placeId": "ChIJPcJqRQrzFjkRo4vPAVoCnJQ"
+}

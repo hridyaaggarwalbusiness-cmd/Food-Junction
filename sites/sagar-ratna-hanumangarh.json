@@ -1,0 +1,32 @@
+{
+  "slug": "sagar-ratna-hanumangarh",
+  "name": "Sagar Ratna Hanumangarh",
+  "address": "Showroom no-7, Model Town Enclave, near Radha swami dera, Satipura, Hanumangarh, Rajasthan 335512, India",
+  "phone": null,
+  "rating": 4.4,
+  "reviewCount": 35,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 8:30 AM – 11:30 PM",
+    "Tuesday: 8:30 AM – 11:30 PM",
+    "Wednesday: 8:30 AM – 11:30 PM",
+    "Thursday: 8:30 AM – 11:30 PM",
+    "Friday: 8:30 AM – 11:30 PM",
+    "Saturday: 8:30 AM – 11:30 PM",
+    "Sunday: 8:30 AM – 11:30 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=9239462769932780371",
+  "photo": {
+    "path": "/site-photos/sagar-ratna-hanumangarh.jpg",
+    "attribution": {
+      "text": "Abhishek Chavla",
+      "url": "https://maps.google.com/maps/contrib/110152402570911406222"
+    }
+  },
+  "placeId": "ChIJfQLmGDvzFjkRU0NKvW8qOYA"
+}

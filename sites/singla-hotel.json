@@ -1,0 +1,32 @@
+{
+  "slug": "singla-hotel",
+  "name": "Singla Hotel",
+  "address": "Jaipur road, opp. Traffic Police, Thana, Hanumangarh, Rajasthan 335513, India",
+  "phone": "097850 11717",
+  "rating": 4.1,
+  "reviewCount": 584,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: 12:00 PM – 12:00 AM",
+    "Tuesday: 12:00 PM – 12:00 AM",
+    "Wednesday: 12:00 PM – 12:00 AM",
+    "Thursday: 12:00 PM – 12:00 AM",
+    "Friday: 12:00 PM – 12:00 AM",
+    "Saturday: 12:00 PM – 12:00 AM",
+    "Sunday: 12:00 PM – 12:00 AM"
+  ],
+  "editorialSummary": "Straightforward quarters in a no-nonsense property offering a bright restaurant & conference space.",
+  "mapsUrl": "https://maps.google.com/?cid=4759084735419822283",
+  "photo": {
+    "path": "/site-photos/singla-hotel.jpg",
+    "attribution": {
+      "text": "Ahir Tushar",
+      "url": "https://maps.google.com/maps/contrib/111357785722905907411"
+    }
+  },
+  "placeId": "ChIJNSvy8q2MFjkRy7CuJlqqC0I"
+}

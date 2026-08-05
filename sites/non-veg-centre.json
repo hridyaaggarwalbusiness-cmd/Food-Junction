@@ -1,0 +1,32 @@
+{
+  "slug": "non-veg-centre",
+  "name": "Non Veg Centre",
+  "address": "H8GH+57P, Prem Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": null,
+  "rating": 4,
+  "reviewCount": 7,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: 9:00 AM – 9:30 PM",
+    "Tuesday: 9:00 AM – 9:30 PM",
+    "Wednesday: 9:00 AM – 9:30 PM",
+    "Thursday: 9:00 AM – 9:30 PM",
+    "Friday: 9:00 AM – 9:30 PM",
+    "Saturday: 9:00 AM – 9:30 PM",
+    "Sunday: 9:00 AM – 9:30 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=3172642914674391342",
+  "photo": {
+    "path": "/site-photos/non-veg-centre.jpg",
+    "attribution": {
+      "text": "RAJENDER GODARA",
+      "url": "https://maps.google.com/maps/contrib/104681810440153734747"
+    }
+  },
+  "placeId": "ChIJH4vUZ3uNFjkRLrlT6Ot9Byw"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "manish-fastfood-corner",
+  "name": "manish fastfood corner",
+  "address": "manish fastfood, near nitin mobile, opposite government hospital, Hanumangarh, Rajasthan 335513, India",
+  "phone": "097998 99665",
+  "rating": null,
+  "reviewCount": null,
+  "businessStatus": "CLOSED_TEMPORARILY",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": null,
+  "hours": null,
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=5706440208277043874",
+  "photo": {
+    "path": "/site-photos/manish-fastfood-corner.jpg",
+    "attribution": {
+      "text": "manish fastfood corner",
+      "url": "https://maps.google.com/maps/contrib/114788409570379682828"
+    }
+  },
+  "placeId": "ChIJaQI9vgmNFjkRovpbqiJZMU8"
+}
