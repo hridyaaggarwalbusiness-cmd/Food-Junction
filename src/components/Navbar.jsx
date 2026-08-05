@@ -21,7 +21,7 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner">
         <a href="#top" className="navbar__brand">
-          <span className="navbar__logo">FJ</span>
+          <img className="navbar__logo" src="/favicon.svg" alt="" width="34" height="34" />
           {restaurant.name}
         </a>
 

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__inner">
         <div className="footer__brand">
-          <span className="footer__logo">FJ</span>
+          <img className="footer__logo" src="/favicon.svg" alt="" width="40" height="40" />
           <div>
             <strong>{restaurant.name}</strong>
             <p>{restaurant.tagline}</p>
