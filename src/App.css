@@ -709,6 +709,26 @@
   padding-bottom: 6px;
 }
 
+.gallery__group {
+  margin-top: 40px;
+}
+
+.gallery__group:first-of-type {
+  margin-top: 32px;
+}
+
+.gallery__group-title {
+  max-width: 1160px;
+  margin: 0 auto 16px;
+  padding: 0 24px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-h);
+  opacity: 0.75;
+}
+
 .gallery__track {
   display: flex;
   gap: 20px;
@@ -787,12 +807,18 @@
     align-items: flex-start;
     gap: 8px;
   }
-  .gallery__card {
-    flex-basis: 240px;
-    height: 340px;
+  .gallery__track {
+    padding: 0 16px;
+    gap: 12px;
   }
+  .gallery__group-title {
+    padding: 0 16px;
+  }
+  .gallery__card,
   .gallery__card--wide {
-    flex-basis: 300px;
+    flex-basis: 90vw;
+    height: auto;
+    aspect-ratio: 240 / 340;
   }
 }
 
