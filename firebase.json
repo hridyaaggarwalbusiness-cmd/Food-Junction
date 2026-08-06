@@ -224,8 +224,8 @@
       ]
     },
     {
-      "target": "cb-diner",
-      "public": "dist-sites/cb-diner",
+      "target": "cbdiner",
+      "public": "dist-sites/cbdiner",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -759,8 +759,8 @@
       ]
     },
     {
-      "target": "pizzeria-hut",
-      "public": "dist-sites/pizzeria-hut",
+      "target": "pizzeriahut",
+      "public": "dist-sites/pizzeriahut",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -2150,8 +2150,8 @@
       ]
     },
     {
-      "target": "brewcue",
-      "public": "dist-sites/brewcue",
+      "target": "brewcuecafe",
+      "public": "dist-sites/brewcuecafe",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -2257,8 +2257,8 @@
       ]
     },
     {
-      "target": "dolce-aroma",
-      "public": "dist-sites/dolce-aroma",
+      "target": "dolcearoma",
+      "public": "dist-sites/dolcearoma",
       "ignore": [
         "firebase.json",
         "**/.*",

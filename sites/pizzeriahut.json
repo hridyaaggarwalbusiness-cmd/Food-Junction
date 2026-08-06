@@ -1,5 +1,5 @@
 {
-  "slug": "pizzeria-hut",
+  "slug": "pizzeriahut",
   "name": "Pizzeria Hut",
   "address": "Bus Stand Road, near Bathinda Hospital, Jawahar Nagar, Hanumangarh, Rajasthan 335513, India",
   "phone": "098123 11698",
@@ -22,7 +22,7 @@
   "editorialSummary": null,
   "mapsUrl": "https://maps.google.com/?cid=11166737077371854005",
   "photo": {
-    "path": "/site-photos/pizzeria-hut-1.jpg",
+    "path": "/site-photos/pizzeriahut-1.jpg",
     "attribution": {
       "text": "Govind jha",
       "url": "https://maps.google.com/maps/contrib/103080159690517064080"
@@ -30,35 +30,35 @@
   },
   "gallery": [
     {
-      "path": "/site-photos/pizzeria-hut-1.jpg",
+      "path": "/site-photos/pizzeriahut-1.jpg",
       "attribution": {
         "text": "Govind jha",
         "url": "https://maps.google.com/maps/contrib/103080159690517064080"
       }
     },
     {
-      "path": "/site-photos/pizzeria-hut-2.jpg",
+      "path": "/site-photos/pizzeriahut-2.jpg",
       "attribution": {
         "text": "Pankaj Mittal",
         "url": "https://maps.google.com/maps/contrib/105206315519454240041"
       }
     },
     {
-      "path": "/site-photos/pizzeria-hut-3.jpg",
+      "path": "/site-photos/pizzeriahut-3.jpg",
       "attribution": {
         "text": "Naveesh Kumar",
         "url": "https://maps.google.com/maps/contrib/105993700161332662110"
       }
     },
     {
-      "path": "/site-photos/pizzeria-hut-4.jpg",
+      "path": "/site-photos/pizzeriahut-4.jpg",
       "attribution": {
         "text": "Vishnu Vyas",
         "url": "https://maps.google.com/maps/contrib/100348527579001967062"
       }
     },
     {
-      "path": "/site-photos/pizzeria-hut-5.jpg",
+      "path": "/site-photos/pizzeriahut-5.jpg",
       "attribution": {
         "text": "Devvrat Singh Shekhawat (MKB)",
         "url": "https://maps.google.com/maps/contrib/117574905281025414084"
