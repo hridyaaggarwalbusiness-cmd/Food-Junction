@@ -973,8 +973,8 @@
       ]
     },
     {
-      "target": "sip-n-bites",
-      "public": "dist-sites/sip-n-bites",
+      "target": "sip-n-bites-hanumangarh",
+      "public": "dist-sites/sip-n-bites-hanumangarh",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1615,8 +1615,8 @@
       ]
     },
     {
-      "target": "padharo-sa",
-      "public": "dist-sites/padharo-sa",
+      "target": "padharo-sa-hanumangarh",
+      "public": "dist-sites/padharo-sa-hanumangarh",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1722,8 +1722,8 @@
       ]
     },
     {
-      "target": "hangout-cafe",
-      "public": "dist-sites/hangout-cafe",
+      "target": "hangout-cafe-hanumangarh",
+      "public": "dist-sites/hangout-cafe-hanumangarh",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1829,8 +1829,8 @@
       ]
     },
     {
-      "target": "coffee-cafe",
-      "public": "dist-sites/coffee-cafe",
+      "target": "coffee-cafe-hanumangarh",
+      "public": "dist-sites/coffee-cafe-hanumangarh",
       "ignore": [
         "firebase.json",
         "**/.*",
