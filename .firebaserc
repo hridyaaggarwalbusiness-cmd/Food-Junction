@@ -8,62 +8,62 @@
         "food-junction": [
           "food-junction"
         ],
-        "a-rock-s-cafe": [
-          "a-rock-s-cafe"
+        "a-rocks": [
+          "a-rocks"
         ],
         "cb-diner": [
           "cb-diner"
         ],
-        "emly-cafe-hanumangarh": [
-          "emly-cafe-hanumangarh"
+        "emly-cafe": [
+          "emly-cafe"
         ],
-        "emly-cafe-restaurant": [
-          "emly-cafe-restaurant"
+        "emly-outlet": [
+          "emly-outlet"
         ],
-        "kalpanas-murphy-restaurant": [
-          "kalpanas-murphy-restaurant"
+        "kalpanas-murphy": [
+          "kalpanas-murphy"
         ],
-        "mosaic-hotel-bar-restaurant": [
-          "mosaic-hotel-bar-restaurant"
+        "mosaic": [
+          "mosaic"
         ],
         "pizzeria-hut": [
           "pizzeria-hut"
         ],
-        "sagar-ratna-hanumangarh": [
-          "sagar-ratna-hanumangarh"
+        "sagar-ratna": [
+          "sagar-ratna"
         ],
-        "sip-n-bites-hanumangarh": [
-          "sip-n-bites-hanumangarh"
+        "sipnbites": [
+          "sipnbites"
         ],
-        "zayka-cafe-restaurant": [
-          "zayka-cafe-restaurant"
+        "zayka": [
+          "zayka"
         ],
-        "blue-moon-cafe-residency": [
-          "blue-moon-cafe-residency"
+        "blue-moon": [
+          "blue-moon"
         ],
-        "britto-s-cafe-food-court": [
-          "britto-s-cafe-food-court"
+        "brittos": [
+          "brittos"
         ],
-        "aditya-hotel-and-restaurant": [
-          "aditya-hotel-and-restaurant"
+        "aditya": [
+          "aditya"
         ],
-        "grill-masters-hanumangarh": [
-          "grill-masters-hanumangarh"
+        "grill-masters": [
+          "grill-masters"
         ],
-        "padharo-sa-hanumangarh": [
-          "padharo-sa-hanumangarh"
+        "padharosa": [
+          "padharosa"
         ],
-        "hangout-cafe-hanumangarh": [
-          "hangout-cafe-hanumangarh"
+        "hangoutcafe": [
+          "hangoutcafe"
         ],
-        "coffee-cafe-hanumangarh": [
-          "coffee-cafe-hanumangarh"
+        "coffeecafe": [
+          "coffeecafe"
         ],
-        "new-brocode-cafe": [
-          "new-brocode-cafe"
+        "brocode": [
+          "brocode"
         ],
-        "the-365-cafe": [
-          "the-365-cafe"
+        "365-cafe": [
+          "365-cafe"
         ],
         "brewcue": [
           "brewcue"
@@ -71,8 +71,8 @@
         "dolce-aroma": [
           "dolce-aroma"
         ],
-        "c3-cafe-and-restaurant": [
-          "c3-cafe-and-restaurant"
+        "c3cafe": [
+          "c3cafe"
         ]
       }
     }

@@ -117,8 +117,8 @@
       ]
     },
     {
-      "target": "a-rock-s-cafe",
-      "public": "dist-sites/a-rock-s-cafe",
+      "target": "a-rocks",
+      "public": "dist-sites/a-rocks",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -331,8 +331,8 @@
       ]
     },
     {
-      "target": "emly-cafe-hanumangarh",
-      "public": "dist-sites/emly-cafe-hanumangarh",
+      "target": "emly-cafe",
+      "public": "dist-sites/emly-cafe",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -438,8 +438,8 @@
       ]
     },
     {
-      "target": "emly-cafe-restaurant",
-      "public": "dist-sites/emly-cafe-restaurant",
+      "target": "emly-outlet",
+      "public": "dist-sites/emly-outlet",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -545,8 +545,8 @@
       ]
     },
     {
-      "target": "kalpanas-murphy-restaurant",
-      "public": "dist-sites/kalpanas-murphy-restaurant",
+      "target": "kalpanas-murphy",
+      "public": "dist-sites/kalpanas-murphy",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -652,8 +652,8 @@
       ]
     },
     {
-      "target": "mosaic-hotel-bar-restaurant",
-      "public": "dist-sites/mosaic-hotel-bar-restaurant",
+      "target": "mosaic",
+      "public": "dist-sites/mosaic",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -866,8 +866,8 @@
       ]
     },
     {
-      "target": "sagar-ratna-hanumangarh",
-      "public": "dist-sites/sagar-ratna-hanumangarh",
+      "target": "sagar-ratna",
+      "public": "dist-sites/sagar-ratna",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -973,8 +973,8 @@
       ]
     },
     {
-      "target": "sip-n-bites-hanumangarh",
-      "public": "dist-sites/sip-n-bites-hanumangarh",
+      "target": "sipnbites",
+      "public": "dist-sites/sipnbites",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1080,8 +1080,8 @@
       ]
     },
     {
-      "target": "zayka-cafe-restaurant",
-      "public": "dist-sites/zayka-cafe-restaurant",
+      "target": "zayka",
+      "public": "dist-sites/zayka",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1187,8 +1187,8 @@
       ]
     },
     {
-      "target": "blue-moon-cafe-residency",
-      "public": "dist-sites/blue-moon-cafe-residency",
+      "target": "blue-moon",
+      "public": "dist-sites/blue-moon",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1294,8 +1294,8 @@
       ]
     },
     {
-      "target": "britto-s-cafe-food-court",
-      "public": "dist-sites/britto-s-cafe-food-court",
+      "target": "brittos",
+      "public": "dist-sites/brittos",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1401,8 +1401,8 @@
       ]
     },
     {
-      "target": "aditya-hotel-and-restaurant",
-      "public": "dist-sites/aditya-hotel-and-restaurant",
+      "target": "aditya",
+      "public": "dist-sites/aditya",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1508,8 +1508,8 @@
       ]
     },
     {
-      "target": "grill-masters-hanumangarh",
-      "public": "dist-sites/grill-masters-hanumangarh",
+      "target": "grill-masters",
+      "public": "dist-sites/grill-masters",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1615,8 +1615,8 @@
       ]
     },
     {
-      "target": "padharo-sa-hanumangarh",
-      "public": "dist-sites/padharo-sa-hanumangarh",
+      "target": "padharosa",
+      "public": "dist-sites/padharosa",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1722,8 +1722,8 @@
       ]
     },
     {
-      "target": "hangout-cafe-hanumangarh",
-      "public": "dist-sites/hangout-cafe-hanumangarh",
+      "target": "hangoutcafe",
+      "public": "dist-sites/hangoutcafe",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1829,8 +1829,8 @@
       ]
     },
     {
-      "target": "coffee-cafe-hanumangarh",
-      "public": "dist-sites/coffee-cafe-hanumangarh",
+      "target": "coffeecafe",
+      "public": "dist-sites/coffeecafe",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1936,8 +1936,8 @@
       ]
     },
     {
-      "target": "new-brocode-cafe",
-      "public": "dist-sites/new-brocode-cafe",
+      "target": "brocode",
+      "public": "dist-sites/brocode",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -2043,8 +2043,8 @@
       ]
     },
     {
-      "target": "the-365-cafe",
-      "public": "dist-sites/the-365-cafe",
+      "target": "365-cafe",
+      "public": "dist-sites/365-cafe",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -2364,8 +2364,8 @@
       ]
     },
     {
-      "target": "c3-cafe-and-restaurant",
-      "public": "dist-sites/c3-cafe-and-restaurant",
+      "target": "c3cafe",
+      "public": "dist-sites/c3cafe",
       "ignore": [
         "firebase.json",
         "**/.*",
