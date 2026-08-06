@@ -17,6 +17,17 @@ jobs:
 
       - run: npm ci
 
+      - name: Delete Firebase Hosting sites no longer in scope
+        if: hashFiles('sites/sites-to-remove.json') != ''
+        run: |
+          set +e
+          while IFS= read -r site_id; do
+            echo "deleting $site_id"
+            npx firebase-tools hosting:sites:delete "$site_id" --token "$FIREBASE_TOKEN" --force --non-interactive
+          done < <(jq -r '.[]' sites/sites-to-remove.json)
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
       - name: Build Food Junction (default site)
         run: npm run build
 
