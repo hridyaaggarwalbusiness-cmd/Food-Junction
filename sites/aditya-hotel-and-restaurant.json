@@ -14,11 +14,48 @@
   "editorialSummary": null,
   "mapsUrl": "https://maps.google.com/?cid=3076722508199352796",
   "photo": {
-    "path": "/site-photos/aditya-hotel-and-restaurant.jpg",
+    "path": "/site-photos/aditya-hotel-and-restaurant-1.jpg",
     "attribution": {
       "text": "sanjay jain",
       "url": "https://maps.google.com/maps/contrib/105046498904346171090"
     }
   },
+  "gallery": [
+    {
+      "path": "/site-photos/aditya-hotel-and-restaurant-1.jpg",
+      "attribution": {
+        "text": "sanjay jain",
+        "url": "https://maps.google.com/maps/contrib/105046498904346171090"
+      }
+    },
+    {
+      "path": "/site-photos/aditya-hotel-and-restaurant-2.jpg",
+      "attribution": {
+        "text": "Vivek Joshi",
+        "url": "https://maps.google.com/maps/contrib/110857318433605704227"
+      }
+    },
+    {
+      "path": "/site-photos/aditya-hotel-and-restaurant-3.jpg",
+      "attribution": {
+        "text": "sanjay jain",
+        "url": "https://maps.google.com/maps/contrib/105046498904346171090"
+      }
+    },
+    {
+      "path": "/site-photos/aditya-hotel-and-restaurant-4.jpg",
+      "attribution": {
+        "text": "Ravinder Kumar",
+        "url": "https://maps.google.com/maps/contrib/112903584305590301948"
+      }
+    },
+    {
+      "path": "/site-photos/aditya-hotel-and-restaurant-5.jpg",
+      "attribution": {
+        "text": "sanjay jain",
+        "url": "https://maps.google.com/maps/contrib/105046498904346171090"
+      }
+    }
+  ],
   "placeId": "ChIJYUGmRLKMFjkR3Nmr7dG2sio"
 }

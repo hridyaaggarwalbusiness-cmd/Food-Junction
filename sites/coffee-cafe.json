@@ -1,0 +1,69 @@
+{
+  "slug": "coffee-cafe",
+  "name": "COFFEE CAFE",
+  "address": "Shop No 1, Ke Pass, near Main Bus Stand, Sindhi Colony, Hanumangarh, Rajasthan 335512, India",
+  "phone": "079761 93009",
+  "rating": 4.9,
+  "reviewCount": 40,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 9:00 AM – 10:00 PM",
+    "Tuesday: Closed",
+    "Wednesday: 9:00 AM – 10:00 PM",
+    "Thursday: 9:00 AM – 10:00 PM",
+    "Friday: 9:00 AM – 10:00 PM",
+    "Saturday: 9:00 AM – 10:00 PM",
+    "Sunday: 9:00 AM – 10:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=6619498095154438586",
+  "photo": {
+    "path": "/site-photos/coffee-cafe-1.jpg",
+    "attribution": {
+      "text": "COFFEE CAFE",
+      "url": "https://maps.google.com/maps/contrib/107717402678405839885"
+    }
+  },
+  "gallery": [
+    {
+      "path": "/site-photos/coffee-cafe-1.jpg",
+      "attribution": {
+        "text": "COFFEE CAFE",
+        "url": "https://maps.google.com/maps/contrib/107717402678405839885"
+      }
+    },
+    {
+      "path": "/site-photos/coffee-cafe-2.jpg",
+      "attribution": {
+        "text": "COFFEE CAFE",
+        "url": "https://maps.google.com/maps/contrib/107717402678405839885"
+      }
+    },
+    {
+      "path": "/site-photos/coffee-cafe-3.jpg",
+      "attribution": {
+        "text": "COFFEE CAFE",
+        "url": "https://maps.google.com/maps/contrib/107717402678405839885"
+      }
+    },
+    {
+      "path": "/site-photos/coffee-cafe-4.jpg",
+      "attribution": {
+        "text": "COFFEE CAFE",
+        "url": "https://maps.google.com/maps/contrib/107717402678405839885"
+      }
+    },
+    {
+      "path": "/site-photos/coffee-cafe-5.jpg",
+      "attribution": {
+        "text": "COFFEE CAFE",
+        "url": "https://maps.google.com/maps/contrib/107717402678405839885"
+      }
+    }
+  ],
+  "placeId": "ChIJR9mQ8Y31FjkRuiEOKXIu3Vs"
+}

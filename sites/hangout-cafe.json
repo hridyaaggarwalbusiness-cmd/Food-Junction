@@ -1,0 +1,69 @@
+{
+  "slug": "hangout-cafe",
+  "name": "Hangout cafe",
+  "address": "Above PR Fire Safety Institute,Chanakya Classes Road Jyoti Market, Junction, Sindhi Colony, Hanumangarh, Rajasthan 335512, India",
+  "phone": null,
+  "rating": 4.3,
+  "reviewCount": 127,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Cafe"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 9:00 AM – 9:00 PM",
+    "Tuesday: 9:00 AM – 9:00 PM",
+    "Wednesday: 9:00 AM – 9:00 PM",
+    "Thursday: 9:00 AM – 9:00 PM",
+    "Friday: 9:00 AM – 9:00 PM",
+    "Saturday: 9:00 AM – 9:00 PM",
+    "Sunday: 9:00 AM – 9:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=9275348442713969173",
+  "photo": {
+    "path": "/site-photos/hangout-cafe-1.jpg",
+    "attribution": {
+      "text": "Anurag godara",
+      "url": "https://maps.google.com/maps/contrib/102394900488294913316"
+    }
+  },
+  "gallery": [
+    {
+      "path": "/site-photos/hangout-cafe-1.jpg",
+      "attribution": {
+        "text": "Anurag godara",
+        "url": "https://maps.google.com/maps/contrib/102394900488294913316"
+      }
+    },
+    {
+      "path": "/site-photos/hangout-cafe-2.jpg",
+      "attribution": {
+        "text": "tarun joshi",
+        "url": "https://maps.google.com/maps/contrib/117854745791913917493"
+      }
+    },
+    {
+      "path": "/site-photos/hangout-cafe-3.jpg",
+      "attribution": {
+        "text": "Harshal bhardwaj",
+        "url": "https://maps.google.com/maps/contrib/104498838333759931668"
+      }
+    },
+    {
+      "path": "/site-photos/hangout-cafe-4.jpg",
+      "attribution": {
+        "text": "Anurag godara",
+        "url": "https://maps.google.com/maps/contrib/102394900488294913316"
+      }
+    },
+    {
+      "path": "/site-photos/hangout-cafe-5.jpg",
+      "attribution": {
+        "text": "Hemant Kumar",
+        "url": "https://maps.google.com/maps/contrib/100003815726795975707"
+      }
+    }
+  ],
+  "placeId": "ChIJc5VKqDj1FjkRFVLwB0SouIA"
+}

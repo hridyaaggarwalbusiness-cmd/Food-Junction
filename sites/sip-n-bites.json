@@ -22,11 +22,48 @@
   "editorialSummary": null,
   "mapsUrl": "https://maps.google.com/?cid=4731451665900982600",
   "photo": {
-    "path": "/site-photos/sip-n-bites.jpg",
+    "path": "/site-photos/sip-n-bites-1.jpg",
     "attribution": {
       "text": "Deepak Bhargav",
       "url": "https://maps.google.com/maps/contrib/109380283332609839598"
     }
   },
+  "gallery": [
+    {
+      "path": "/site-photos/sip-n-bites-1.jpg",
+      "attribution": {
+        "text": "Deepak Bhargav",
+        "url": "https://maps.google.com/maps/contrib/109380283332609839598"
+      }
+    },
+    {
+      "path": "/site-photos/sip-n-bites-2.jpg",
+      "attribution": {
+        "text": "Sip n Bites",
+        "url": "https://maps.google.com/maps/contrib/103299941319297681701"
+      }
+    },
+    {
+      "path": "/site-photos/sip-n-bites-3.jpg",
+      "attribution": {
+        "text": "Sip n Bites",
+        "url": "https://maps.google.com/maps/contrib/103299941319297681701"
+      }
+    },
+    {
+      "path": "/site-photos/sip-n-bites-4.jpg",
+      "attribution": {
+        "text": "Anita Rani",
+        "url": "https://maps.google.com/maps/contrib/100647091987189755383"
+      }
+    },
+    {
+      "path": "/site-photos/sip-n-bites-5.jpg",
+      "attribution": {
+        "text": "Deepak Bhargav",
+        "url": "https://maps.google.com/maps/contrib/109380283332609839598"
+      }
+    }
+  ],
   "placeId": "ChIJT42Al2T1FjkRSFH1yTh-qUE"
 }

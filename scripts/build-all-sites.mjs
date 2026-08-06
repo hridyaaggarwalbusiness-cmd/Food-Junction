@@ -6,13 +6,30 @@
 //   With no args, builds every site in sites/index.json.
 //   With args, builds only the given slugs (handy for spot-checking one site).
 
-import { readFileSync, existsSync } from 'node:fs'
+import { readFileSync, existsSync, mkdirSync, rmSync, readdirSync, copyFileSync } from 'node:fs'
 import { spawnSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)))
 const VITE_BIN = path.join(ROOT, 'node_modules', '.bin', 'vite')
+const PHOTO_SRC_DIR = path.join(ROOT, 'site-photos-src')
+const PHOTO_PUBLIC_DIR = path.join(ROOT, 'public', 'site-photos')
+
+// public/ is copied wholesale into every build's output, so bundling all
+// restaurants' photos there would make every single site ship every other
+// restaurant's images too. Instead, source photos live outside public/ and
+// this copies in only the current site's own files before each build.
+function stagePhotosForSite(slug) {
+  rmSync(PHOTO_PUBLIC_DIR, { recursive: true, force: true })
+  mkdirSync(PHOTO_PUBLIC_DIR, { recursive: true })
+  const prefix = `${slug}-`
+  for (const file of readdirSync(PHOTO_SRC_DIR)) {
+    if (file.startsWith(prefix)) {
+      copyFileSync(path.join(PHOTO_SRC_DIR, file), path.join(PHOTO_PUBLIC_DIR, file))
+    }
+  }
+}
 
 function hueFor(name) {
   let hash = 0
@@ -57,6 +74,8 @@ function buildSite(slug) {
   const themeColor = hslToHex(hueFor(site.name), 45, 24)
   const outDir = path.join(ROOT, 'dist-sites', slug)
 
+  stagePhotosForSite(slug)
+
   const env = {
     ...process.env,
     VITE_SITE_SLUG: slug,
@@ -94,6 +113,8 @@ for (const slug of slugs) {
   results.push(r)
   console.log(r.ok ? 'ok' : `FAILED (${r.error.slice(0, 200)})`)
 }
+
+rmSync(PHOTO_PUBLIC_DIR, { recursive: true, force: true })
 
 const ok = results.filter((r) => r.ok)
 const failed = results.filter((r) => !r.ok)

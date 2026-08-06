@@ -1,0 +1,69 @@
+{
+  "slug": "dolce-aroma",
+  "name": "DOLCE AROMA",
+  "address": "Shop no.103, Alpha market, Hanumangarh, Rajasthan 335513, India",
+  "phone": "092576 90794",
+  "rating": 5,
+  "reviewCount": 28,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Cafe"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: 12:30 – 10:00 PM",
+    "Tuesday: 12:30 – 10:00 PM",
+    "Wednesday: 12:30 – 10:00 PM",
+    "Thursday: 12:30 – 10:00 PM",
+    "Friday: 12:30 – 10:00 PM",
+    "Saturday: 12:30 – 10:00 PM",
+    "Sunday: 12:30 – 10:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=1053185967377990103",
+  "photo": {
+    "path": "/site-photos/dolce-aroma-1.jpg",
+    "attribution": {
+      "text": "DOLCE AROMA",
+      "url": "https://maps.google.com/maps/contrib/102693521109279188556"
+    }
+  },
+  "gallery": [
+    {
+      "path": "/site-photos/dolce-aroma-1.jpg",
+      "attribution": {
+        "text": "DOLCE AROMA",
+        "url": "https://maps.google.com/maps/contrib/102693521109279188556"
+      }
+    },
+    {
+      "path": "/site-photos/dolce-aroma-2.jpg",
+      "attribution": {
+        "text": "DOLCE AROMA",
+        "url": "https://maps.google.com/maps/contrib/102693521109279188556"
+      }
+    },
+    {
+      "path": "/site-photos/dolce-aroma-3.jpg",
+      "attribution": {
+        "text": "DOLCE AROMA",
+        "url": "https://maps.google.com/maps/contrib/102693521109279188556"
+      }
+    },
+    {
+      "path": "/site-photos/dolce-aroma-4.jpg",
+      "attribution": {
+        "text": "DOLCE AROMA",
+        "url": "https://maps.google.com/maps/contrib/102693521109279188556"
+      }
+    },
+    {
+      "path": "/site-photos/dolce-aroma-5.jpg",
+      "attribution": {
+        "text": "DOLCE AROMA",
+        "url": "https://maps.google.com/maps/contrib/102693521109279188556"
+      }
+    }
+  ],
+  "placeId": "ChIJpQ8XHNTzFjkR18H9qw6rnQ4"
+}

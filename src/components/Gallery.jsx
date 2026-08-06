@@ -41,29 +41,65 @@ function Filmstrip({ cards }) {
   )
 }
 
-export default function Gallery() {
-  if (!restaurant.gallery) return null
-
+function MapsPhotoStrip({ photos }) {
   return (
-    <section id="gallery" className="section gallery">
-      <Reveal className="section__header section__header--left gallery__header">
-        <div>
-          <p className="section__eyebrow">A Peek Inside</p>
-          <h2>Gallery</h2>
-          <p className="section__hint">The booths, the walls, the food — straight from our dining room, no stock photos.</p>
-        </div>
-        <span className="gallery__swipe-hint">Drag to explore &rarr;</span>
-      </Reveal>
-
-      <div className="gallery__group">
-        <h3 className="gallery__group-title">Restaurant</h3>
-        <Filmstrip cards={restaurantCards} />
-      </div>
-
-      <div className="gallery__group">
-        <h3 className="gallery__group-title">Food</h3>
-        <Filmstrip cards={foodCards} />
-      </div>
-    </section>
+    <div className="gallery__track">
+      {photos.map((p, i) => (
+        <Reveal as="div" delay={i * 60} className={`gallery__card ${i === 0 ? 'gallery__card--wide' : ''}`} key={p.path}>
+          <img src={p.path} alt={`${restaurant.name} — photo ${i + 1}`} loading="lazy" />
+          {p.attribution && <span className="gallery__label">{p.attribution.text}</span>}
+        </Reveal>
+      ))}
+    </div>
   )
+}
+
+export default function Gallery() {
+  if (!restaurant.hasGallery) return null
+
+  if (restaurant.gallery === true) {
+    return (
+      <section id="gallery" className="section gallery">
+        <Reveal className="section__header section__header--left gallery__header">
+          <div>
+            <p className="section__eyebrow">A Peek Inside</p>
+            <h2>Gallery</h2>
+            <p className="section__hint">The booths, the walls, the food — straight from our dining room, no stock photos.</p>
+          </div>
+          <span className="gallery__swipe-hint">Drag to explore &rarr;</span>
+        </Reveal>
+
+        <div className="gallery__group">
+          <h3 className="gallery__group-title">Restaurant</h3>
+          <Filmstrip cards={restaurantCards} />
+        </div>
+
+        <div className="gallery__group">
+          <h3 className="gallery__group-title">Food</h3>
+          <Filmstrip cards={foodCards} />
+        </div>
+      </section>
+    )
+  }
+
+  if (Array.isArray(restaurant.gallery) && restaurant.gallery.length > 1) {
+    return (
+      <section id="gallery" className="section gallery">
+        <Reveal className="section__header section__header--left gallery__header">
+          <div>
+            <p className="section__eyebrow">A Peek Inside</p>
+            <h2>Gallery</h2>
+            <p className="section__hint">Photos from {restaurant.name}'s Google Maps listing.</p>
+          </div>
+          <span className="gallery__swipe-hint">Drag to explore &rarr;</span>
+        </Reveal>
+
+        <div className="gallery__group">
+          <MapsPhotoStrip photos={restaurant.gallery} />
+        </div>
+      </section>
+    )
+  }
+
+  return null
 }

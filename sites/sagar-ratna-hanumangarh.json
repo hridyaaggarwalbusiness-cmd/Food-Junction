@@ -22,11 +22,48 @@
   "editorialSummary": null,
   "mapsUrl": "https://maps.google.com/?cid=9239462769932780371",
   "photo": {
-    "path": "/site-photos/sagar-ratna-hanumangarh.jpg",
+    "path": "/site-photos/sagar-ratna-hanumangarh-1.jpg",
     "attribution": {
       "text": "Abhishek Chavla",
       "url": "https://maps.google.com/maps/contrib/110152402570911406222"
     }
   },
+  "gallery": [
+    {
+      "path": "/site-photos/sagar-ratna-hanumangarh-1.jpg",
+      "attribution": {
+        "text": "Abhishek Chavla",
+        "url": "https://maps.google.com/maps/contrib/110152402570911406222"
+      }
+    },
+    {
+      "path": "/site-photos/sagar-ratna-hanumangarh-2.jpg",
+      "attribution": {
+        "text": "Manuj Somani",
+        "url": "https://maps.google.com/maps/contrib/109053655867301936701"
+      }
+    },
+    {
+      "path": "/site-photos/sagar-ratna-hanumangarh-3.jpg",
+      "attribution": {
+        "text": "Abhishek Chavla",
+        "url": "https://maps.google.com/maps/contrib/110152402570911406222"
+      }
+    },
+    {
+      "path": "/site-photos/sagar-ratna-hanumangarh-4.jpg",
+      "attribution": {
+        "text": "Manuj Somani",
+        "url": "https://maps.google.com/maps/contrib/109053655867301936701"
+      }
+    },
+    {
+      "path": "/site-photos/sagar-ratna-hanumangarh-5.jpg",
+      "attribution": {
+        "text": "Abhishek Chavla",
+        "url": "https://maps.google.com/maps/contrib/110152402570911406222"
+      }
+    }
+  ],
   "placeId": "ChIJfQLmGDvzFjkRU0NKvW8qOYA"
 }

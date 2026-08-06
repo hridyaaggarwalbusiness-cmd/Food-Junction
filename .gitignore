@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 dist-sites
+public/site-photos
 *.local
 
 # Firebase

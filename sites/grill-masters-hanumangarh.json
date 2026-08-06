@@ -1,0 +1,69 @@
+{
+  "slug": "grill-masters-hanumangarh",
+  "name": "Grill Masters Hanumangarh",
+  "address": "Sindhi Colony, Hanumangarh, Rajasthan 335512, India",
+  "phone": "089018 02020",
+  "rating": 4.2,
+  "reviewCount": 575,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 11:00 AM – 10:00 PM",
+    "Tuesday: 11:00 AM – 10:00 PM",
+    "Wednesday: 11:00 AM – 10:00 PM",
+    "Thursday: 11:00 AM – 10:00 PM",
+    "Friday: 11:00 AM – 10:00 PM",
+    "Saturday: 11:00 AM – 10:00 PM",
+    "Sunday: 11:00 AM – 10:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=16132489021569744849",
+  "photo": {
+    "path": "/site-photos/grill-masters-hanumangarh-1.jpg",
+    "attribution": {
+      "text": "Grill Masters Hanumangarh | Best Pizza in City | Best in Taste | Best Family Restaurant | Party Hall Available | MUST TRY",
+      "url": "https://maps.google.com/maps/contrib/113612436798543565607"
+    }
+  },
+  "gallery": [
+    {
+      "path": "/site-photos/grill-masters-hanumangarh-1.jpg",
+      "attribution": {
+        "text": "Grill Masters Hanumangarh | Best Pizza in City | Best in Taste | Best Family Restaurant | Party Hall Available | MUST TRY",
+        "url": "https://maps.google.com/maps/contrib/113612436798543565607"
+      }
+    },
+    {
+      "path": "/site-photos/grill-masters-hanumangarh-2.jpg",
+      "attribution": {
+        "text": "MANPREET SINGH",
+        "url": "https://maps.google.com/maps/contrib/112336390747050572606"
+      }
+    },
+    {
+      "path": "/site-photos/grill-masters-hanumangarh-3.jpg",
+      "attribution": {
+        "text": "Dinesh Sarswa",
+        "url": "https://maps.google.com/maps/contrib/107551278904532751021"
+      }
+    },
+    {
+      "path": "/site-photos/grill-masters-hanumangarh-4.jpg",
+      "attribution": {
+        "text": "Grill Masters Hanumangarh | Best Pizza in City | Best in Taste | Best Family Restaurant | Party Hall Available | MUST TRY",
+        "url": "https://maps.google.com/maps/contrib/113612436798543565607"
+      }
+    },
+    {
+      "path": "/site-photos/grill-masters-hanumangarh-5.jpg",
+      "attribution": {
+        "text": "Grill Masters Hanumangarh | Best Pizza in City | Best in Taste | Best Family Restaurant | Party Hall Available | MUST TRY",
+        "url": "https://maps.google.com/maps/contrib/113612436798543565607"
+      }
+    }
+  ],
+  "placeId": "ChIJszgg2KD1FjkR0b-NoUod4t8"
+}

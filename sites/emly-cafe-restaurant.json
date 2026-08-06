@@ -23,11 +23,48 @@
   "editorialSummary": null,
   "mapsUrl": "https://maps.google.com/?cid=3426579789669951635",
   "photo": {
-    "path": "/site-photos/emly-cafe-restaurant.jpg",
+    "path": "/site-photos/emly-cafe-restaurant-1.jpg",
     "attribution": {
       "text": "EMLY CAFE &amp; RESTAURANT",
       "url": "https://maps.google.com/maps/contrib/105006961690352386868"
     }
   },
+  "gallery": [
+    {
+      "path": "/site-photos/emly-cafe-restaurant-1.jpg",
+      "attribution": {
+        "text": "EMLY CAFE &amp; RESTAURANT",
+        "url": "https://maps.google.com/maps/contrib/105006961690352386868"
+      }
+    },
+    {
+      "path": "/site-photos/emly-cafe-restaurant-2.jpg",
+      "attribution": {
+        "text": "EMLY CAFE &amp; RESTAURANT",
+        "url": "https://maps.google.com/maps/contrib/105006961690352386868"
+      }
+    },
+    {
+      "path": "/site-photos/emly-cafe-restaurant-3.jpg",
+      "attribution": {
+        "text": "EMLY CAFE &amp; RESTAURANT",
+        "url": "https://maps.google.com/maps/contrib/105006961690352386868"
+      }
+    },
+    {
+      "path": "/site-photos/emly-cafe-restaurant-4.jpg",
+      "attribution": {
+        "text": "EMLY CAFE &amp; RESTAURANT",
+        "url": "https://maps.google.com/maps/contrib/105006961690352386868"
+      }
+    },
+    {
+      "path": "/site-photos/emly-cafe-restaurant-5.jpg",
+      "attribution": {
+        "text": "Gurdeep Singh",
+        "url": "https://maps.google.com/maps/contrib/109226445406818185671"
+      }
+    }
+  ],
   "placeId": "ChIJ49JRiPXzFjkRk2jP9SmojS8"
 }

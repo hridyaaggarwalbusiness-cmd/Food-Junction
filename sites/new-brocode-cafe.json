@@ -1,0 +1,70 @@
+{
+  "slug": "new-brocode-cafe",
+  "name": "New brocode cafe",
+  "address": "opp. shankar nager colony, Sindhi Colony, Hanumangarh, Rajasthan 335512, India",
+  "phone": "096105 73882",
+  "rating": 4.6,
+  "reviewCount": 33,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Cafe",
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 10:00 PM",
+    "Saturday: 10:00 AM – 10:00 PM",
+    "Sunday: 10:00 AM – 10:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=5758745700398295609",
+  "photo": {
+    "path": "/site-photos/new-brocode-cafe-1.jpg",
+    "attribution": {
+      "text": "bro code cafe",
+      "url": "https://maps.google.com/maps/contrib/109676229220373719059"
+    }
+  },
+  "gallery": [
+    {
+      "path": "/site-photos/new-brocode-cafe-1.jpg",
+      "attribution": {
+        "text": "bro code cafe",
+        "url": "https://maps.google.com/maps/contrib/109676229220373719059"
+      }
+    },
+    {
+      "path": "/site-photos/new-brocode-cafe-2.jpg",
+      "attribution": {
+        "text": "bro code cafe",
+        "url": "https://maps.google.com/maps/contrib/109676229220373719059"
+      }
+    },
+    {
+      "path": "/site-photos/new-brocode-cafe-3.jpg",
+      "attribution": {
+        "text": "Govind Chhimpa",
+        "url": "https://maps.google.com/maps/contrib/108584497768476014660"
+      }
+    },
+    {
+      "path": "/site-photos/new-brocode-cafe-4.jpg",
+      "attribution": {
+        "text": "bro code cafe",
+        "url": "https://maps.google.com/maps/contrib/109676229220373719059"
+      }
+    },
+    {
+      "path": "/site-photos/new-brocode-cafe-5.jpg",
+      "attribution": {
+        "text": "Rishabh Jindal",
+        "url": "https://maps.google.com/maps/contrib/117417921359645730826"
+      }
+    }
+  ],
+  "placeId": "ChIJX7L_rcz1FjkROWoMELQs608"
+}

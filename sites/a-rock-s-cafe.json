@@ -22,11 +22,48 @@
   "editorialSummary": null,
   "mapsUrl": "https://maps.google.com/?cid=10511731334047522969",
   "photo": {
-    "path": "/site-photos/a-rock-s-cafe.jpg",
+    "path": "/site-photos/a-rock-s-cafe-1.jpg",
     "attribution": {
       "text": "A Rock&#39;s Cafe",
       "url": "https://maps.google.com/maps/contrib/117931714300104661891"
     }
   },
+  "gallery": [
+    {
+      "path": "/site-photos/a-rock-s-cafe-1.jpg",
+      "attribution": {
+        "text": "A Rock&#39;s Cafe",
+        "url": "https://maps.google.com/maps/contrib/117931714300104661891"
+      }
+    },
+    {
+      "path": "/site-photos/a-rock-s-cafe-2.jpg",
+      "attribution": {
+        "text": "RAJESH KUMAR",
+        "url": "https://maps.google.com/maps/contrib/117955933752234741918"
+      }
+    },
+    {
+      "path": "/site-photos/a-rock-s-cafe-3.jpg",
+      "attribution": {
+        "text": "deepak jangir",
+        "url": "https://maps.google.com/maps/contrib/114712955243907266891"
+      }
+    },
+    {
+      "path": "/site-photos/a-rock-s-cafe-4.jpg",
+      "attribution": {
+        "text": "deepak jangir",
+        "url": "https://maps.google.com/maps/contrib/114712955243907266891"
+      }
+    },
+    {
+      "path": "/site-photos/a-rock-s-cafe-5.jpg",
+      "attribution": {
+        "text": "RAJESH KUMAR",
+        "url": "https://maps.google.com/maps/contrib/117955933752234741918"
+      }
+    }
+  ],
   "placeId": "ChIJqyc8n3WNFjkRmeA-bPQr4ZE"
 }

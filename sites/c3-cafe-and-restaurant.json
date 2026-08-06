@@ -1,0 +1,69 @@
+{
+  "slug": "c3-cafe-and-restaurant",
+  "name": "C3 cafe and restaurant",
+  "address": "H8P9+PPG, Puran Nagar, Hanumangarh, Rajasthan 335513, India",
+  "phone": "095302 03824",
+  "rating": 4,
+  "reviewCount": 24,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 10:00 AM – 11:30 PM",
+    "Tuesday: 10:00 AM – 11:30 PM",
+    "Wednesday: 10:00 AM – 11:30 PM",
+    "Thursday: 10:00 AM – 11:30 PM",
+    "Friday: 10:00 AM – 11:30 PM",
+    "Saturday: 10:00 AM – 11:30 PM",
+    "Sunday: 10:00 AM – 11:30 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=11075635019158610972",
+  "photo": {
+    "path": "/site-photos/c3-cafe-and-restaurant-1.jpg",
+    "attribution": {
+      "text": "Sunny Arorra",
+      "url": "https://maps.google.com/maps/contrib/115734282457969317091"
+    }
+  },
+  "gallery": [
+    {
+      "path": "/site-photos/c3-cafe-and-restaurant-1.jpg",
+      "attribution": {
+        "text": "Sunny Arorra",
+        "url": "https://maps.google.com/maps/contrib/115734282457969317091"
+      }
+    },
+    {
+      "path": "/site-photos/c3-cafe-and-restaurant-2.jpg",
+      "attribution": {
+        "text": "Sunny Arorra",
+        "url": "https://maps.google.com/maps/contrib/115734282457969317091"
+      }
+    },
+    {
+      "path": "/site-photos/c3-cafe-and-restaurant-3.jpg",
+      "attribution": {
+        "text": "Sunny Arorra",
+        "url": "https://maps.google.com/maps/contrib/115734282457969317091"
+      }
+    },
+    {
+      "path": "/site-photos/c3-cafe-and-restaurant-4.jpg",
+      "attribution": {
+        "text": "GHD UINSEX SALON (GHD)",
+        "url": "https://maps.google.com/maps/contrib/104717857069517033789"
+      }
+    },
+    {
+      "path": "/site-photos/c3-cafe-and-restaurant-5.jpg",
+      "attribution": {
+        "text": "GHD UINSEX SALON (GHD)",
+        "url": "https://maps.google.com/maps/contrib/104717857069517033789"
+      }
+    }
+  ],
+  "placeId": "ChIJtXQPIwDzFjkRHGTTYl6PtJk"
+}

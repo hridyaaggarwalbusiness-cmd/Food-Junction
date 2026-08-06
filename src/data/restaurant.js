@@ -36,6 +36,7 @@ const foodJunction = {
   mapsLink: 'https://maps.google.com/?cid=9230653665325555614',
   photo: null,
   gallery: true,
+  hasGallery: true,
   unofficial: false,
 }
 
@@ -68,6 +69,7 @@ function parseHours(weekdayText) {
 
 function toRestaurantShape(site) {
   const address = parseAddress(site.address)
+  const gallery = site.gallery && site.gallery.length > 1 ? site.gallery : []
   return {
     name: site.name,
     tagline: site.types?.[0] ? `${site.types[0]} in Hanumangarh` : 'Restaurant in Hanumangarh',
@@ -93,7 +95,8 @@ function toRestaurantShape(site) {
     mapsQuery: `${site.name}, ${site.address || 'Hanumangarh, Rajasthan'}`,
     mapsLink: site.mapsUrl || `https://www.google.com/maps/place/?q=place_id:${site.placeId}`,
     photo: site.photo,
-    gallery: false,
+    gallery,
+    hasGallery: gallery.length > 1,
     unofficial: true,
     businessStatus: site.businessStatus,
   }

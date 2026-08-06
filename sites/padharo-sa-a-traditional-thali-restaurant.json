@@ -1,0 +1,69 @@
+{
+  "slug": "padharo-sa-a-traditional-thali-restaurant",
+  "name": "Padharo sa a traditional thali restaurant",
+  "address": "Near Bombay hospital Rajiv chowk Hanumangarh juncation, Dal Singh Nagar, Hanumangarh, Rajasthan 335512, India",
+  "phone": "070732 29329",
+  "rating": 4.8,
+  "reviewCount": 410,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Restaurant"
+  ],
+  "priceLevel": "Moderate",
+  "hours": [
+    "Monday: 11:00 AM – 11:00 PM",
+    "Tuesday: 11:00 AM – 11:00 PM",
+    "Wednesday: 11:00 AM – 11:00 PM",
+    "Thursday: 11:00 AM – 11:00 PM",
+    "Friday: 11:00 AM – 11:00 PM",
+    "Saturday: 11:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 11:00 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=1925666269404714884",
+  "photo": {
+    "path": "/site-photos/padharo-sa-a-traditional-thali-restaurant-1.jpg",
+    "attribution": {
+      "text": "Padharo sa a traditional thali restaurant",
+      "url": "https://maps.google.com/maps/contrib/107294304900904096488"
+    }
+  },
+  "gallery": [
+    {
+      "path": "/site-photos/padharo-sa-a-traditional-thali-restaurant-1.jpg",
+      "attribution": {
+        "text": "Padharo sa a traditional thali restaurant",
+        "url": "https://maps.google.com/maps/contrib/107294304900904096488"
+      }
+    },
+    {
+      "path": "/site-photos/padharo-sa-a-traditional-thali-restaurant-2.jpg",
+      "attribution": {
+        "text": "Padharo sa a traditional thali restaurant",
+        "url": "https://maps.google.com/maps/contrib/107294304900904096488"
+      }
+    },
+    {
+      "path": "/site-photos/padharo-sa-a-traditional-thali-restaurant-3.jpg",
+      "attribution": {
+        "text": "Baljeet Singh",
+        "url": "https://maps.google.com/maps/contrib/113519040537760042816"
+      }
+    },
+    {
+      "path": "/site-photos/padharo-sa-a-traditional-thali-restaurant-4.jpg",
+      "attribution": {
+        "text": "Padharo sa a traditional thali restaurant",
+        "url": "https://maps.google.com/maps/contrib/107294304900904096488"
+      }
+    },
+    {
+      "path": "/site-photos/padharo-sa-a-traditional-thali-restaurant-5.jpg",
+      "attribution": {
+        "text": "Padharo sa a traditional thali restaurant",
+        "url": "https://maps.google.com/maps/contrib/107294304900904096488"
+      }
+    }
+  ],
+  "placeId": "ChIJeQ3EYwD1FjkRhNfR90RXuRo"
+}

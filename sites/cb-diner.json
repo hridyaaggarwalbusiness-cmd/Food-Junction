@@ -22,11 +22,48 @@
   "editorialSummary": null,
   "mapsUrl": "https://maps.google.com/?cid=6784224004283535589",
   "photo": {
-    "path": "/site-photos/cb-diner.jpg",
+    "path": "/site-photos/cb-diner-1.jpg",
     "attribution": {
       "text": "Rahul",
       "url": "https://maps.google.com/maps/contrib/114887884024878316524"
     }
   },
+  "gallery": [
+    {
+      "path": "/site-photos/cb-diner-1.jpg",
+      "attribution": {
+        "text": "Rahul",
+        "url": "https://maps.google.com/maps/contrib/114887884024878316524"
+      }
+    },
+    {
+      "path": "/site-photos/cb-diner-2.jpg",
+      "attribution": {
+        "text": "CB DINER",
+        "url": "https://maps.google.com/maps/contrib/102689479011588490501"
+      }
+    },
+    {
+      "path": "/site-photos/cb-diner-3.jpg",
+      "attribution": {
+        "text": "MaYank Singla",
+        "url": "https://maps.google.com/maps/contrib/111005364890703425250"
+      }
+    },
+    {
+      "path": "/site-photos/cb-diner-4.jpg",
+      "attribution": {
+        "text": "Rahul",
+        "url": "https://maps.google.com/maps/contrib/114887884024878316524"
+      }
+    },
+    {
+      "path": "/site-photos/cb-diner-5.jpg",
+      "attribution": {
+        "text": "Charchit Aggarwal",
+        "url": "https://maps.google.com/maps/contrib/101086147540084028867"
+      }
+    }
+  ],
   "placeId": "ChIJWTQuhn7zFjkR5ZD_m8lnJl4"
 }

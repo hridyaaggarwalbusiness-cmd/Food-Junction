@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="footer__col">
           <h3>Explore</h3>
           <a href="#about">About</a>
-          {restaurant.gallery && <a href="#gallery">Gallery</a>}
+          {restaurant.hasGallery && <a href="#gallery">Gallery</a>}
           <a href="#contact">Contact</a>
         </div>
 

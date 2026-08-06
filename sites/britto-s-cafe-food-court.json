@@ -25,11 +25,48 @@
   "editorialSummary": null,
   "mapsUrl": "https://maps.google.com/?cid=3655377648115133301",
   "photo": {
-    "path": "/site-photos/britto-s-cafe-food-court.jpg",
+    "path": "/site-photos/britto-s-cafe-food-court-1.jpg",
     "attribution": {
       "text": "Britto&#39;s Cafe &amp; Food Court",
       "url": "https://maps.google.com/maps/contrib/104980045972093197021"
     }
   },
+  "gallery": [
+    {
+      "path": "/site-photos/britto-s-cafe-food-court-1.jpg",
+      "attribution": {
+        "text": "Britto&#39;s Cafe &amp; Food Court",
+        "url": "https://maps.google.com/maps/contrib/104980045972093197021"
+      }
+    },
+    {
+      "path": "/site-photos/britto-s-cafe-food-court-2.jpg",
+      "attribution": {
+        "text": "Britto&#39;s Cafe &amp; Food Court",
+        "url": "https://maps.google.com/maps/contrib/104980045972093197021"
+      }
+    },
+    {
+      "path": "/site-photos/britto-s-cafe-food-court-3.jpg",
+      "attribution": {
+        "text": "Charchit Aggarwal",
+        "url": "https://maps.google.com/maps/contrib/101086147540084028867"
+      }
+    },
+    {
+      "path": "/site-photos/britto-s-cafe-food-court-4.jpg",
+      "attribution": {
+        "text": "Sahil Singh Rathore",
+        "url": "https://maps.google.com/maps/contrib/103777600819657007203"
+      }
+    },
+    {
+      "path": "/site-photos/britto-s-cafe-food-court-5.jpg",
+      "attribution": {
+        "text": "Sharad Pruthi",
+        "url": "https://maps.google.com/maps/contrib/108027121324275241746"
+      }
+    }
+  ],
   "placeId": "ChIJP2k8hHKNFjkRdSvOm5qCujI"
 }

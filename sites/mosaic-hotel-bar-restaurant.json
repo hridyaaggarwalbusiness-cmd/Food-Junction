@@ -22,11 +22,41 @@
   "editorialSummary": null,
   "mapsUrl": "https://maps.google.com/?cid=6841815860830647676",
   "photo": {
-    "path": "/site-photos/mosaic-hotel-bar-restaurant.jpg",
+    "path": "/site-photos/mosaic-hotel-bar-restaurant-1.jpg",
     "attribution": {
       "text": "Mosaic Hotel, Bar &amp; Restaurant",
       "url": "https://maps.google.com/maps/contrib/118196374788517422854"
     }
   },
+  "gallery": [
+    {
+      "path": "/site-photos/mosaic-hotel-bar-restaurant-1.jpg",
+      "attribution": {
+        "text": "Mosaic Hotel, Bar &amp; Restaurant",
+        "url": "https://maps.google.com/maps/contrib/118196374788517422854"
+      }
+    },
+    {
+      "path": "/site-photos/mosaic-hotel-bar-restaurant-2.jpg",
+      "attribution": {
+        "text": "Mosaic Hotel, Bar &amp; Restaurant",
+        "url": "https://maps.google.com/maps/contrib/118196374788517422854"
+      }
+    },
+    {
+      "path": "/site-photos/mosaic-hotel-bar-restaurant-4.jpg",
+      "attribution": {
+        "text": "Mosaic Hotel, Bar &amp; Restaurant",
+        "url": "https://maps.google.com/maps/contrib/118196374788517422854"
+      }
+    },
+    {
+      "path": "/site-photos/mosaic-hotel-bar-restaurant-5.jpg",
+      "attribution": {
+        "text": "Mosaic Hotel, Bar &amp; Restaurant",
+        "url": "https://maps.google.com/maps/contrib/118196374788517422854"
+      }
+    }
+  ],
   "placeId": "ChIJ--vgXi_1FjkRfLVxo0YD814"
 }

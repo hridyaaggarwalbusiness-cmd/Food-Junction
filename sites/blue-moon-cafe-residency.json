@@ -14,11 +14,20 @@
   "editorialSummary": null,
   "mapsUrl": "https://maps.google.com/?cid=10096445537225178532",
   "photo": {
-    "path": "/site-photos/blue-moon-cafe-residency.jpg",
+    "path": "/site-photos/blue-moon-cafe-residency-1.jpg",
     "attribution": {
       "text": "Devendér Singh",
       "url": "https://maps.google.com/maps/contrib/106441857145672254484"
     }
   },
+  "gallery": [
+    {
+      "path": "/site-photos/blue-moon-cafe-residency-1.jpg",
+      "attribution": {
+        "text": "Devendér Singh",
+        "url": "https://maps.google.com/maps/contrib/106441857145672254484"
+      }
+    }
+  ],
   "placeId": "ChIJzXG9agD1FjkRpH1iDLnHHYw"
 }

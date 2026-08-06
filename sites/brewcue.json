@@ -1,0 +1,69 @@
+{
+  "slug": "brewcue",
+  "name": "BREWCUE",
+  "address": "Shop No 21, Slg Alpha Market, Hanumangarh, Rajasthan 335513, India",
+  "phone": "095870 70907",
+  "rating": 5,
+  "reviewCount": 30,
+  "businessStatus": "OPERATIONAL",
+  "types": [
+    "Cafe"
+  ],
+  "priceLevel": null,
+  "hours": [
+    "Monday: 10:00 AM – 11:30 PM",
+    "Tuesday: 10:00 AM – 11:30 PM",
+    "Wednesday: 10:00 AM – 11:30 PM",
+    "Thursday: 10:00 AM – 11:30 PM",
+    "Friday: 10:00 AM – 11:30 PM",
+    "Saturday: 9:00 AM – 11:30 PM",
+    "Sunday: 9:00 AM – 11:30 PM"
+  ],
+  "editorialSummary": null,
+  "mapsUrl": "https://maps.google.com/?cid=16948645642951612205",
+  "photo": {
+    "path": "/site-photos/brewcue-1.jpg",
+    "attribution": {
+      "text": "Irfan Khan",
+      "url": "https://maps.google.com/maps/contrib/103248891228688278786"
+    }
+  },
+  "gallery": [
+    {
+      "path": "/site-photos/brewcue-1.jpg",
+      "attribution": {
+        "text": "Irfan Khan",
+        "url": "https://maps.google.com/maps/contrib/103248891228688278786"
+      }
+    },
+    {
+      "path": "/site-photos/brewcue-2.jpg",
+      "attribution": {
+        "text": "BREWCUE",
+        "url": "https://maps.google.com/maps/contrib/106660463381849662327"
+      }
+    },
+    {
+      "path": "/site-photos/brewcue-3.jpg",
+      "attribution": {
+        "text": "BREWCUE",
+        "url": "https://maps.google.com/maps/contrib/106660463381849662327"
+      }
+    },
+    {
+      "path": "/site-photos/brewcue-4.jpg",
+      "attribution": {
+        "text": "BREWCUE",
+        "url": "https://maps.google.com/maps/contrib/106660463381849662327"
+      }
+    },
+    {
+      "path": "/site-photos/brewcue-5.jpg",
+      "attribution": {
+        "text": "BREWCUE",
+        "url": "https://maps.google.com/maps/contrib/106660463381849662327"
+      }
+    }
+  ],
+  "placeId": "ChIJI4lavc7zFjkRLVcaHGqvNes"
+}

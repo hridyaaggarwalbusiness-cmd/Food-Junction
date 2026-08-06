@@ -9,7 +9,7 @@ export default function Navbar() {
 
   const links = [
     { href: '#about', label: 'About' },
-    restaurant.gallery && { href: '#gallery', label: 'Gallery' },
+    restaurant.hasGallery && { href: '#gallery', label: 'Gallery' },
     { href: '#contact', label: 'Contact' },
   ].filter(Boolean)
 
