@@ -545,8 +545,8 @@
       ]
     },
     {
-      "target": "kalpana-s-murphy-restaurant-best-restaurants",
-      "public": "dist-sites/kalpana-s-murphy-restaurant-best-restaurants",
+      "target": "kalpanas-murphy-restaurant",
+      "public": "dist-sites/kalpanas-murphy-restaurant",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1615,8 +1615,8 @@
       ]
     },
     {
-      "target": "padharo-sa-a-traditional-thali-restaurant",
-      "public": "dist-sites/padharo-sa-a-traditional-thali-restaurant",
+      "target": "padharo-sa",
+      "public": "dist-sites/padharo-sa",
       "ignore": [
         "firebase.json",
         "**/.*",

@@ -9,16 +9,17 @@
 // selects a single site — the documented way to deploy one site at a time
 // out of many in the same project.
 //
-// Site IDs are prefixed "hnm-" (Hanumangarh) to lower collision odds in
-// Firebase's *global* web.app namespace — plain names like "cafe" or
-// "restaurant" are very likely already taken by unrelated projects.
+// Site IDs use the plain restaurant slug, no prefix — Firebase Hosting
+// site IDs are globally unique across every Firebase project, so a name
+// can still fail to create if an unrelated project already claimed it;
+// there's no local way to detect that in advance.
 
 import { readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)))
-const SITE_PREFIX = 'hnm-'
+const SITE_PREFIX = ''
 const PROJECT_ID = 'food-junction-hgh'
 const FOOD_JUNCTION_TARGET = 'food-junction'
 
