@@ -652,8 +652,8 @@
       ]
     },
     {
-      "target": "mosaic",
-      "public": "dist-sites/mosaic",
+      "target": "mosaicbar",
+      "public": "dist-sites/mosaicbar",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -866,8 +866,8 @@
       ]
     },
     {
-      "target": "sagar-ratna",
-      "public": "dist-sites/sagar-ratna",
+      "target": "sagarratna",
+      "public": "dist-sites/sagarratna",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1080,8 +1080,8 @@
       ]
     },
     {
-      "target": "zayka",
-      "public": "dist-sites/zayka",
+      "target": "zaykacafe",
+      "public": "dist-sites/zaykacafe",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1401,8 +1401,8 @@
       ]
     },
     {
-      "target": "aditya",
-      "public": "dist-sites/aditya",
+      "target": "adityahotel",
+      "public": "dist-sites/adityahotel",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1508,8 +1508,8 @@
       ]
     },
     {
-      "target": "grill-masters",
-      "public": "dist-sites/grill-masters",
+      "target": "grillmasters",
+      "public": "dist-sites/grillmasters",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1829,8 +1829,8 @@
       ]
     },
     {
-      "target": "coffeecafe",
-      "public": "dist-sites/coffeecafe",
+      "target": "coffeecafejn",
+      "public": "dist-sites/coffeecafejn",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -1936,8 +1936,8 @@
       ]
     },
     {
-      "target": "brocode",
-      "public": "dist-sites/brocode",
+      "target": "newbrocode",
+      "public": "dist-sites/newbrocode",
       "ignore": [
         "firebase.json",
         "**/.*",

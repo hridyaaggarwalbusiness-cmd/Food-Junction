@@ -1,5 +1,5 @@
 {
-  "slug": "zayka",
+  "slug": "zaykacafe",
   "name": "Zayka Cafe & Restaurant",
   "address": "Old Post Office Road, Hanumangarh, Rajasthan 335513, India",
   "phone": "086960 09990",
@@ -22,7 +22,7 @@
   "editorialSummary": null,
   "mapsUrl": "https://maps.google.com/?cid=8379470655192067573",
   "photo": {
-    "path": "/site-photos/zayka-1.jpg",
+    "path": "/site-photos/zaykacafe-1.jpg",
     "attribution": {
       "text": "Zayka Cafe &amp; Restaurant",
       "url": "https://maps.google.com/maps/contrib/110489292141542413621"
@@ -30,35 +30,35 @@
   },
   "gallery": [
     {
-      "path": "/site-photos/zayka-1.jpg",
+      "path": "/site-photos/zaykacafe-1.jpg",
       "attribution": {
         "text": "Zayka Cafe &amp; Restaurant",
         "url": "https://maps.google.com/maps/contrib/110489292141542413621"
       }
     },
     {
-      "path": "/site-photos/zayka-2.jpg",
+      "path": "/site-photos/zaykacafe-2.jpg",
       "attribution": {
         "text": "B.D Sir",
         "url": "https://maps.google.com/maps/contrib/111063805801609667099"
       }
     },
     {
-      "path": "/site-photos/zayka-3.jpg",
+      "path": "/site-photos/zaykacafe-3.jpg",
       "attribution": {
         "text": "Harshal bhardwaj",
         "url": "https://maps.google.com/maps/contrib/104498838333759931668"
       }
     },
     {
-      "path": "/site-photos/zayka-4.jpg",
+      "path": "/site-photos/zaykacafe-4.jpg",
       "attribution": {
         "text": "Harshal bhardwaj",
         "url": "https://maps.google.com/maps/contrib/104498838333759931668"
       }
     },
     {
-      "path": "/site-photos/zayka-5.jpg",
+      "path": "/site-photos/zaykacafe-5.jpg",
       "attribution": {
         "text": "B.D Sir",
         "url": "https://maps.google.com/maps/contrib/111063805801609667099"
